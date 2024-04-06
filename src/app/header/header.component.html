@@ -1,0 +1,46 @@
+<header>
+  <nav class="fixed z-50 w-full bg-white ">
+    <div class="container flex items-center justify-between m-auto">
+      <h1 class="flex gap-2 py-4 pl-8 text-2xl font-bold cursor-pointer md:ml-0 flew-row text-[#3218BF]">
+        SM
+      </h1>
+      <ul class="items-center hidden pr-10 text-base font-semibold cursor-pointer lg:flex">
+        <li class="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
+          <a routerLink="/home">HOME</a>
+        </li>
+        <li class="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
+          <a routerLink="/connaitre">ABOUT</a>
+        </li>
+        <li class="px-6 py-4 duration-500 underlineHover">
+          <a routerLink="/missions">PROJECTS</a>
+        </li>
+        <li class="px-6 py-4 duration-500 underlineHover">
+          <a routerLink="/team">CONTACTS</a>
+        </li>
+      </ul>
+
+      <button class=" lg:hidden group">
+        <mat-icon>
+          menu
+        </mat-icon>
+<!-- The links in this part is not getting displayed after clicking on the icon why  -->
+        <div class="absolute top-0 z-40 flex items-center w-8/12 h-screen ml-auto mr-auto text-white transition-all duration-500 bg-gray-900 md:w-5/12 right-full group-focus:right-0 ">
+          <ul class="items-center hidden pr-10 text-base font-semibold cursor-pointer lg:flex">
+            <li class="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
+              <a routerLink="/home">Home</a>
+            </li>
+            <li class="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
+              <a routerLink="/connaitre">About</a>
+            </li>
+            <li class="px-6 py-4 duration-500 underlineHover">
+              <a routerLink="/missions">Projects</a>
+            </li>
+            <li class="px-6 py-4 duration-500 underlineHover">
+              <a routerLink="/team">Conatct</a>
+            </li>
+          </ul>
+        </div>
+      </button>
+    </div>
+  </nav>
+</header>
