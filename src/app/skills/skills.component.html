@@ -81,72 +81,36 @@ VS Code , Figma ,Git ,Github ,Responsive Design
     class="relative px-4 py-16 mx-auto bg-white sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
     <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 
-      <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-700 sm:text-4xl md:mx-auto">
-
-        Skills And Technologies That I Use
+      <h2
+        class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#3B5962] sm:text-4xl md:mx-auto">
+{{"skills" | translate}}
       </h2>
 
     </div>
+
+
+
+
     <div class="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
-      <div class="flex flex-col justify-between p-5 border rounded shadow-sm">
+
+
+      <div class="h-full max-w-lg  p-[3rem] pb-6 mx-auto my-auto
+      duration-300 transform shadow-xl cursor-pointer hover:-translate-y-1n "
+        *ngFor="let item of skills">
         <div class="">
           <div class="flex items-center justify-center w-16 h-16 mb-4 ml-auto mr-auto text-center rounded-full">
-            <!-- <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-              <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-            </svg> -->
-            <img src="assets/about/frontend.png" alt="" class="" />
+
+            <img [src]="'assets/about/' + item.img + '.png'" alt="" class="" />
           </div>
-          <h6 class="mb-3 text-xl font-bold leading-5 text-center">Frontend Techs</h6>
+          <h6 class="mb-3 text-xl font-bold leading-5 text-center">{{item.title}}</h6>
           <p class="mb-3 text-lg text-center text-gray-900">
-            HTML , CSS , JavaScript , TailwindCss ,ReactJs , Angular
+            {{item.techs}}
           </p>
         </div>
 
       </div>
-      <div class="flex flex-col justify-between p-5 border rounded shadow-sm">
-        <div>
-          <div class="flex items-center justify-center w-16 h-16 mb-4 ml-auto mr-auto rounded-full ">
-            <img src="assets/about/backend.png" alt="" class="" />
 
-          </div>
-          <h6 class="mb-3 text-xl font-bold leading-5 text-center">Backend Techs</h6>
-          <p class="mb-3 text-lg text-center text-gray-900">
-            PHP , Laravel , C# , .Net
-          </p>
-        </div>
 
-      </div>
-      <div class="flex flex-col justify-between p-5 border rounded shadow-sm">
-        <div>
-          <div class="flex items-center justify-center w-16 h-16 mb-4 ml-auto mr-auto rounded-full ">
-            <!-- <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-              <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-            </svg> -->
-            <img src="assets/about/data2.png" alt="" class="" />
-
-          </div>
-          <h6 class="mb-3 text-xl font-bold leading-5 text-center">Database</h6>
-          <p class="mb-3 text-lg text-center text-gray-900">
-
-            Mysql , Postgres </p>
-        </div>
-
-      </div>
-      <div class="flex flex-col justify-between p-5 border rounded shadow-sm">
-        <div>
-          <div class="flex items-center justify-center w-16 h-16 mb-4 ml-auto mr-auto rounded-full ">
-            <img src="assets/about/tools.png" alt="" class="" />
-
-          </div>
-          <h6 class="mb-3 text-xl font-bold leading-5 text-center">Other Techs</h6>
-          <p class="mb-3 text-lg text-center text-gray-900">
-            VS Code , Figma ,Git ,Github ,Responsive Design
-          </p>
-        </div>
-
-      </div>
     </div>
   </div>
 </div>

@@ -6,16 +6,16 @@
       </h1>
       <ul class="items-center hidden pr-10 text-base font-semibold cursor-pointer lg:flex">
         <li class="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
-          <a routerLink="/home">HOME</a>
+          <a routerLink="/home">{{"home" | translate }} </a>
         </li>
         <li class="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
-          <a routerLink="/connaitre">ABOUT</a>
+          <a routerLink="/connaitre">{{"about" | translate }}</a>
         </li>
         <li class="px-6 py-4 duration-500 underlineHover">
-          <a routerLink="/missions">PROJECTS</a>
+          <a routerLink="/missions">{{"projects" | translate }}</a>
         </li>
         <li class="px-6 py-4 duration-500 underlineHover">
-          <a routerLink="/team">CONTACTS</a>
+          <a routerLink="/team">{{"contact1" | translate }}</a>
         </li>
       </ul>
 
@@ -23,20 +23,19 @@
         <mat-icon>
           menu
         </mat-icon>
-<!-- The links in this part is not getting displayed after clicking on the icon why  -->
         <div class="absolute top-0 z-40 flex items-center w-8/12 h-screen ml-auto mr-auto text-white transition-all duration-500 bg-gray-900 md:w-5/12 right-full group-focus:right-0 ">
           <ul class="items-center hidden pr-10 text-base font-semibold cursor-pointer lg:flex">
             <li class="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
-              <a routerLink="/home">Home</a>
+              <a routerLink="/home">{{"home" | translate }}</a>
             </li>
             <li class="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
-              <a routerLink="/connaitre">About</a>
+              <a routerLink="/connaitre">{{"about" | translate }}</a>
             </li>
             <li class="px-6 py-4 duration-500 underlineHover">
-              <a routerLink="/missions">Projects</a>
+              <a routerLink="/missions">{{"projects" | translate }}</a>
             </li>
             <li class="px-6 py-4 duration-500 underlineHover">
-              <a routerLink="/team">Conatct</a>
+              <a routerLink="/team">{{"hcontact1ome" | translate }}</a>
             </li>
           </ul>
         </div>

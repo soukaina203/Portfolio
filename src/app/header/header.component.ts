@@ -1,3 +1,4 @@
+import { TranslateModule } from '@ngx-translate/core';
 import { Component } from '@angular/core';
 import { MatModule } from '../mat.module';
 import { MatIconModule } from '@angular/material/icon';
@@ -6,6 +7,7 @@ import { MatIconModule } from '@angular/material/icon';
   selector: 'app-header',
   standalone: true,
   imports: [
+    TranslateModule,
     MatModule,
     MatIconModule
 
