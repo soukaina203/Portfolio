@@ -22,6 +22,7 @@
     "@ngneat/transloco": "^6.0.4",
     "@ngx-translate/core": "^15.0.0",
     "@ngx-translate/http-loader": "^8.0.0",
+    "gh-pages": "^6.1.1",
     "ng-smooth-scroll": "^1.7.3",
     "ngSmoothScroll": "^2.0.1",
     "ngx-page-scroll": "^12.0.0",
