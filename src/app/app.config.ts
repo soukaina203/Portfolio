@@ -30,6 +30,7 @@ export const provideTranslation = () => ({
 
 export const appConfig: ApplicationConfig = {
   providers: [
+
     provideHttpClient(),
     importProvidersFrom([
       HttpClientModule,

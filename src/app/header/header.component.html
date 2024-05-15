@@ -6,16 +6,17 @@
       </h1>
       <ul class="items-center hidden pr-10 text-base font-semibold cursor-pointer lg:flex">
         <li class="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
-          <a routerLink="/home">{{"home" | translate }} </a>
+          <a  (click)="scrollTo('home')">{{"home" | translate }} </a>
         </li>
         <li class="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
-          <a routerLink="/connaitre">{{"about" | translate }}</a>
+          <a (click)="scrollTo('about')">{{"about" | translate }}</a>
         </li>
         <li class="px-6 py-4 duration-500 underlineHover">
-          <a routerLink="/missions">{{"projects" | translate }}</a>
+          <a (click)="scrollTo('projects')">{{"projects" | translate }}</a>
         </li>
+
         <li class="px-6 py-4 duration-500 underlineHover">
-          <a routerLink="/team">{{"contact1" | translate }}</a>
+          <a  (click)="scrollTo('contacts')">{{"contact1" | translate }}</a>
         </li>
       </ul>
 
