@@ -2,8 +2,8 @@
   "title":"HEY , I'M SOUKAINA MOURABIT",
   "desc":"A .NET & Angular developer, I specialize in crafting dynamic and responsive websites, leveraging the power of cutting-edge technologies to deliver seamless user experiences and robust functionality to clients",
   "AboutMe":"About Me",
-  "aboutDesc":"I'm a Full Stack Web Developer with a passion for crafting exceptional web experiences. I leverage my skills in both front-end and back-end development to build and manage websites and web applications, ensuring their success from the user interface to the server-side logic.  Explore some of my projects in the Projects section to see my work in action.",
-  "about2":" Additionally, I showcase more of my work on LinkedIn. Feel free to connect with me there!",
+  "aboutDesc":"I'm a Full Stack Web Developer building and managing the Front-end and the Back-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.",
+  "about2":"  I also share some of my work on linkdn ,Feel Free to take a look at it",
   "aboutButton":"Download My Cv",
   "skills":"Skills And Technologies That I Use",
   "journey":"My Journey",
@@ -29,7 +29,9 @@
   "projects":"PROJECTS",
   "contact1":"CONTACTS",
   "pro":"Projects",
-  "contact2":"Contact"
+  "contact2":"Contact",
+  "visitLinkdn": "Go To Linkdn Profile"
+
 
 
 }

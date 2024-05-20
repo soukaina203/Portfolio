@@ -2,8 +2,8 @@
   "title": "HI, JE suis SOUKAINA MOURABIT",
   "desc": "Développeuse .NET et Angular, je me spécialise dans la création de sites Web dynamiques et réactifs, en tirant parti de la puissance des technologies de pointe pour offrir des expériences utilisateur transparentes et des fonctionnalités robustes aux clients",
   "AboutMe": "À propos de moi",
-  "aboutDesc": "Je suis un développeur Web Full Stack passionné par la création d'expériences Web exceptionnelles. Je mets à profit mes compétences en développement front-end et back-end pour créer et gérer des sites Web et des applications Web, garantissant ainsi leur succès depuis l'interface utilisateur jusqu'à la logique côté serveur. Explorez certains de mes projets dans la section Projets pour voir mon travail en action.",
-  "about2":" De plus, je présente davantage de mon travail sur LinkedIn. N'hésitez pas à me contacter là-bas !",
+  "aboutDesc": "Développeuse web passionnée, spécialisée dans la conception et la programmation d’applications innovantes. Toujours en quête de nouveaux défis pour renforcer mes compétences et contribuer à des projets ambitieux.",
+  "about2":" Je partage également certains de mes travaux sur linkdn, n'hésitez pas à y jeter un oeil.",
   "aboutButton": "Télécharger mon CV",
   "skills": "Compétences et Technologies Que J'utilise",
   "journey": "Mon Parcours",
@@ -28,6 +28,7 @@
   "contact1":"CONTACTS",
 
   "contact2":"Contact",
-  "pro":"Projects"
+  "pro":"Projects",
+  "visitLinkdn": "Aller au profil Linkedin"
 
  }
