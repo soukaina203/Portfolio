@@ -19,7 +19,9 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  scrollTo(section:any) {
-    document.getElementById(section)?.scrollIntoView({behavior:'smooth'});
-    }
+  scrollTo(section: string) {
+    document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
+  }
+
+
 }

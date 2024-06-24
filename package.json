@@ -15,6 +15,7 @@
     "@angular/compiler": "^17.0.0",
     "@angular/core": "^17.0.0",
     "@angular/forms": "^17.0.0",
+    "@angular/google-maps": "^18.0.4",
     "@angular/material": "^17.3.5",
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
@@ -27,6 +28,7 @@
     "ngSmoothScroll": "^2.0.1",
     "ngx-page-scroll": "^12.0.0",
     "rxjs": "~7.8.0",
+    "taos": "^1.0.5",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
   },
@@ -45,6 +47,7 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
+    "tailwindcss-animated": "^1.1.2",
     "typescript": "~5.2.2"
   }
 }

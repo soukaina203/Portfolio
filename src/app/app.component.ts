@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
@@ -15,26 +15,41 @@ import { ContactComponent } from './contact/contact.component';
   standalone: true,
   imports: [CommonModule, RouterOutlet, TranslateModule, HeaderComponent, HomeComponent, AboutComponent, SkillsComponent, ExperienceComponent, ProjectsComponent, ContactComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
   title = 'portfolio2';
- lang:string='en';
-  constructor(private translate: TranslateService) {
+  lang: string = 'en';
 
+  constructor(private translate: TranslateService) { }
+
+  ngAfterViewInit() {
+    const sections = document.querySelectorAll('.section');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-flip-up');
+        } else {
+          entry.target.classList.remove('animate-fade');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    sections.forEach(section => {
+      observer.observe(section);
+    });
   }
+
   switch() {
-
-    if(this.lang==='en'){
+    if (this.lang === 'en') {
       this.translate.use('fr')
-      this.lang='fr';
-
-    }else{
+      this.lang = 'fr';
+    } else {
       this.translate.use('en');
-      this.lang='en'
-
+      this.lang = 'en';
     }
-
-
   }
 }

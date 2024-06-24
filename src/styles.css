@@ -25,3 +25,27 @@ body{
 .underlineHover:hover::after {
   transform: scaleX(1);
 }
+/* @keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade {
+  animation: fade 1s ease-in-out;
+} */
+
+.animate-fade {
+  animation: fade 1s ease-in-out;
+}
+
+.animate-flip-up {
+  animation: flip-up 1s ease-in-out;
+}
+
+.animate-slide-right {
+  animation: slide-right 1s ease-in-out;
+}
