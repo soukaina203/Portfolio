@@ -1,9 +1,9 @@
 {
-  "title": "HI, JE suis SOUKAINA MOURABIT",
-  "desc": "Développeuse .NET et Angular, je me spécialise dans la création de sites Web dynamiques et réactifs, en tirant parti de la puissance des technologies de pointe pour offrir des expériences utilisateur transparentes et des fonctionnalités robustes aux clients",
+  "title": "HI, JE SUIS SOUKAINA MOURABIT",
+  "desc": "Développeuse .NET et Angular, je suis spécialisé dans la création de sites web dynamiques et réactifs, tirant parti des technologies de pointe pour offrir des expériences utilisateur fluides et des fonctionnalités robustes aux clients",
   "AboutMe": "À propos de moi",
   "aboutDesc": "Développeuse web passionnée, spécialisée dans la conception et la programmation d’applications innovantes. Toujours en quête de nouveaux défis pour renforcer mes compétences et contribuer à des projets ambitieux.",
-  "about2":" Je partage également certains de mes travaux sur linkdn, n'hésitez pas à y jeter un oeil.",
+  "about2": " Je partage également certains de mes travaux sur linkdn, n'hésitez pas à y jeter un oeil.",
   "aboutButton": "Télécharger mon CV",
   "skills": "Compétences et Technologies Que J'utilise",
   "journey": "Mon Parcours",
@@ -22,13 +22,31 @@
 
   "visitButton": "Visitez le site",
   "contact": "N'hésitez pas à me contacter",
-  "home":"ACCEUIL",
-  "about":"À PROPOS ",
-  "projects":"PROJETS",
-  "contact1":"CONTACTS",
+  "home": "ACCEUIL",
+  "about": "À PROPOS ",
+  "projects": "PROJETS",
+  "contact1": "CONTACTS",
 
-  "contact2":"Contact",
-  "pro":"Projects",
-  "visitLinkdn": "Aller au profil Linkedin"
+  "contact2": "Contacter Moi",
+  "pro": "Projets",
+  "visitLinkdn": "Aller au profil Linkedin",
+  "academie1": "Optimisez la gestion de votre centre éducatif grâce à une application centralisée. Gardez un contrôle total sur vos ressources, gérez les paiements en toute simplicité, et pilotez efficacement vos clients, leurs activités, leurs présences, leurs classes et leurs enseignants.",
+  "academie2": "Technologies utilisées : Angular , TailwindCss , .Net , Postgres",
+  "bestCar1": "Une application Web de location robuste construite avec React, Tailwind CSS et Laravel. Le frontend, conçu avec React et stylisé avec Tailwind CSS, garantit une expérience utilisateur réactive et dynamique. Le backend, alimenté par Laravel, offre une expérience utilisateur sécurisée. et un cadre côté serveur efficace pour la gestion des données et l'authentification. Cette combinaison offre une solution transparente et moderne pour la gestion des locations.",
+  "bestCar2": "Technologies utilisées : ReactJS , TailwindCss , Laravel , Postgres",
+  "tfsol1": "Découvrez la beauté transparente du site Web entièrement réactif de TF-SOL, méticuleusement conçu pour présenter ses services et sa mission. Construit avec la puissance du framework ReactJS et stylisé avec finesse à l'aide de Tailwind CSS.",
+  "tfsol2": "Technologies utilisées : ReactJs , TailwindCss",
 
- }
+  "nexaudit1": "Découvrez la beauté transparente du site Web entièrement réactif de NexAudit, méticuleusement conçu pour présenter ses services et sa mission. Construit avec la puissance du framework ReactJS et stylisé avec finesse à l'aide de Tailwind CSS.",
+  "nexaudit2": "Technologies utilisées : ReactJs , TailwindCss",
+
+  "mirat1": "Une plate-forme qui collecte les leçons, leurs résumés et leurs évaluations de manière séquentielle et organisée. Découvrez la beauté transparente du site Web entièrement réactif de ce site Web, méticuleusement conçu pour présenter leurs services et leur mission. Construit avec la puissance du framework ReactJS et stylisé avec finesse à l'aide de Tailwind CSS.",
+  "mirat2": "Technologies utilisées : ReactJs , TailwindCss",
+
+  "krypto1": "Découvrez la beauté transparente du site Web entièrement réactif de KRYPTO, méticuleusement conçu pour présenter ses services et sa mission. Construit avec la puissance du framework ReactJS et stylisé avec finesse à l'aide de Tailwind CSS.",
+  "krypto2": "Technologies utilisées : ReactJs , TailwindCss",
+  "conatctSecion": "N'hésitez pas à me contacter",
+  "country":"Maroc",
+  "city":"Préfecture de Skhirate-Témara, Rabat-Salé-Kenitra, Maroc",
+  "LinkedIn":"Profil LinkedIn"
+}
