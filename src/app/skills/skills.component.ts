@@ -18,7 +18,7 @@ export class SkillsComponent {
 skills=[
   {img:"frontend",title:"Frontend Techs",techs:"HTML , CSS , JavaScript , TailwindCss ,ReactJs , Angular"},
   {img:"backend",title:"Backend Techs",techs:"PHP , Laravel , C# , .Net"},
-  {img:"tools",title:"Other Techs",techs:" VS Code , Figma ,Git ,Github ,Responsive Design"},
+  {img:"tools",title:"Other Techs",techs:" VS Code , Figma ,Git ,Github ,Responsive Design, Scrum"},
   {img:"data2",title:"Database Techs",techs:"Mysql , Postgres , MongoDB"},
 
 ]
