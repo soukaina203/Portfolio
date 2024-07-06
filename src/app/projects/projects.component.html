@@ -1,295 +1,41 @@
 <section class="relative p-6 bg-white section sm:p-12 md:p-20" data-animation="animate-slide-right">
-  <!--  team forge solution -->
-  <div class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]  dark:bg-dark">
+  <div class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark">
     <h2 class="max-w-lg mb-3 font-sans text-center text-3xl font-bold leading-none tracking-tight text-[#3B5962] sm:text-4xl md:mx-auto">
-    Discover My Projects
+      Discover My Projects
     </h2>
-
-    <div class="container mx-auto">
-      <div class="flex flex-wrap items-center justify-center p-8 -mx-4">
-
-        <!-- Centre -->
-        <div class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]  dark:bg-dark animate-flip-down">
-
-          <div class="container mx-auto">
+    <div class="container mx-auto" >
+      <div class="flex flex-wrap items-center justify-center p-8 -mx-4" >
+        <div *ngFor="let project of projects" class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] animate-flip-down dark:bg-dark">
+          <div class="container mx-auto" >
             <div class="flex flex-wrap items-center justify-center p-8 -mx-4">
-              <div class="w-full px-4 lg:w-4/12">
+              <div class="w-full px-4 lg:w-4/12" [ngClass]="project.backgroundClass ? project.backgroundClass : ''">
                 <div class="flex items-center -mx-3 sm:-mx-4">
-                  <img src="assets/projects/rental.png" alt="" />
+                  <img [src]="project.imageUrl" alt="" />
                 </div>
               </div>
               <div class="w-full px-4 lg:w-1/2 xl:w-5/12 ">
                 <div class="mt-10 lg:mt-0 lg:ml-4">
-                  <span class="block mb-4 text-lg font-semibold w-fit text-primary">
+
+                      <span [innerHTML]="project.logo">
+
+                      </span>
 
 
-                    <h1 class="  uppercase p-4 font-bold  text-white
-                    bg-[#E60035]  ">
-                      BestCar
-                    </h1>
-                  </span>
-                  <h2 class="mb-5 text-3xl font-bold text-dark sm:text-[31px]/[30px] uppercase font-Georgia ">Rental Web
-                    Application</h2>
-                  <p class="mb-5 text-base text-body-color dark:text-dark-6">
-                    {{"bestCar1" | translate }}</p>
-                  <p class="mb-5 text-base text-body-color dark:text-dark-6">
-                    {{"bestCar2" | translate }}
+                  <h2 class="mb-5 text-3xl font-bold text-dark sm:text-[31px]/[30px] uppercase font-Georgia">{{ project.description | translate}}</h2>
+                  <p class="mb-5 text-base text-body-color dark:text-dark-6" *ngFor="let detail of project.details">
+                    {{ detail | translate }}
                   </p>
-
-
-                  <button
-                    class="relative overflow-hidden border-[#E60035]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]
-                   text-[#E60035] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2
-                   before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
-                    before:bg-[#E60035] before:duration-300 hover:text-white hover:shadow-[#E60035] hover:before:h-64 hover:before:-translate-y-32">
-
-                    <a href="https://www.linkedin.com/posts/soukaina-mourabit-253a33240_a-robust-rental-web-application-built-with-activity-7208797384133201920-Xocw?utm_source=share&utm_medium=member_desktop"
-                      class="relative z-10 font-bold" target="_blank">{{"visitButton" | translate}} </a>
-                  </button>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- Centre -->
-        <div class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] animate-flip-down  dark:bg-dark">
-
-          <div class="container mx-auto">
-            <div class="flex flex-wrap items-center justify-center p-8 -mx-4">
-              <div class="w-full px-4 lg:w-4/12">
-                <div class="flex items-center -mx-3 sm:-mx-4">
-                  <img src="assets/projects/centre.png" alt="" />
-                </div>
-              </div>
-              <div class="w-full px-4 lg:w-1/2 xl:w-5/12 ">
-                <div class="mt-10 lg:mt-0 lg:ml-4">
-                  <span class="block mb-4 text-lg font-semibold w-fit text-primary">
-                    <h1
-                      class="flex items-center justify-center gap-2 text-2xl font-bold text-black cursor-pointer md:ml-0 flew-row">
-                      <img src="assets/projects/logo.png" alt="" class="w-10 h-15 ">
-                      Info Academie
-                    </h1>
-                  </span>
-                  <h2 class="mb-5 text-3xl font-bold text-dark sm:text-[31px]/[30px] uppercase font-Georgia ">Gestion
-                    Interne
-                    d'un centre éducatif</h2>
-                  <p class="mb-5 text-base text-body-color dark:text-dark-6">
-                    {{"academie1" | translate }}
-                  </p>
-                  <p class="mb-5 text-base text-body-color dark:text-dark-6">
-                    {{"academie2" | translate }}
-
-                  </p>
-
-                  <button
-                    class="relative overflow-hidden border-[#35859D]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]
-               text-[#35859D] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2
-               before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
-                before:bg-[#35859D] before:duration-300 hover:text-white hover:shadow-[#35859D] hover:before:h-64 hover:before:-translate-y-32">
-
-
-                    <a href="https://www.linkedin.com/posts/soukaina-mourabit-253a33240_educationaltechnology-edtech-innovation-activity-7196839897989607424-SmQn?utm_source=share&utm_medium=member_desktop"
-                      class="relative z-10 font-bold" target="_blank">{{"visitButton" | translate}}</a>
+                  <button [class]="project.buttonColor"
+                 >
+                    <a [href]="project.link" class="relative z-10 font-bold" target="_blank">{{ 'visitButton' | translate }}</a>
                   </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
-        <div class="w-full px-4 lg:w-4/12">
-          <div class="flex items-center -mx-3 sm:-mx-4">
-            <img src="assets/projects/team1.png" alt="" />
-          </div>
-        </div>
-
-        <div class="w-full px-4 lg:w-1/2 xl:w-5/12 ">
-          <div class="mt-10 lg:mt-0 lg:ml-4">
-            <span class="block mb-4 text-lg font-semibold w-fit text-primary">
-              <h1
-                class="flex gap-2 text-2xl font-bold text-transparent cursor-pointer md:ml-0 flew-row bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
-                TF-SOL
-              </h1>
-            </span>
-            <h2 class="mb-5 text-3xl font-bold text-dark sm:text-[31px]/[30px]  uppercase font-Georgia ">Cohésion,
-              Création, Conquête C'est L'action de TF-SOL</h2>
-            <p class="mb-5 text-base text-body-color dark:text-dark-6">
-              {{"tfsol1" | translate }}
-            </p>
-
-            <p class="mb-5 text-base text-body-color dark:text-dark-6">
-              {{"tfsol2" | translate }}
-
-            </p>
-
-
-            <button
-              class="relative overflow-hidden border-purple-500  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]
-           text-purple-500 transition-all border  shadow-2xl before:ease before:absolute before:top-1/2
-           before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
-            before:bg-purple-500 before:duration-300 hover:text-white hover:shadow-purple-500 hover:before:h-64 hover:before:-translate-y-32">
-
-
-              <a href="https://soukaina203.github.io/Team-Forge-Solutions/" class="relative z-40 font-bold"
-                target="_blank">{{"visitButton" | translate}}</a>
-            </button>
-          </div>
-        </div>
       </div>
     </div>
   </div>
-
-
-
-
-  <!-- Groupe na  -->
-  <div class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]  dark:bg-dark">
-
-    <div class="container mx-auto">
-      <div class="flex flex-wrap items-center justify-center p-8 -mx-4">
-        <div class="w-full px-4 lg:w-4/12">
-          <div class="flex items-center -mx-3 sm:-mx-4">
-            <img src="assets/projects/group1.png" alt="" />
-          </div>
-        </div>
-        <div class="w-full px-4 lg:w-1/2 xl:w-5/12 ">
-          <div class="mt-10 lg:mt-0 lg:ml-4">
-            <span class="block mb-4 text-lg font-semibold w-fit text-primary">
-              <h1 class="flex gap-2  text-2xl font-bold  cursor-pointer md:ml-0 flew-row
-                text-[#3218BF] ">
-                NexAudit
-              </h1>
-            </span>
-            <h2 class="mb-5 text-3xl font-bold text-dark sm:text-[31px]/[30px] uppercase font-Georgia ">NexAudit -
-              Redéfinir l'audit pour demain
-            </h2>
-            <p class="mb-5 text-base text-body-color dark:text-dark-6">
-               {{"nexaudit1" | translate }}
-            </p>
-
-            <p class="mb-5 text-base text-body-color dark:text-dark-6">
-              {{"nexaudit2" | translate }}
-
-            </p>
-
-
-
-            <button
-              class="relative overflow-hidden border-[#3218BF]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]
-             text-[#3218BF] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2
-             before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
-              before:bg-[#3218BF] before:duration-300 hover:text-white hover:shadow-[#3218BF] hover:before:h-64 hover:before:-translate-y-32">
-
-
-              <a href=" https://soukaina203.github.io/GroupeNa/" class="relative z-40 font-bold"
-                target="_blank">{{"visitButton" | translate}}</a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Nfts -->
-  <div class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]  dark:bg-dark">
-
-    <div class="container mx-auto">
-      <div class="flex flex-wrap items-center justify-center p-8 -mx-4">
-        <div class="w-full px-4 lg:w-4/12">
-          <div class="flex items-center -mx-3 sm:-mx-4">
-            <img src="assets/projects/binae.png" alt="" />
-          </div>
-        </div>
-        <div class="w-full px-4 lg:w-1/2 xl:w-5/12 ">
-          <div class="mt-10 l">
-            <!-- <span class="block mb-4 text-lg font-semibold w-fit text-primary"> -->
-            <h1 class="flex gap-2 text-none text-[#7b6796] py-4 pr-6 text-2xl font-bold   flew-row
-               ">
-              ميراث النبوة
-
-            </h1>
-
-            <!-- </span> -->
-            <h2 class="mb-5 text-3xl font-bold text-dark sm:text-[31px]/[30px] uppercase font-Georgia ">
-
-              The Legacy of Prophecy:An E-learning platform
-
-            </h2>
-            <p class="mb-5 text-base text-body-color dark:text-dark-6">
-              {{"mirat1" | translate }}
-            </p>
-
-            <p class="mb-5 text-base text-body-color dark:text-dark-6">
-              {{"mirat2" | translate }}
-
-            </p>
-
-
-            <button
-              class="relative overflow-hidden border-[#7b6796]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]
-           text-[#7b6796] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2
-           before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
-            before:bg-[#7b6796] before:duration-300 hover:text-white hover:shadow-[#7b6796] hover:before:h-64 hover:before:-translate-y-32">
-
-
-              <a href="https://soukaina203.github.io/binae/" class="relative z-40 font-bold"
-                target="_blank">{{"visitButton" | translate}}</a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Nfts -->
-  <div class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]  dark:bg-dark">
-
-    <div class="container mx-auto">
-      <div class="flex flex-wrap items-center justify-center p-8 -mx-4">
-        <div class="w-full px-4 bg-black lg:w-4/12">
-          <div class="flex items-center -mx-3 sm:-mx-4">
-            <img src="assets/projects/nft1.png" alt="" />
-          </div>
-        </div>
-        <div class="w-full px-4 lg:w-1/2 xl:w-5/12 ">
-          <div class="mt-10 lg:mt-0 lg:ml-4">
-            <span class="block mb-4 text-lg font-semibold w-fit text-primary">
-              <h1 class="flex gap-2 text-2xl font-bold text-black cursor-pointer md:ml-0 flew-row">
-                KRYPTO
-              </h1>
-            </span>
-            <h2 class="mb-5 text-3xl font-bold text-dark sm:text-[31px]/[30px] uppercase font-Georgia ">Discover And
-              Collect Rare NFTs</h2>
-            <p class="mb-5 text-base text-body-color dark:text-dark-6"> {{"krypto1" | translate }}
-            </p>
-            <p class="mb-5 text-base text-body-color dark:text-dark-6">
-              {{"krypto2" | translate }}
-
-            </p>
-
-            <button
-              class="relative overflow-hidden border-black  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]
-           text-black transition-all border  shadow-2xl before:ease before:absolute before:top-1/2
-           before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
-            before:bg-black before:duration-300 hover:text-white hover:shadow-black hover:before:h-64 hover:before:-translate-y-32">
-
-
-              <a href="https://soukaina203.github.io/NFTs/" class="relative z-40 font-semibold"
-                target="_blank">{{"visitButton" | translate}}</a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
 </section>
+

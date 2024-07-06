@@ -45,8 +45,19 @@
 
   "krypto1": "Découvrez la beauté transparente du site Web entièrement réactif de KRYPTO, méticuleusement conçu pour présenter ses services et sa mission. Construit avec la puissance du framework ReactJS et stylisé avec finesse à l'aide de Tailwind CSS.",
   "krypto2": "Technologies utilisées : ReactJs , TailwindCss",
+  "dish1": "Bienvenue chez Dish, votre compagnon culinaire ultime ! Que vous soyez un chef chevronné ou un novice en cuisine, Dish propose une riche collection de recettes pour satisfaire vos envies et inspirer votre créativité. Des repas copieux aux desserts délicieux, vous trouverez tout ce dont vous avez besoin pour concocter de délicieux plats pour toutes les occasions.",
   "conatctSecion": "N'hésitez pas à me contacter",
+  "dish2":"Technologies utilisées : AngularJs , TailwindCss , Postgres , .Net",
   "country":"Maroc",
   "city":"Préfecture de Skhirate-Témara, Rabat-Salé-Kenitra, Maroc",
-  "LinkedIn":"Profil LinkedIn"
+  "LinkedIn":"Profil LinkedIn",
+  "one": "Application Web de recettes",
+ "two": "Application Web de location",
+ "trois": "Gestion Interne d'un centre éducatif",
+ "four": "Cohésion, Création, Conquête C'est L'action de TF-SOL",
+ "five": "NexAudit - Redéfinir l'audit pour demain",
+ "six": "L'héritage de la prophétie : une plateforme d'apprentissage en ligne",
+ "seven": "Découvrez et collectionnez des NFT rares"
+
+
 }
