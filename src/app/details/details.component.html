@@ -1,0 +1,48 @@
+<section data-animation="animate-slide-right" class="section relative pt-20 pb-12 bg-white z-40   lg:pt-[120px]
+lg:pb-[90px]
+ ">
+  <h2
+    class="max-w-lg mb-3 font-sans text-center text-3xl font-bold leading-none tracking-tight text-[#3B5962] sm:text-4xl md:mx-auto">
+    {{choosenWebsite.website}}
+  </h2>
+  <div class="container mx-auto bg-white " *ngFor="let e of choosenWebsite.array">
+    <div class="flex flex-wrap items-center justify-center -mx-4">
+      <div class="w-full px-4 lg:w-4/12 animate-fade-left animate-delay-400 animate-once ">
+        <img [src]="'assets/sections/' + e.img">
+      </div>
+
+      <div class="w-full px-4 lg:w-1/2 xl:w-5/12 animate-fade-left animate-delay-400 animate-once ">
+        <div class="p-5 mt-10 lg:mt-0 lg:ml-4">
+          <h1 class="block mb-4 text-2xl font-semibold w-fit underline1 ">
+            {{e.title}}
+          </h1>
+
+          <h2 class="mb-5 text-3xl font-bold text-dark  sm:text-[40px]/[48px]">
+          </h2>
+          <p class="mb-5 text-base text-body-color dark:text-dark-6">
+            {{e.desc}}
+          </p>
+          <p class="mb-4 text-base text-body-color dark:text-dark-6">
+
+          </p>
+          <div class="flex flex-col mb-8 space-y-4 lg:mb-16 sm:flex-row sm:space-y-0 sm:space-x-1">
+
+            <button
+
+              class="relative overflow-hidden border-[#3C5A62]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]
+            text-[#3C5A62] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2
+            before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
+             before:bg-[#3C5A62] before:duration-300 hover:text-white hover:shadow-[#3C5A62] hover:before:h-64 hover:before:-translate-y-32">
+
+              <a to="contact" [href]="e.link" target="_blank" class="relative z-10 font-bold" smooth={true} offset={-200} duration={500}>
+                Go To Video
+              </a>
+            </button>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
