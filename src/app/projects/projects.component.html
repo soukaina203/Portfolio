@@ -25,24 +25,14 @@
                   <p class="mb-5 text-base text-body-color dark:text-dark-6" *ngFor="let detail of project.details">
                     {{ detail | translate }}
                   </p>
-                  <ng-container *ngIf="project.link === 'Rental' ||project.link === 'Dish' || project.link === 'Centre' ">
 
                     <button [routerLink]="['/project', project.link]" [class]="project.buttonColor">
 
                     <span  class="relative z-10 font-bold" >{{ 'visitButton' | translate }}</span>
 
                   </button>
-                </ng-container>
 
 
-
-                <ng-container *ngIf="project.link !== 'Rental' && project.link !== 'Dish' && project.link !== 'Centre' ">
-
-                  <button [class]="project.buttonColor"
-                 >
-                    <a [href]="project.link" class="relative z-10 font-bold" target="_blank">{{ 'visitButton' | translate }}</a>
-                  </button>
-              </ng-container>
 
 
 

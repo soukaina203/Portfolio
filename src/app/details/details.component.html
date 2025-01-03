@@ -1,48 +1,97 @@
-<section data-animation="animate-slide-right" class="section relative pt-20 pb-12 bg-white z-40   lg:pt-[120px]
-lg:pb-[90px]
- ">
-  <h2
-    class="max-w-lg mb-3 font-sans text-center text-3xl font-bold leading-none tracking-tight text-[#3B5962] sm:text-4xl md:mx-auto">
-    {{choosenWebsite.website}}
-  </h2>
-  <div class="container mx-auto bg-white " *ngFor="let e of choosenWebsite.array">
-    <div class="flex flex-wrap items-center justify-center -mx-4">
-      <div class="w-full px-4 lg:w-4/12 animate-fade-left animate-delay-400 animate-once ">
-        <img [src]="'assets/sections/' + e.img">
+<div class="px-6 py-12 mx-auto max-w-7xl">
+  <!-- Hero Section -->
+  <section class="mb-12 text-center">
+    <img [src]="project?.heroImage" alt="Project Hero Image" class="object-cover w-full h-64 mb-6 rounded-lg shadow-lg" />
+    <h1 class="mb-4 text-4xl font-semibold text-gray-900">{{ project?.projectTitle }}</h1>
+    <p class="text-xl text-gray-600">{{ project?.tagline }}</p>
+    <div class="mt-6">
+      <a href="{{ project?.links.viewLiveProject ?? '#' }}" target="_blank" class="px-6 py-2 font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700">
+        View Live Project
+      </a>
+      <a href="{{ project?.links.viewSourceCode }}" target="_blank" class="px-6 py-2 ml-4 font-semibold text-white bg-gray-800 rounded-full hover:bg-gray-900">
+        View Source Code
+      </a>
+    </div>
+  </section>
+
+  <!-- About the Project -->
+  <section class="mb-12">
+    <h2 class="mb-4 text-3xl font-bold text-gray-900">About the Project</h2>
+    <p class="mb-4 text-lg text-gray-700"><strong>Purpose:</strong> {{ project?.aboutProject.purpose }}</p>
+    <p class="mb-4 text-lg text-gray-700"><strong>Problem Solved:</strong> {{ project?.aboutProject.problemSolved }}</p>
+    <div *ngIf="project?.aboutProject.keyBenefits && project?.aboutProject.keyBenefits.length">
+      <h3 class="mb-4 text-xl font-semibold text-gray-900">Key Benefits</h3>
+      <ul class="pl-5 space-y-2 list-disc">
+        <li *ngFor="let benefit of project?.aboutProject.keyBenefits" class="text-lg text-gray-700">{{ benefit }}</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Charte Graphique -->
+  <section class="mb-12">
+    <h2 class="mb-6 text-3xl font-bold text-gray-900">Charte Graphique</h2>
+    <div class="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
+      <div class="space-y-2">
+        <h3 class="text-xl font-semibold text-gray-900">Color Palette</h3>
+        <div *ngFor="let color of project?.charteGraphique.colorPalette" class="flex items-center space-x-2">
+          <div class="w-8 h-8 rounded-full" [style.background]="color.hex"></div>
+          <span class="text-lg text-gray-700">{{ color.name }} - {{ color.hex }}</span>
+        </div>
       </div>
-
-      <div class="w-full px-4 lg:w-1/2 xl:w-5/12 animate-fade-left animate-delay-400 animate-once ">
-        <div class="p-5 mt-10 lg:mt-0 lg:ml-4">
-          <h1 class="block mb-4 text-2xl font-semibold w-fit underline1 ">
-            {{e.title}}
-          </h1>
-
-          <h2 class="mb-5 text-3xl font-bold text-dark  sm:text-[40px]/[48px]">
-          </h2>
-          <p class="mb-5 text-base text-body-color dark:text-dark-6">
-            {{e.desc}}
-          </p>
-          <p class="mb-4 text-base text-body-color dark:text-dark-6">
-
-          </p>
-          <div class="flex flex-col mb-8 space-y-4 lg:mb-16 sm:flex-row sm:space-y-0 sm:space-x-1">
-
-            <button
-
-              class="relative overflow-hidden border-[#3C5A62]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]
-            text-[#3C5A62] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2
-            before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
-             before:bg-[#3C5A62] before:duration-300 hover:text-white hover:shadow-[#3C5A62] hover:before:h-64 hover:before:-translate-y-32">
-
-              <a to="contact" [href]="e.link" target="_blank" class="relative z-10 font-bold" smooth={true} offset={-200} duration={500}>
-                Go To Video
-              </a>
-            </button>
-
-          </div>
-
+      <div class="space-y-2">
+        <h3 class="text-xl font-semibold text-gray-900">Typography</h3>
+        <div *ngFor="let typography of project?.charteGraphique.typography" class="flex items-center space-x-2">
+          <span class="text-lg text-gray-700">{{ typography.type }}: {{ typography.example }}</span>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <h3 class="text-xl font-semibold text-gray-900">Icons</h3>
+        <div *ngFor="let icon of project?.charteGraphique.icons" class="flex items-center space-x-2">
+          <img [src]="icon.file" alt="{{ icon.name }} Icon" class="w-8 h-8" />
+          <span class="text-lg text-gray-700">{{ icon.name }}</span>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- Technologies Used -->
+  <section class="mb-12">
+    <h2 class="mb-6 text-3xl font-bold text-gray-900">Technologies Used</h2>
+    <ul class="flex flex-wrap gap-4">
+      <li *ngFor="let tech of project?.technologiesUsed" class="px-4 py-2 text-lg text-gray-700 bg-gray-200 rounded-full">
+        {{ tech }}
+      </li>
+    </ul>
+  </section>
+
+  <!-- Features -->
+  <section class="mb-12">
+    <h2 class="mb-6 text-3xl font-bold text-gray-900">Features</h2>
+    <div class="space-y-6">
+      <div *ngFor="let feature of project?.features" class="flex items-center space-x-4">
+        <img [src]="feature.icon" alt="{{ feature.name }} Icon" class="w-8 h-8" />
+        <div>
+          <h3 class="text-xl font-semibold text-gray-900">{{ feature.name }}</h3>
+          <p class="text-lg text-gray-700">{{ feature.description }}</p>
+          <a href="{{ feature.videoLink }}" target="_blank" class="text-blue-600 hover:text-blue-800">Watch Video</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="mb-12">
+    <h2 class="mb-6 text-3xl font-bold text-gray-900">Gallery</h2>
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <img *ngFor="let image of project?.gallery" [src]="image" alt="Gallery Image" class="object-cover w-full h-64 rounded-lg shadow-md" />
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="mt-12 text-center">
+    <p class="mb-4 text-xl text-gray-700">{{ project?.callToAction.text }}</p>
+    <a href="{{ project?.callToAction.contactLink }}" class="px-6 py-3 font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700">
+      Contact Us
+    </a>
+  </section>
+</div>
