@@ -12,12 +12,17 @@ import projectData from "../../assets/ProjectDetail.json"
 })
 export class DetailsComponent implements OnInit {
 
-  project: object | undefined;
+  project: object | any ={};
+  isOpen = false;
 
   route = inject(ActivatedRoute);
   website = this.route.snapshot.paramMap.get('website');
   ngOnInit(): void {
     this.project = projectData.find((project) => project.projectTitle === this.website);
     console.log(projectData);
+  }
+
+  toggleDropdown() {
+    this.isOpen = !this.isOpen;
   }
 }

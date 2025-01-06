@@ -1,16 +1,40 @@
 <div class="px-6 py-12 mx-auto max-w-7xl">
   <!-- Hero Section -->
   <section class="mb-12 text-center">
-    <img [src]="project?.heroImage" alt="Project Hero Image" class="object-cover w-full h-64 mb-6 rounded-lg shadow-lg" />
+    <img [src]="project?.heroImage" alt="Project Hero Image"
+      class="object-cover w-full mb-6 rounded-lg shadow-lg h-70" />
+
     <h1 class="mb-4 text-4xl font-semibold text-gray-900">{{ project?.projectTitle }}</h1>
     <p class="text-xl text-gray-600">{{ project?.tagline }}</p>
     <div class="mt-6">
-      <a href="{{ project?.links.viewLiveProject ?? '#' }}" target="_blank" class="px-6 py-2 font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700">
-        View Live Project
-      </a>
-      <a href="{{ project?.links.viewSourceCode }}" target="_blank" class="px-6 py-2 ml-4 font-semibold text-white bg-gray-800 rounded-full hover:bg-gray-900">
-        View Source Code
-      </a>
+
+
+      <div class="relative inline-block text-left">
+        <div>
+          <button type="button"
+            class="relative overflow-hidden border-[#3C5A62] hover:cursor-pointer px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#3C5A62] transition-all border shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#3C5A62] before:duration-300 hover:text-white hover:shadow-[#3C5A62] hover:before:h-64 hover:before:-translate-y-32"
+            (click)="toggleDropdown()">
+            <span class="relative z-10 font-bold">View Source Code</span>
+          </button>
+        </div>
+
+        <div *ngIf="isOpen"
+          class="absolute right-0 w-56 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+          role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+          <div class="py-1" role="none">
+            <a [href]="project.links.Frontend" target="_blank"
+              class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1">
+              Frontend Code ressource
+
+            </a>
+            <a [href]="project.links.Backend" target="_blank"
+              class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1">
+
+              Backend Code ressource
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -34,7 +58,7 @@
       <div class="space-y-2">
         <h3 class="text-xl font-semibold text-gray-900">Color Palette</h3>
         <div *ngFor="let color of project?.charteGraphique.colorPalette" class="flex items-center space-x-2">
-          <div class="w-8 h-8 rounded-full" [style.background]="color.hex"></div>
+          <div class="w-8 h-8 border-[0.1rem] border-black rounded-full" [style.background]="color.hex"></div>
           <span class="text-lg text-gray-700">{{ color.name }} - {{ color.hex }}</span>
         </div>
       </div>
@@ -58,7 +82,8 @@
   <section class="mb-12">
     <h2 class="mb-6 text-3xl font-bold text-gray-900">Technologies Used</h2>
     <ul class="flex flex-wrap gap-4">
-      <li *ngFor="let tech of project?.technologiesUsed" class="px-4 py-2 text-lg text-gray-700 bg-gray-200 rounded-full">
+      <li *ngFor="let tech of project?.technologiesUsed"
+        class="px-4 py-2 text-lg text-gray-700 bg-gray-200 rounded-full">
         {{ tech }}
       </li>
     </ul>
@@ -67,31 +92,45 @@
   <!-- Features -->
   <section class="mb-12">
     <h2 class="mb-6 text-3xl font-bold text-gray-900">Features</h2>
-    <div class="space-y-6">
+
+    <div *ngFor="let feature of project.features" class="mb-8">
+      <h2 class="text-2xl font-bold text-[#3C5A62] mb-2">{{ feature.title }}</h2>
+
+      <div *ngFor="let item of feature.items" class="mb-3">
+        <h3 class="text-xl font-semibold text-[#3C5A62] ">{{ item.title }}</h3>
+        <p class="text-gray-700 whitespace-pre-line">{{ item.description }}</p>
+      </div>
+      <a *ngIf="feature?.video" class="text-blue-500 hover:underline" [href]="feature.video" target="_blank">
+        Watch Video
+      </a>
+    </div>
+
+    <!-- <div class="space-y-6">
       <div *ngFor="let feature of project?.features" class="flex items-center space-x-4">
-        <img [src]="feature.icon" alt="{{ feature.name }} Icon" class="w-8 h-8" />
         <div>
           <h3 class="text-xl font-semibold text-gray-900">{{ feature.name }}</h3>
-          <p class="text-lg text-gray-700">{{ feature.description }}</p>
+          <ul class="ml-[1.4rem]">
+
+            <li class="list-disc " *ngFor="let point of feature.description?.split('/')">
+              {{ point.trim() }}
+            </li>
+          </ul>
+
           <a href="{{ feature.videoLink }}" target="_blank" class="text-blue-600 hover:text-blue-800">Watch Video</a>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <!-- Gallery -->
   <section class="mb-12">
     <h2 class="mb-6 text-3xl font-bold text-gray-900">Gallery</h2>
-    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      <img *ngFor="let image of project?.gallery" [src]="image" alt="Gallery Image" class="object-cover w-full h-64 rounded-lg shadow-md" />
+
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+      <img *ngFor="let image of project?.gallery" [src]="image" alt="Gallery Image"
+        class="object-cover w-full rounded-lg shadow-md h-70" />
     </div>
   </section>
 
-  <!-- Call to Action -->
-  <section class="mt-12 text-center">
-    <p class="mb-4 text-xl text-gray-700">{{ project?.callToAction.text }}</p>
-    <a href="{{ project?.callToAction.contactLink }}" class="px-6 py-3 font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700">
-      Contact Us
-    </a>
-  </section>
+
 </div>

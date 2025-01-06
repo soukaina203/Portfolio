@@ -1,533 +1,664 @@
 [
   {
-  "projectTitle": "Dish",
-  "tagline": "Your ultimate culinary companion!",
-  "heroImage": "/assets/images/dish-hero.jpg",
-  "links": {
-    "viewLiveProject": "https://example.com/dish-live",
-    "viewSourceCode": "https://github.com/example/dish-repo"
-  },
-  "aboutProject": {
-    "purpose": "To provide a rich collection of recipes for culinary enthusiasts of all levels.",
-    "problemSolved": "Simplifies recipe discovery and management for users by offering a user-friendly platform.",
-    "keyBenefits": [
-      "Access to a wide range of recipes for all occasions.",
-      "User-friendly interface for exploring and saving favorite dishes.",
-      "Inspires creativity in the kitchen with curated collections."
-    ]
-  },
-  "charteGraphique": {
-    "colorPalette": [
-      { "name": "Primary", "hex": "#FF5722" },
-      { "name": "Accent", "hex": "#FFC107" },
-      { "name": "Background", "hex": "#FFFFFF" },
-      { "name": "Text", "hex": "#212121" }
-    ],
-    "typography": [
-      { "type": "Heading", "example": "Poppins Bold" },
-      { "type": "Body", "example": "Roboto Regular" }
-    ],
-    "icons": [
-      { "name": "Recipe", "file": "/assets/icons/recipe-icon.svg" },
-      { "name": "Favorites", "file": "/assets/icons/favorites-icon.svg" }
-    ]
-  },
-  "technologiesUsed": [
-    "Angular",
-    "Node.js",
-    "MongoDB",
-    "TailwindCSS"
-  ],
-  "features": [
-    {
-      "name": "Landing Page",
-      "description": "A warm welcome to culinary enthusiasts with rich collections of recipes.",
-      "icon": "/assets/icons/landing-page-icon.svg",
-      "videoLink": "https://example.com/videos/landing-page"
+    "projectTitle": "Dish",
+    "tagline": "Your ultimate culinary companion!",
+    "heroImage": "/assets/sections/recipe.png",
+    "links": {
+      "viewLiveProject": "https://example.com/dish-live",
+      "viewSourceCode": "https://github.com/example/dish-repo",
+      "Frontend": "https://github.com/soukaina203/recipe_Frontend.git",
+      "Backend": "https://github.com/soukaina203/recipe_Backend.git"
     },
-    {
-      "name": "Admin Console",
-      "description": "Manage the recipe database with ease.",
-      "icon": "/assets/icons/admin-console-icon.svg",
-      "videoLink": "https://example.com/videos/admin-console"
+    "aboutProject": {
+      "purpose": "To provide a rich collection of recipes for culinary enthusiasts of all levels.",
+      "problemSolved": "Simplifies recipe discovery and management for users by offering a user-friendly platform.",
+      "keyBenefits": [
+        "Access to a wide range of recipes for all occasions.",
+        "User-friendly interface for exploring and saving favorite dishes.",
+        "Inspires creativity in the kitchen with curated collections."
+      ]
     },
-    {
-      "name": "User Dashboard",
-      "description": "Seamless experience with sections for profile, recipe exploration, and liked recipes.",
-      "icon": "/assets/icons/user-dashboard-icon.svg",
-      "videoLink": "https://example.com/videos/user-dashboard"
+    "charteGraphique": {
+      "colorPalette": [
+        { "name": "Primary", "hex": "#3A7908" },
+        { "name": "Accent", "hex": "#CDA903" },
+        { "name": "Background", "hex": "#FEFDFB" },
+        { "name": "Text", "hex": "#000000" }
+      ],
+      "typography": [
+        { "type": "Heading", "example": "Poppins Bold" },
+        { "type": "Body", "example": "Roboto Regular" }
+      ],
+      "icons": [
+        { "name": "Recipe", "file": "/assets/projects/dishLogo 1.png" }
+      ]
+    },
+    "technologiesUsed": [
+      "Angular",
+      ".Net",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "title": "Page d'accueil",
+        "items": [
+          {
+            "title": "Section Héro",
+            "description": "Une bannière captivante avec une image appétissante en arrière-plan, mettant en avant le slogan de votre plateforme. Cette section invite les utilisateurs à explorer un univers culinaire riche et varié."
+          },
+          {
+            "title": "À propos",
+            "description": "Une présentation concise de votre site, expliquant votre mission : devenir le compagnon culinaire incontournable pour les amateurs de cuisine, qu'ils soient novices ou experts."
+          },
+          {
+            "title": "Meilleures recettes",
+            "description": "Une sélection des recettes les plus populaires, mettant en avant des plats variés pour inspirer vos visiteurs."
+          },
+          {
+            "title": "Appel à l'action (CTA)",
+            "description": "Un bouton attrayant incitant les utilisateurs à s'inscrire pour découvrir davantage de recettes, enregistrer leurs favoris et interagir avec la communauté."
+          },
+          {
+            "title": "Témoignages",
+            "description": "Une section dédiée aux avis des utilisateurs, illustrant leur satisfaction et mettant en avant les points forts de votre plateforme."
+          },
+          {
+            "title": "Pied de page",
+            "description": "Informations sur le site, liens rapides (FAQ, contact, mentions légales) et accès aux réseaux sociaux."
+          }
+        ],
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_welcome-to-dish-your-ultimate-culinary-companion-activity-7215059483079667714-Gn6O?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "title": "Interfaces d'authentification",
+        "items": [
+          {
+            "title": "Connexion",
+            "description": "Une interface simple pour que les utilisateurs puissent se connecter rapidement à leur compte."
+          },
+          {
+            "title": "Inscription",
+            "description": "Un formulaire intuitif permettant aux nouveaux utilisateurs de s'inscrire facilement."
+          },
+          {
+            "title": "Déconnexion",
+            "description": "Un bouton visible permettant de se déconnecter en un clic, garantissant une expérience sécurisée."
+          }
+        ]
+      },
+      {
+        "title": "Tableau de bord administrateur",
+        "items": [
+          {
+            "title": "Profil",
+            "description": "- Téléchargement de photos de profil.\n- Mise à jour et hashage des mots de passe pour une sécurité accrue."
+          },
+          {
+            "title": "Gestion des utilisateurs",
+            "description": "- Fonctionnalités de création, lecture, modification et suppression (CRUD) des comptes utilisateurs.\n- Recherche rapide pour retrouver des utilisateurs spécifiques."
+          },
+          {
+            "title": "Gestion des recettes",
+            "description": "- CRUD des recettes avec des outils intuitifs.\n- Recherche et gestion des commentaires et mentions \"J'aime\" associés à chaque recette."
+          },
+          {
+            "title": "Gestion des catégories",
+            "description": "- CRUD des catégories de recettes.\n- Recherche rapide pour organiser efficacement les catégories."
+          }
+        ],
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_dish-web-application-admin-dashboard-overview-activity-7216110143724236801-p_Wn?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "title": "Tableau de bord utilisateur",
+        "items": [
+          {
+            "title": "Accueil",
+            "description": "- Affichage d'une liste organisée de catégories et de recettes.\n- Fonction de recherche pour trouver une recette par son nom.\n- Filtrage des recettes selon leur catégorie.\n- Possibilité d'aimer et de commenter des recettes favorites."
+          },
+          {
+            "title": "Profil",
+            "description": "- Téléchargement de photos pour personnaliser son compte.\n- Mise à jour et hashage des mots de passe pour une sécurité optimale."
+          },
+          {
+            "title": "Recettes aimées",
+            "description": "Une section dédiée aux recettes aimées, permettant de les retrouver et de les consulter facilement à tout moment."
+          }
+        ],
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_the-user-dashboard-offers-a-seamless-experience-activity-7216959482730336256-Ygij?utm_source=share&utm_medium=member_desktop"
+      }
+    ],
+    "gallery": [
+      "/assets/sections/recipe.png",
+      "/assets/sections/recipeAdmin.png",
+      "/assets/sections/recipeUser.png"
+    ],
+    "callToAction": {
+      "text": "Ready to work with me? Contact Me!",
+      "contactLink": "mailto:contact@dishapp.com"
     }
-  ],
-  "gallery": [
-    "/assets/gallery/dish1.jpg",
-    "/assets/gallery/dish2.jpg",
-    "/assets/gallery/dish3.jpg",
-    "/assets/gallery/dish4.jpg"
-  ],
-  "callToAction": {
-    "text": "Ready to start your culinary journey? Contact us!",
-    "contactLink": "mailto:contact@dishapp.com"
-  }
-},
-{
-  "projectTitle": "Rental",
-  "tagline": "A seamless and modern solution for rental management.",
-  "heroImage": "/assets/images/rental-hero.jpg",
-  "links": {
-    "viewLiveProject": "https://example.com/rental-live",
-    "viewSourceCode": "https://github.com/example/rental-repo"
   },
-  "aboutProject": {
-    "purpose": "To provide an efficient and user-friendly platform for managing rentals.",
-    "problemSolved": "Streamlines the process of renting, managing user interactions, and handling data securely.",
-    "keyBenefits": [
-      "Responsive and dynamic frontend with React and Tailwind CSS.",
-      "Secure and efficient backend with Laravel.",
-      "Comprehensive features for users and admins to manage rentals effortlessly."
-    ]
-  },
-  "charteGraphique": {
-    "colorPalette": [
-      { "name": "Primary", "hex": "#4CAF50" },
-      { "name": "Accent", "hex": "#FFC107" },
-      { "name": "Background", "hex": "#F9F9F9" },
-      { "name": "Text", "hex": "#333333" }
+  {
+    "projectTitle": "Rental",
+    "tagline": "Your ultimate rental companion!",
+    "heroImage": "/assets/sections/rental.png",
+    "links": {
+      "viewSourceCode": "https://github.com/example/rental-repo",
+      "Frontend": "https://github.com/soukaina203/renting_frontEnd.git",
+      "Backend": "https://github.com/soukaina203/renting_back.git"
+    },
+    "aboutProject": {
+      "purpose": "To provide a seamless car rental experience for users.",
+      "problemSolved": "Simplifies car rental discovery and management for users by offering a user-friendly platform.",
+      "keyBenefits": [
+        "Access to a wide range of cars for all occasions.",
+        "User-friendly interface for exploring and renting cars.",
+        "Inspires confidence with curated collections and reviews."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        { "name": "Primary", "hex": "#E4003B" },
+        { "name": "Accent", "hex": "#000000" },
+        { "name": "Background", "hex": "#FEFDFB" }
+      ],
+      "typography": [
+        { "type": "Heading", "example": "Poppins Bold" },
+        { "type": "Body", "example": "Roboto Regular" }
+      ],
+      "icons": [
+        { "name": "Car", "file": "/assets/projects/rentalLogo.png" }
+      ]
+    },
+    "technologiesUsed": [
+      "ReactJs",
+      ".Laravel",
+      "PostgreSQL",
+      "TailwindCSS"
     ],
-    "typography": [
-      { "type": "Heading", "example": "Lato Bold" },
-      { "type": "Body", "example": "Roboto Regular" }
-    ],
-    "icons": [
-      { "name": "Cars", "file": "/assets/icons/cars-icon.svg" },
-      { "name": "Rentals", "file": "/assets/icons/rentals-icon.svg" },
-      { "name": "Reviews", "file": "/assets/icons/reviews-icon.svg" }
-    ]
-  },
-  "technologiesUsed": [
-    "React",
-    "TailwindCSS",
-    "Laravel"
-  ],
-  "features": [
-    {
-      "name": "Landing Page",
-      "description": "Robust web application with responsive and dynamic user experience powered by React and TailwindCSS.",
-      "icon": "/assets/icons/landing-page-icon.svg",
-      "videoLink": "https://example.com/videos/rental-landing-page"
-    },
-    {
-      "name": "Admin Console",
-      "description": "Comprehensive management of users, cars, reviews, and rentals.",
-      "icon": "/assets/icons/admin-console-icon.svg",
-      "videoLink": "https://example.com/videos/rental-admin-console"
-    },
-    {
-      "name": "User Dashboard - Car Listing",
-      "description": "Search bar and filters for finding cars, with options to rent or view details.",
-      "icon": "/assets/icons/car-listing-icon.svg",
-      "videoLink": "https://example.com/videos/rental-car-listing"
-    },
-    {
-      "name": "User Dashboard - My Rentals",
-      "description": "Interface for accessing rental history and managing rentals.",
-      "icon": "/assets/icons/my-rentals-icon.svg",
-      "videoLink": "https://example.com/videos/rental-my-rentals"
-    },
-    {
-      "name": "User Dashboard - Review Interface",
-      "description": "Comprehensive interface for sharing and managing reviews.",
-      "icon": "/assets/icons/reviews-icon.svg",
-      "videoLink": "https://example.com/videos/rental-review-interface"
-    },
-    {
-      "name": "User Dashboard - Profile View",
-      "description": "Manage personal information and settings easily.",
-      "icon": "/assets/icons/profile-view-icon.svg",
-      "videoLink": "https://example.com/videos/rental-profile-view"
-    }
-  ],
-  "gallery": [
-    "/assets/gallery/rental1.jpg",
-    "/assets/gallery/rental2.jpg",
-    "/assets/gallery/rental3.jpg",
-    "/assets/gallery/rental4.jpg"
-  ],
-  "callToAction": {
-    "text": "Looking for a rental solution? Contact us!",
-    "contactLink": "mailto:contact@rentalapp.com"
-  }
-}
-,
-{
-  "projectTitle": "Centre",
-  "tagline": "Revolutionize educational management with cutting-edge functionality.",
-  "heroImage": "/assets/images/centre-hero.jpg",
-  "links": {
-    "viewLiveProject": "https://example.com/centre-live",
-    "viewSourceCode": "https://github.com/example/centre-repo"
-  },
-  "aboutProject": {
-    "purpose": "To streamline the management of educational centers with a modern, secure, and efficient platform.",
-    "problemSolved": "Addresses inefficiencies in managing users, professors, clients, classes, resources, fees, and financials.",
-    "keyBenefits": [
-      "Dynamic dashboards for seamless navigation.",
-      "Robust CRUD operations for efficient data management.",
-      "Enhanced transparency and efficiency in educational management."
-    ]
-  },
-  "charteGraphique": {
-    "colorPalette": [
-      { "name": "Primary", "hex": "#1976D2" },
-      { "name": "Accent", "hex": "#FFC107" },
-      { "name": "Background", "hex": "#F5F5F5" },
-      { "name": "Text", "hex": "#212121" }
-    ],
-    "typography": [
-      { "type": "Heading", "example": "Open Sans Bold" },
-      { "type": "Body", "example": "Roboto Regular" }
-    ],
-    "icons": [
-      { "name": "Users", "file": "/assets/icons/users-icon.svg" },
-      { "name": "Classes", "file": "/assets/icons/classes-icon.svg" },
-      { "name": "Fees", "file": "/assets/icons/fees-icon.svg" },
-      { "name": "Reports", "file": "/assets/icons/reports-icon.svg" }
-    ]
-  },
-  "technologiesUsed": [
-    "Angular",
-    ".Net",
-    "PostgreSQL",
-    "TailwindCSS"
-  ],
-  "features": [
-    {
-      "name": "Landing Page",
-      "description": "Showcases app capabilities, offering seamless navigation, dynamic dashboards, and efficient CRUD operations.",
-      "icon": "/assets/icons/landing-page-icon.svg",
-      "videoLink": "https://example.com/videos/centre-landing-page"
-    },
-    {
-      "name": "Admin Console - Clients",
-      "description": "Manage client information with CRUD functionality for registration details, contact info, and personalized notes.",
-      "icon": "/assets/icons/clients-icon.svg",
-      "videoLink": "https://example.com/videos/centre-clients-section"
-    },
-    {
-      "name": "Admin Console - Classes",
-      "description": "Manage class types, educational levels, professor assignments, and timetables efficiently.",
-      "icon": "/assets/icons/classes-icon.svg",
-      "videoLink": "https://example.com/videos/centre-classes-section"
-    },
-    {
-      "name": "Admin Console - Fees Management",
-      "description": "Handle fee registration, including amount, date, client, and class, ensuring accurate records.",
-      "icon": "/assets/icons/fees-icon.svg",
-      "videoLink": "https://example.com/videos/centre-fees-management"
-    },
-    {
-      "name": "Admin Console - Attendance Tracking",
-      "description": "Create presence sheets with automated student lists for accurate and clear attendance records.",
-      "icon": "/assets/icons/attendance-icon.svg",
-      "videoLink": "https://example.com/videos/centre-attendance-tracking"
-    },
-    {
-      "name": "Admin Console - Charges and Payments",
-      "description": "Manage charges, payments, and automated resource population with real-time financial reporting.",
-      "icon": "/assets/icons/charges-icon.svg",
-      "videoLink": "https://example.com/videos/centre-charges-payments"
-    }
-  ],
-  "gallery": [
-    "/assets/gallery/centre1.jpg",
-    "/assets/gallery/centre2.jpg",
-    "/assets/gallery/centre3.jpg",
-    "/assets/gallery/centre4.jpg"
-  ],
-  "callToAction": {
-    "text": "Transform your educational center today. Contact us!",
-    "contactLink": "mailto:contact@centreapp.com"
-  }
-},
+    "features": [
+      {
+        "title": "Page d'accueil",
+        "items": [
+          {
+            "title": "Section Héro",
+            "description": "Une bannière captivante avec une image appétissante en arrière-plan, mettant en avant le slogan de votre plateforme. Cette section invite les utilisateurs à explorer un univers culinaire riche et varié."
+          },
+          {
+            "title": "À propos",
+            "description": "Une présentation concise de votre site, expliquant votre mission : devenir le compagnon culinaire incontournable pour les amateurs de cuisine, qu'ils soient novices ou experts."
+          },
+          {
+            "title": "Meilleures recettes",
+            "description": "Une sélection des recettes les plus populaires, mettant en avant des plats variés pour inspirer vos visiteurs."
+          },
+          {
+            "title": "Appel à l'action (CTA)",
+            "description": "Un bouton attrayant incitant les utilisateurs à s'inscrire pour découvrir davantage de recettes, enregistrer leurs favoris et interagir avec la communauté."
+          },
+          {
+            "title": "Témoignages",
+            "description": "Une section dédiée aux avis des utilisateurs, illustrant leur satisfaction et mettant en avant les points forts de votre plateforme."
+          },
+          {
+            "title": "Pied de page",
+            "description": "Informations sur le site, liens rapides (FAQ, contact, mentions légales) et accès aux réseaux sociaux."
+          }
+        ],
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_a-robust-rental-web-application-built-with-activity-7208797384133201920-Xocw?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "title": "Interfaces d'authentification",
+        "items": [
+          {
+            "title": "Connexion",
+            "description": "Une interface simple pour que les utilisateurs puissent se connecter rapidement à leur compte."
+          },
+          {
+            "title": "Inscription",
+            "description": "Un formulaire intuitif permettant aux nouveaux utilisateurs de s'inscrire facilement."
+          },
+          {
+            "title": "Déconnexion",
+            "description": "Un bouton visible permettant de se déconnecter en un clic, garantissant une expérience sécurisée."
+          }
+        ],
+        "video":"https://www.linkedin.com/posts/soukaina-mourabit-253a33240_user-dashboard-our-rental-apps-user-dashboard-activity-7208874889661796352-Yhr3?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "title": "User Dashboard",
+        "items": [
+          {
+            "title": "Cars section",
+            "description": "- List des voitures\n- Recherche des voitures\n- Filtre des voitures par type, couleur, model, an\n- Possibilité de louer, voir les propriétés des voitures"
+          },
+          {
+            "title": "Rentals section",
+            "description": "- Historique des locations que l'utilisateur a fait"
+          },
+          {
+            "title": "Review",
+            "description": "- Donner votre feedback sur votre expérience avec BestCars"
+          },
+          {
+            "title": "Profile",
+            "description": "- Upload des images\n- Changer les données personnels"
+          }
+        ],
+        "video":"https://www.linkedin.com/posts/soukaina-mourabit-253a33240_user-dashboard-make-a-review-interface-our-activity-7208877905689411584-q_kC?utm_source=share&utm_medium=member_desktop"
 
-{
-  "projectTitle": "TF-SOL",
-  "tagline": "Cohésion, Création, Conquête - C'est L'action de TF-SOL",
-  "heroImage": "/assets/images/tfsol-hero.jpg",
-  "links": {
-    "viewLiveProject": "https://example.com/tfsol-live",
-    "viewSourceCode": "https://github.com/example/tfsol-repo"
-  },
-  "aboutProject": {
-    "purpose": "To showcase TF-SOL's services and mission with a seamless, visually appealing, and responsive website.",
-    "problemSolved": "Provides a cohesive and modern online presence to highlight their services and core values.",
-    "keyBenefits": [
-      "Fully responsive design for accessibility across all devices.",
-      "Elegant styling and user experience powered by Tailwind CSS.",
-      "Dynamic and efficient functionality using ReactJS."
-    ]
-  },
-  "charteGraphique": {
-    "colorPalette": [
-      { "name": "Primary", "hex": "#0044CC" },
-      { "name": "Secondary", "hex": "#FFC107" },
-      { "name": "Background", "hex": "#F9FAFB" },
-      { "name": "Text", "hex": "#333333" }
+      },
+      {
+        "title": "Admin Dashboard",
+        "items": [
+          {
+            "title": "Users",
+            "description": "- CRUD des utilisateurs\n- Recherche par nom ou email\n- Filtre par les utilisateurs qui ont fait des locations, par ville, par pays"
+          },
+          {
+            "title": "Rentals",
+            "description": "- Il y a deux types des locations: déjà traité et non traité\n- CRUD des rentals"
+          },
+          {
+            "title": "Cars",
+            "description": "- Gestion de CRUD des voitures\n- Recherche\n- Filtre"
+          },
+          {
+            "title": "Reviews",
+            "description": "- CRUD ou gestion des différents reviews"
+          },
+          {
+            "title": "Profile",
+            "description": "- Gestion du profil administrateur"
+          }
+        ],
+        "video":"https://www.linkedin.com/posts/soukaina-mourabit-253a33240_the-admin-dashboard-of-our-rental-app-is-activity-7208888653702414337-vKqr?utm_source=share&utm_medium=member_desktop"
+
+      }
     ],
-    "typography": [
-      { "type": "Heading", "example": "Poppins Bold" },
-      { "type": "Body", "example": "Roboto Regular" }
+    "gallery": [
+      "/assets/sections/rental.png",
+      "/assets/sections/adminDash.png",
+      "/assets/sections/CarUser.png"
     ],
-    "icons": [
-      { "name": "Mission", "file": "/assets/icons/mission-icon.svg" },
-      { "name": "Services", "file": "/assets/icons/services-icon.svg" },
-      { "name": "Team", "file": "/assets/icons/team-icon.svg" }
-    ]
-  },
-  "technologiesUsed": [
-    "ReactJS",
-    "TailwindCSS"
-  ],
-  "features": [
-    {
-      "name": "Landing Page",
-      "description": "A visually stunning introduction to TF-SOL’s mission and services, crafted with ReactJS and styled with TailwindCSS.",
-      "icon": "/assets/icons/landing-page-icon.svg",
-      "videoLink": "https://example.com/videos/tfsol-landing-page"
-    },
-    {
-      "name": "Responsive Design",
-      "description": "Optimized for seamless user experience on devices of all sizes.",
-      "icon": "/assets/icons/responsive-design-icon.svg",
-      "videoLink": "https://example.com/videos/tfsol-responsive-design"
-    },
-    {
-      "name": "Dynamic Content Display",
-      "description": "Interactive and engaging sections showcasing TF-SOL’s values and services.",
-      "icon": "/assets/icons/dynamic-content-icon.svg",
-      "videoLink": "https://example.com/videos/tfsol-dynamic-content"
+    "callToAction": {
+      "text": "Ready to work with me? Contact Me!",
+      "contactLink": "mailto:contact@rentalapp.com"
     }
-  ],
-  "gallery": [
-    "/assets/gallery/tfsol1.jpg",
-    "/assets/gallery/tfsol2.jpg",
-    "/assets/gallery/tfsol3.jpg",
-    "/assets/gallery/tfsol4.jpg"
-  ],
-  "callToAction": {
-    "text": "Discover TF-SOL’s mission and services. Visit us today!",
-    "contactLink": "mailto:contact@tfsol.com"
   }
-}
 
 ,
-{
-  "projectTitle": "ميراث النبوة",
-  "tagline": "The Legacy of Prophecy: An E-learning platform",
-  "heroImage": "/assets/images/legacy-hero.jpg",
-  "links": {
-    "viewLiveProject": "https://example.com/legacy-live",
-    "viewSourceCode": "https://github.com/example/legacy-repo"
-  },
-  "aboutProject": {
-    "purpose": "To provide a comprehensive and organized platform for accessing lessons, summaries, and assessments.",
-    "problemSolved": "Enables learners to engage with structured educational content in an intuitive and accessible way.",
-    "keyBenefits": [
-      "Sequentially organized lessons and assessments for optimal learning.",
-      "Responsive design for accessibility across all devices.",
-      "Elegant and user-friendly interface leveraging ReactJS and TailwindCSS."
-    ]
-  },
-  "charteGraphique": {
-    "colorPalette": [
-      { "name": "Primary", "hex": "#4A148C" },
-      { "name": "Accent", "hex": "#FFB300" },
-      { "name": "Background", "hex": "#F3E5F5" },
-      { "name": "Text", "hex": "#212121" }
-    ],
-    "typography": [
-      { "type": "Heading", "example": "Cairo Bold" },
-      { "type": "Body", "example": "Cairo Regular" }
-    ],
-    "icons": [
-      { "name": "Lessons", "file": "/assets/icons/lessons-icon.svg" },
-      { "name": "Assessments", "file": "/assets/icons/assessments-icon.svg" },
-      { "name": "Summaries", "file": "/assets/icons/summaries-icon.svg" }
-    ]
-  },
-  "technologiesUsed": [
-    "ReactJS",
-    "TailwindCSS"
-  ],
-  "features": [
-    {
-      "name": "Structured Lessons",
-      "description": "Sequentially organized lessons for a clear and comprehensive learning experience.",
-      "icon": "/assets/icons/lessons-icon.svg",
-      "videoLink": "https://example.com/videos/legacy-lessons"
+
+  {
+    "projectTitle": "Centre",
+    "tagline": "Revolutionize educational management with cutting-edge functionality.",
+    "heroImage": "/assets/images/centre-hero.jpg",
+    "links": {
+      "viewLiveProject": "https://example.com/centre-live",
+      "viewSourceCode": "https://github.com/example/centre-repo"
     },
-    {
-      "name": "Responsive Design",
-      "description": "Optimized for seamless user experience on devices of all sizes.",
-      "icon": "/assets/icons/responsive-design-icon.svg",
-      "videoLink": "https://example.com/videos/legacy-responsive-design"
+    "aboutProject": {
+      "purpose": "To streamline the management of educational centers with a modern, secure, and efficient platform.",
+      "problemSolved": "Addresses inefficiencies in managing users, professors, clients, classes, resources, fees, and financials.",
+      "keyBenefits": [
+        "Dynamic dashboards for seamless navigation.",
+        "Robust CRUD operations for efficient data management.",
+        "Enhanced transparency and efficiency in educational management."
+      ]
     },
-    {
-      "name": "Dynamic Assessments",
-      "description": "Interactive assessments for learners to test and reinforce their understanding.",
-      "icon": "/assets/icons/assessments-icon.svg",
-      "videoLink": "https://example.com/videos/legacy-assessments"
+    "charteGraphique": {
+      "colorPalette": [
+        { "name": "Primary", "hex": "#1976D2" },
+        { "name": "Accent", "hex": "#FFC107" },
+        { "name": "Background", "hex": "#F5F5F5" },
+        { "name": "Text", "hex": "#212121" }
+      ],
+      "typography": [
+        { "type": "Heading", "example": "Open Sans Bold" },
+        { "type": "Body", "example": "Roboto Regular" }
+      ],
+      "icons": [
+        { "name": "Users", "file": "/assets/icons/users-icon.svg" },
+        { "name": "Classes", "file": "/assets/icons/classes-icon.svg" },
+        { "name": "Fees", "file": "/assets/icons/fees-icon.svg" },
+        { "name": "Reports", "file": "/assets/icons/reports-icon.svg" }
+      ]
+    },
+    "technologiesUsed": [
+      "Angular",
+      ".Net",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "Landing Page",
+        "description": "Showcases app capabilities, offering seamless navigation, dynamic dashboards, and efficient CRUD operations.",
+        "icon": "/assets/icons/landing-page-icon.svg",
+        "videoLink": "https://example.com/videos/centre-landing-page"
+      },
+      {
+        "name": "Admin Console - Clients",
+        "description": "Manage client information with CRUD functionality for registration details, contact info, and personalized notes.",
+        "icon": "/assets/icons/clients-icon.svg",
+        "videoLink": "https://example.com/videos/centre-clients-section"
+      },
+      {
+        "name": "Admin Console - Classes",
+        "description": "Manage class types, educational levels, professor assignments, and timetables efficiently.",
+        "icon": "/assets/icons/classes-icon.svg",
+        "videoLink": "https://example.com/videos/centre-classes-section"
+      },
+      {
+        "name": "Admin Console - Fees Management",
+        "description": "Handle fee registration, including amount, date, client, and class, ensuring accurate records.",
+        "icon": "/assets/icons/fees-icon.svg",
+        "videoLink": "https://example.com/videos/centre-fees-management"
+      },
+      {
+        "name": "Admin Console - Attendance Tracking",
+        "description": "Create presence sheets with automated student lists for accurate and clear attendance records.",
+        "icon": "/assets/icons/attendance-icon.svg",
+        "videoLink": "https://example.com/videos/centre-attendance-tracking"
+      },
+      {
+        "name": "Admin Console - Charges and Payments",
+        "description": "Manage charges, payments, and automated resource population with real-time financial reporting.",
+        "icon": "/assets/icons/charges-icon.svg",
+        "videoLink": "https://example.com/videos/centre-charges-payments"
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/centre1.jpg",
+      "/assets/gallery/centre2.jpg",
+      "/assets/gallery/centre3.jpg",
+      "/assets/gallery/centre4.jpg"
+    ],
+    "callToAction": {
+      "text": "Transform your educational center today. Contact us!",
+      "contactLink": "mailto:contact@centreapp.com"
     }
-  ],
-  "gallery": [
-    "/assets/gallery/legacy1.jpg",
-    "/assets/gallery/legacy2.jpg",
-    "/assets/gallery/legacy3.jpg",
-    "/assets/gallery/legacy4.jpg"
-  ],
-  "callToAction": {
-    "text": "Join ميراث النبوة today and explore the Legacy of Prophecy!",
-    "contactLink": "mailto:contact@legacyofprophecy.com"
-  }
-}
-,
-{
-  "projectTitle": "KRYPTO",
-  "tagline": "Discover And Collect Rare NFTs",
-  "heroImage": "/assets/images/krypto-hero.jpg",
-  "links": {
-    "viewLiveProject": "https://example.com/krypto-live",
-    "viewSourceCode": "https://github.com/example/krypto-repo"
   },
-  "aboutProject": {
-    "purpose": "To provide an engaging platform for discovering and collecting rare NFTs.",
-    "problemSolved": "Simplifies the process of showcasing and accessing NFTs with a visually appealing and responsive interface.",
-    "keyBenefits": [
-      "Intuitive and user-friendly platform for NFT exploration.",
-      "Responsive design ensuring accessibility across all devices.",
-      "Modern aesthetics powered by ReactJS and TailwindCSS."
-    ]
-  },
-  "charteGraphique": {
-    "colorPalette": [
-      { "name": "Primary", "hex": "#0D47A1" },
-      { "name": "Accent", "hex": "#FF6F00" },
-      { "name": "Background", "hex": "#F5F5F5" },
-      { "name": "Text", "hex": "#212121" }
-    ],
-    "typography": [
-      { "type": "Heading", "example": "Poppins Bold" },
-      { "type": "Body", "example": "Poppins Regular" }
-    ],
-    "icons": [
-      { "name": "NFTs", "file": "/assets/icons/nft-icon.svg" },
-      { "name": "Marketplace", "file": "/assets/icons/marketplace-icon.svg" },
-      { "name": "Wallet", "file": "/assets/icons/wallet-icon.svg" }
-    ]
-  },
-  "technologiesUsed": [
-    "ReactJS",
-    "TailwindCSS"
-  ],
-  "features": [
-    {
-      "name": "NFT Discovery",
-      "description": "Explore rare and unique NFTs with a dynamic interface.",
-      "icon": "/assets/icons/nft-icon.svg",
-      "videoLink": "https://example.com/videos/krypto-nft-discovery"
+
+  {
+    "projectTitle": "TF-SOL",
+    "tagline": "Cohésion, Création, Conquête - C'est L'action de TF-SOL",
+    "heroImage": "/assets/images/tfsol-hero.jpg",
+    "links": {
+      "viewLiveProject": "https://example.com/tfsol-live",
+      "viewSourceCode": "https://github.com/example/tfsol-repo"
     },
-    {
-      "name": "Responsive Design",
-      "description": "Ensures optimal viewing experience across all devices.",
-      "icon": "/assets/icons/responsive-design-icon.svg",
-      "videoLink": "https://example.com/videos/krypto-responsive-design"
+    "aboutProject": {
+      "purpose": "To showcase TF-SOL's services and mission with a seamless, visually appealing, and responsive website.",
+      "problemSolved": "Provides a cohesive and modern online presence to highlight their services and core values.",
+      "keyBenefits": [
+        "Fully responsive design for accessibility across all devices.",
+        "Elegant styling and user experience powered by Tailwind CSS.",
+        "Dynamic and efficient functionality using ReactJS."
+      ]
     },
-    {
-      "name": "Marketplace Integration",
-      "description": "Enables easy navigation and transactions within the NFT marketplace.",
-      "icon": "/assets/icons/marketplace-icon.svg",
-      "videoLink": "https://example.com/videos/krypto-marketplace"
+    "charteGraphique": {
+      "colorPalette": [
+        { "name": "Primary", "hex": "#0044CC" },
+        { "name": "Secondary", "hex": "#FFC107" },
+        { "name": "Background", "hex": "#F9FAFB" },
+        { "name": "Text", "hex": "#333333" }
+      ],
+      "typography": [
+        { "type": "Heading", "example": "Poppins Bold" },
+        { "type": "Body", "example": "Roboto Regular" }
+      ],
+      "icons": [
+        { "name": "Mission", "file": "/assets/icons/mission-icon.svg" },
+        { "name": "Services", "file": "/assets/icons/services-icon.svg" },
+        { "name": "Team", "file": "/assets/icons/team-icon.svg" }
+      ]
+    },
+    "technologiesUsed": [
+      "ReactJS",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "Landing Page",
+        "description": "A visually stunning introduction to TF-SOL’s mission and services, crafted with ReactJS and styled with TailwindCSS.",
+        "icon": "/assets/icons/landing-page-icon.svg",
+        "videoLink": "https://example.com/videos/tfsol-landing-page"
+      },
+      {
+        "name": "Responsive Design",
+        "description": "Optimized for seamless user experience on devices of all sizes.",
+        "icon": "/assets/icons/responsive-design-icon.svg",
+        "videoLink": "https://example.com/videos/tfsol-responsive-design"
+      },
+      {
+        "name": "Dynamic Content Display",
+        "description": "Interactive and engaging sections showcasing TF-SOL’s values and services.",
+        "icon": "/assets/icons/dynamic-content-icon.svg",
+        "videoLink": "https://example.com/videos/tfsol-dynamic-content"
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/tfsol1.jpg",
+      "/assets/gallery/tfsol2.jpg",
+      "/assets/gallery/tfsol3.jpg",
+      "/assets/gallery/tfsol4.jpg"
+    ],
+    "callToAction": {
+      "text": "Discover TF-SOL’s mission and services. Visit us today!",
+      "contactLink": "mailto:contact@tfsol.com"
     }
-  ],
-  "gallery": [
-    "/assets/gallery/krypto1.jpg",
-    "/assets/gallery/krypto2.jpg",
-    "/assets/gallery/krypto3.jpg",
-    "/assets/gallery/krypto4.jpg"
-  ],
-  "callToAction": {
-    "text": "Start your NFT collection today with KRYPTO!",
-    "contactLink": "mailto:contact@krypto.com"
   }
-},
-{
-  "projectTitle": "NexAudit",
-  "tagline": "NexAudit - Redéfinir l'audit pour demain",
-  "heroImage": "/assets/images/nexaudit-hero.jpg",
-  "links": {
-    "viewLiveProject": "https://example.com/nexaudit-live",
-    "viewSourceCode": "https://github.com/example/nexaudit-repo"
-  },
-  "aboutProject": {
-    "purpose": "To provide NexAudit with a seamless, fully responsive platform to showcase their services and mission.",
-    "problemSolved": "Delivers a modern and efficient online presence to engage clients and highlight auditing expertise.",
-    "keyBenefits": [
-      "Responsive design ensures accessibility across all devices.",
-      "Elegant user experience powered by ReactJS and TailwindCSS.",
-      "Dynamic sections effectively communicate NexAudit's mission and services."
-    ]
-  },
-  "charteGraphique": {
-    "colorPalette": [
-      { "name": "Primary", "hex": "#1A237E" },
-      { "name": "Accent", "hex": "#FBC02D" },
-      { "name": "Background", "hex": "#FAFAFA" },
-      { "name": "Text", "hex": "#212121" }
-    ],
-    "typography": [
-      { "type": "Heading", "example": "Lora Bold" },
-      { "type": "Body", "example": "Open Sans Regular" }
-    ],
-    "icons": [
-      { "name": "Mission", "file": "/assets/icons/mission-icon.svg" },
-      { "name": "Services", "file": "/assets/icons/services-icon.svg" },
-      { "name": "Contact", "file": "/assets/icons/contact-icon.svg" }
-    ]
-  },
-  "technologiesUsed": [
-    "ReactJS",
-    "TailwindCSS"
-  ],
-  "features": [
-    {
-      "name": "Landing Page",
-      "description": "A visually stunning introduction to NexAudit’s mission and services, crafted with ReactJS and styled with TailwindCSS.",
-      "icon": "/assets/icons/landing-page-icon.svg",
-      "videoLink": "https://example.com/videos/nexaudit-landing-page"
+
+  ,
+  {
+    "projectTitle": "ميراث النبوة",
+    "tagline": "The Legacy of Prophecy: An E-learning platform",
+    "heroImage": "/assets/images/legacy-hero.jpg",
+    "links": {
+      "viewLiveProject": "https://example.com/legacy-live",
+      "viewSourceCode": "https://github.com/example/legacy-repo"
     },
-    {
-      "name": "Responsive Design",
-      "description": "Optimized for seamless user experience on devices of all sizes.",
-      "icon": "/assets/icons/responsive-design-icon.svg",
-      "videoLink": "https://example.com/videos/nexaudit-responsive-design"
+    "aboutProject": {
+      "purpose": "To provide a comprehensive and organized platform for accessing lessons, summaries, and assessments.",
+      "problemSolved": "Enables learners to engage with structured educational content in an intuitive and accessible way.",
+      "keyBenefits": [
+        "Sequentially organized lessons and assessments for optimal learning.",
+        "Responsive design for accessibility across all devices.",
+        "Elegant and user-friendly interface leveraging ReactJS and TailwindCSS."
+      ]
     },
-    {
-      "name": "Dynamic Service Showcase",
-      "description": "Interactive sections highlighting NexAudit’s expertise and offerings.",
-      "icon": "/assets/icons/dynamic-services-icon.svg",
-      "videoLink": "https://example.com/videos/nexaudit-services"
+    "charteGraphique": {
+      "colorPalette": [
+        { "name": "Primary", "hex": "#4A148C" },
+        { "name": "Accent", "hex": "#FFB300" },
+        { "name": "Background", "hex": "#F3E5F5" },
+        { "name": "Text", "hex": "#212121" }
+      ],
+      "typography": [
+        { "type": "Heading", "example": "Cairo Bold" },
+        { "type": "Body", "example": "Cairo Regular" }
+      ],
+      "icons": [
+        { "name": "Lessons", "file": "/assets/icons/lessons-icon.svg" },
+        { "name": "Assessments", "file": "/assets/icons/assessments-icon.svg" },
+        { "name": "Summaries", "file": "/assets/icons/summaries-icon.svg" }
+      ]
+    },
+    "technologiesUsed": [
+      "ReactJS",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "Structured Lessons",
+        "description": "Sequentially organized lessons for a clear and comprehensive learning experience.",
+        "icon": "/assets/icons/lessons-icon.svg",
+        "videoLink": "https://example.com/videos/legacy-lessons"
+      },
+      {
+        "name": "Responsive Design",
+        "description": "Optimized for seamless user experience on devices of all sizes.",
+        "icon": "/assets/icons/responsive-design-icon.svg",
+        "videoLink": "https://example.com/videos/legacy-responsive-design"
+      },
+      {
+        "name": "Dynamic Assessments",
+        "description": "Interactive assessments for learners to test and reinforce their understanding.",
+        "icon": "/assets/icons/assessments-icon.svg",
+        "videoLink": "https://example.com/videos/legacy-assessments"
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/legacy1.jpg",
+      "/assets/gallery/legacy2.jpg",
+      "/assets/gallery/legacy3.jpg",
+      "/assets/gallery/legacy4.jpg"
+    ],
+    "callToAction": {
+      "text": "Join ميراث النبوة today and explore the Legacy of Prophecy!",
+      "contactLink": "mailto:contact@legacyofprophecy.com"
     }
-  ],
-  "gallery": [
-    "/assets/gallery/nexaudit1.jpg",
-    "/assets/gallery/nexaudit2.jpg",
-    "/assets/gallery/nexaudit3.jpg",
-    "/assets/gallery/nexaudit4.jpg"
-  ],
-  "callToAction": {
-    "text": "Discover how NexAudit redefines auditing for tomorrow. Contact us today!",
-    "contactLink": "mailto:contact@nexaudit.com"
   }
-}
+  ,
+  {
+    "projectTitle": "KRYPTO",
+    "tagline": "Discover And Collect Rare NFTs",
+    "heroImage": "/assets/images/krypto-hero.jpg",
+    "links": {
+      "viewLiveProject": "https://example.com/krypto-live",
+      "viewSourceCode": "https://github.com/example/krypto-repo"
+    },
+    "aboutProject": {
+      "purpose": "To provide an engaging platform for discovering and collecting rare NFTs.",
+      "problemSolved": "Simplifies the process of showcasing and accessing NFTs with a visually appealing and responsive interface.",
+      "keyBenefits": [
+        "Intuitive and user-friendly platform for NFT exploration.",
+        "Responsive design ensuring accessibility across all devices.",
+        "Modern aesthetics powered by ReactJS and TailwindCSS."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        { "name": "Primary", "hex": "#0D47A1" },
+        { "name": "Accent", "hex": "#FF6F00" },
+        { "name": "Background", "hex": "#F5F5F5" },
+        { "name": "Text", "hex": "#212121" }
+      ],
+      "typography": [
+        { "type": "Heading", "example": "Poppins Bold" },
+        { "type": "Body", "example": "Poppins Regular" }
+      ],
+      "icons": [
+        { "name": "NFTs", "file": "/assets/icons/nft-icon.svg" },
+        { "name": "Marketplace", "file": "/assets/icons/marketplace-icon.svg" },
+        { "name": "Wallet", "file": "/assets/icons/wallet-icon.svg" }
+      ]
+    },
+    "technologiesUsed": [
+      "ReactJS",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "NFT Discovery",
+        "description": "Explore rare and unique NFTs with a dynamic interface.",
+        "icon": "/assets/icons/nft-icon.svg",
+        "videoLink": "https://example.com/videos/krypto-nft-discovery"
+      },
+      {
+        "name": "Responsive Design",
+        "description": "Ensures optimal viewing experience across all devices.",
+        "icon": "/assets/icons/responsive-design-icon.svg",
+        "videoLink": "https://example.com/videos/krypto-responsive-design"
+      },
+      {
+        "name": "Marketplace Integration",
+        "description": "Enables easy navigation and transactions within the NFT marketplace.",
+        "icon": "/assets/icons/marketplace-icon.svg",
+        "videoLink": "https://example.com/videos/krypto-marketplace"
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/krypto1.jpg",
+      "/assets/gallery/krypto2.jpg",
+      "/assets/gallery/krypto3.jpg",
+      "/assets/gallery/krypto4.jpg"
+    ],
+    "callToAction": {
+      "text": "Start your NFT collection today with KRYPTO!",
+      "contactLink": "mailto:contact@krypto.com"
+    }
+  },
+  {
+    "projectTitle": "NexAudit",
+    "tagline": "NexAudit - Redéfinir l'audit pour demain",
+    "heroImage": "/assets/images/nexaudit-hero.jpg",
+    "links": {
+      "viewLiveProject": "https://example.com/nexaudit-live",
+      "viewSourceCode": "https://github.com/example/nexaudit-repo"
+    },
+    "aboutProject": {
+      "purpose": "To provide NexAudit with a seamless, fully responsive platform to showcase their services and mission.",
+      "problemSolved": "Delivers a modern and efficient online presence to engage clients and highlight auditing expertise.",
+      "keyBenefits": [
+        "Responsive design ensures accessibility across all devices.",
+        "Elegant user experience powered by ReactJS and TailwindCSS.",
+        "Dynamic sections effectively communicate NexAudit's mission and services."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        { "name": "Primary", "hex": "#1A237E" },
+        { "name": "Accent", "hex": "#FBC02D" },
+        { "name": "Background", "hex": "#FAFAFA" },
+        { "name": "Text", "hex": "#212121" }
+      ],
+      "typography": [
+        { "type": "Heading", "example": "Lora Bold" },
+        { "type": "Body", "example": "Open Sans Regular" }
+      ],
+      "icons": [
+        { "name": "Mission", "file": "/assets/icons/mission-icon.svg" },
+        { "name": "Services", "file": "/assets/icons/services-icon.svg" },
+        { "name": "Contact", "file": "/assets/icons/contact-icon.svg" }
+      ]
+    },
+    "technologiesUsed": [
+      "ReactJS",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "Landing Page",
+        "description": "A visually stunning introduction to NexAudit’s mission and services, crafted with ReactJS and styled with TailwindCSS.",
+        "icon": "/assets/icons/landing-page-icon.svg",
+        "videoLink": "https://example.com/videos/nexaudit-landing-page"
+      },
+      {
+        "name": "Responsive Design",
+        "description": "Optimized for seamless user experience on devices of all sizes.",
+        "icon": "/assets/icons/responsive-design-icon.svg",
+        "videoLink": "https://example.com/videos/nexaudit-responsive-design"
+      },
+      {
+        "name": "Dynamic Service Showcase",
+        "description": "Interactive sections highlighting NexAudit’s expertise and offerings.",
+        "icon": "/assets/icons/dynamic-services-icon.svg",
+        "videoLink": "https://example.com/videos/nexaudit-services"
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/nexaudit1.jpg",
+      "/assets/gallery/nexaudit2.jpg",
+      "/assets/gallery/nexaudit3.jpg",
+      "/assets/gallery/nexaudit4.jpg"
+    ],
+    "callToAction": {
+      "text": "Discover how NexAudit redefines auditing for tomorrow. Contact us today!",
+      "contactLink": "mailto:contact@nexaudit.com"
+    }
+  }
 
 
 
