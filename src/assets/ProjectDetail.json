@@ -10,27 +10,48 @@
       "Backend": "https://github.com/soukaina203/recipe_Backend.git"
     },
     "aboutProject": {
-      "purpose": "To provide a rich collection of recipes for culinary enthusiasts of all levels.",
-      "problemSolved": "Simplifies recipe discovery and management for users by offering a user-friendly platform.",
+      "purpose": "Fournir une riche collection de recettes pour les passionnés de cuisine de tous niveaux.",
+      "problemSolved": "Simplifie la découverte et la gestion des recettes grâce à une plateforme conviviale.",
       "keyBenefits": [
-        "Access to a wide range of recipes for all occasions.",
-        "User-friendly interface for exploring and saving favorite dishes.",
-        "Inspires creativity in the kitchen with curated collections."
+        "Accès à une large gamme de recettes pour toutes les occasions.",
+        "Interface conviviale pour explorer et enregistrer ses plats préférés.",
+        "Inspire la créativité en cuisine grâce à des collections sélectionnées."
       ]
     },
     "charteGraphique": {
       "colorPalette": [
-        { "name": "Primary", "hex": "#3A7908" },
-        { "name": "Accent", "hex": "#CDA903" },
-        { "name": "Background", "hex": "#FEFDFB" },
-        { "name": "Text", "hex": "#000000" }
+        {
+          "name": "Primary",
+          "hex": "#3A7908"
+        },
+        {
+          "name": "Accent",
+          "hex": "#CDA903"
+        },
+        {
+          "name": "Background",
+          "hex": "#FEFDFB"
+        },
+        {
+          "name": "Text",
+          "hex": "#000000"
+        }
       ],
       "typography": [
-        { "type": "Heading", "example": "Poppins Bold" },
-        { "type": "Body", "example": "Roboto Regular" }
+        {
+          "type": "Heading",
+          "example": "Poppins Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
       ],
       "icons": [
-        { "name": "Recipe", "file": "/assets/projects/dishLogo 1.png" }
+        {
+          "name": "Recipe",
+          "file": "/assets/projects/dishLogo 1.png"
+        }
       ]
     },
     "technologiesUsed": [
@@ -148,26 +169,44 @@
       "Backend": "https://github.com/soukaina203/renting_back.git"
     },
     "aboutProject": {
-      "purpose": "To provide a seamless car rental experience for users.",
-      "problemSolved": "Simplifies car rental discovery and management for users by offering a user-friendly platform.",
+      "purpose": "Offrir une expérience de location de voiture fluide pour les utilisateurs.",
+      "problemSolved": "Simplifie la recherche et la gestion de la location de voitures grâce à une plateforme conviviale.",
       "keyBenefits": [
-        "Access to a wide range of cars for all occasions.",
-        "User-friendly interface for exploring and renting cars.",
-        "Inspires confidence with curated collections and reviews."
+        "Accès à un large choix de voitures pour toutes les occasions.",
+        "Interface conviviale pour explorer et louer des voitures.",
+        "Inspire confiance grâce à des sélections et des avis soigneusement organisés."
       ]
     },
     "charteGraphique": {
       "colorPalette": [
-        { "name": "Primary", "hex": "#E4003B" },
-        { "name": "Accent", "hex": "#000000" },
-        { "name": "Background", "hex": "#FEFDFB" }
+        {
+          "name": "Primary",
+          "hex": "#E4003B"
+        },
+        {
+          "name": "Accent",
+          "hex": "#000000"
+        },
+        {
+          "name": "Background",
+          "hex": "#FEFDFB"
+        }
       ],
       "typography": [
-        { "type": "Heading", "example": "Poppins Bold" },
-        { "type": "Body", "example": "Roboto Regular" }
+        {
+          "type": "Heading",
+          "example": "Poppins Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
       ],
       "icons": [
-        { "name": "Car", "file": "/assets/projects/rentalLogo.png" }
+        {
+          "name": "Car",
+          "file": "/assets/projects/rentalIcon.png"
+        }
       ]
     },
     "technologiesUsed": [
@@ -223,7 +262,7 @@
             "description": "Un bouton visible permettant de se déconnecter en un clic, garantissant une expérience sécurisée."
           }
         ],
-        "video":"https://www.linkedin.com/posts/soukaina-mourabit-253a33240_user-dashboard-our-rental-apps-user-dashboard-activity-7208874889661796352-Yhr3?utm_source=share&utm_medium=member_desktop"
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_user-dashboard-our-rental-apps-user-dashboard-activity-7208874889661796352-Yhr3?utm_source=share&utm_medium=member_desktop"
       },
       {
         "title": "User Dashboard",
@@ -245,8 +284,7 @@
             "description": "- Upload des images\n- Changer les données personnels"
           }
         ],
-        "video":"https://www.linkedin.com/posts/soukaina-mourabit-253a33240_user-dashboard-make-a-review-interface-our-activity-7208877905689411584-q_kC?utm_source=share&utm_medium=member_desktop"
-
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_user-dashboard-make-a-review-interface-our-activity-7208877905689411584-q_kC?utm_source=share&utm_medium=member_desktop"
       },
       {
         "title": "Admin Dashboard",
@@ -272,8 +310,7 @@
             "description": "- Gestion du profil administrateur"
           }
         ],
-        "video":"https://www.linkedin.com/posts/soukaina-mourabit-253a33240_the-admin-dashboard-of-our-rental-app-is-activity-7208888653702414337-vKqr?utm_source=share&utm_medium=member_desktop"
-
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_the-admin-dashboard-of-our-rental-app-is-activity-7208888653702414337-vKqr?utm_source=share&utm_medium=member_desktop"
       }
     ],
     "gallery": [
@@ -285,49 +322,75 @@
       "text": "Ready to work with me? Contact Me!",
       "contactLink": "mailto:contact@rentalapp.com"
     }
-  }
-
-,
-
+  },
   {
     "projectTitle": "Centre",
     "tagline": "Revolutionize educational management with cutting-edge functionality.",
-    "heroImage": "/assets/images/centre-hero.jpg",
+    "heroImage": "/assets/sections/centreLanding.png",
     "links": {
       "viewLiveProject": "https://example.com/centre-live",
-      "viewSourceCode": "https://github.com/example/centre-repo"
+      "viewSourceCode": "https://github.com/example/centre-repo",
+      "Frontend": "https://github.com/info-academie/Gestion_Centre_Front",
+      "Backend": "https://github.com/info-academie/Gestion_Centre_Back"
     },
     "aboutProject": {
-      "purpose": "To streamline the management of educational centers with a modern, secure, and efficient platform.",
-      "problemSolved": "Addresses inefficiencies in managing users, professors, clients, classes, resources, fees, and financials.",
+      "purpose": "Rationaliser la gestion des centres éducatifs avec une plateforme moderne, sécurisée et efficace.",
+      "problemSolved": "Résout les inefficacités liées à la gestion des utilisateurs, professeurs, clients, classes, ressources, frais et aspects financiers.",
       "keyBenefits": [
-        "Dynamic dashboards for seamless navigation.",
-        "Robust CRUD operations for efficient data management.",
-        "Enhanced transparency and efficiency in educational management."
+        "Tableaux de bord dynamiques pour une navigation fluide.",
+        "Opérations CRUD robustes pour une gestion efficace des données.",
+        "Transparence et efficacité accrues dans la gestion éducative."
       ]
     },
     "charteGraphique": {
       "colorPalette": [
-        { "name": "Primary", "hex": "#1976D2" },
-        { "name": "Accent", "hex": "#FFC107" },
-        { "name": "Background", "hex": "#F5F5F5" },
-        { "name": "Text", "hex": "#212121" }
+        {
+          "name": "Primary",
+          "hex": "#2E849D"
+        },
+        {
+          "name": "Background",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Text",
+          "hex": "#212121"
+        }
       ],
       "typography": [
-        { "type": "Heading", "example": "Open Sans Bold" },
-        { "type": "Body", "example": "Roboto Regular" }
+        {
+          "type": "Heading",
+          "example": "Open Sans Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
       ],
       "icons": [
-        { "name": "Users", "file": "/assets/icons/users-icon.svg" },
-        { "name": "Classes", "file": "/assets/icons/classes-icon.svg" },
-        { "name": "Fees", "file": "/assets/icons/fees-icon.svg" },
-        { "name": "Reports", "file": "/assets/icons/reports-icon.svg" }
+        {
+          "name": "Users",
+          "file": "/assets/icons/users-icon.svg"
+        },
+        {
+          "name": "Classes",
+          "file": "/assets/icons/classes-icon.svg"
+        },
+        {
+          "name": "Fees",
+          "file": "/assets/icons/fees-icon.svg"
+        },
+        {
+          "name": "Reports",
+          "file": "/assets/icons/reports-icon.svg"
+        }
       ]
     },
     "technologiesUsed": [
       "Angular",
-      ".Net",
-      "PostgreSQL",
+      "theme Fuse",
+      "NestJs",
+      "Mongodb",
       "TailwindCSS"
     ],
     "features": [
@@ -369,17 +432,18 @@
       }
     ],
     "gallery": [
-      "/assets/gallery/centre1.jpg",
-      "/assets/gallery/centre2.jpg",
-      "/assets/gallery/centre3.jpg",
-      "/assets/gallery/centre4.jpg"
+      "/assets/sections/centreLanding.png",
+      "/assets/sections/centrePresence.png",
+      "/assets/sections/profile.png",
+      "/assets/sections/centreClass2.png",
+      "/assets/sections/centreUsers.png",
+      "/assets/sections/centreClass.png"
     ],
     "callToAction": {
       "text": "Transform your educational center today. Contact us!",
       "contactLink": "mailto:contact@centreapp.com"
     }
   },
-
   {
     "projectTitle": "TF-SOL",
     "tagline": "Cohésion, Création, Conquête - C'est L'action de TF-SOL",
@@ -399,19 +463,46 @@
     },
     "charteGraphique": {
       "colorPalette": [
-        { "name": "Primary", "hex": "#0044CC" },
-        { "name": "Secondary", "hex": "#FFC107" },
-        { "name": "Background", "hex": "#F9FAFB" },
-        { "name": "Text", "hex": "#333333" }
+        {
+          "name": "Primary",
+          "hex": "#0044CC"
+        },
+        {
+          "name": "Secondary",
+          "hex": "#FFC107"
+        },
+        {
+          "name": "Background",
+          "hex": "#F9FAFB"
+        },
+        {
+          "name": "Text",
+          "hex": "#333333"
+        }
       ],
       "typography": [
-        { "type": "Heading", "example": "Poppins Bold" },
-        { "type": "Body", "example": "Roboto Regular" }
+        {
+          "type": "Heading",
+          "example": "Poppins Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
       ],
       "icons": [
-        { "name": "Mission", "file": "/assets/icons/mission-icon.svg" },
-        { "name": "Services", "file": "/assets/icons/services-icon.svg" },
-        { "name": "Team", "file": "/assets/icons/team-icon.svg" }
+        {
+          "name": "Mission",
+          "file": "/assets/icons/mission-icon.svg"
+        },
+        {
+          "name": "Services",
+          "file": "/assets/icons/services-icon.svg"
+        },
+        {
+          "name": "Team",
+          "file": "/assets/icons/team-icon.svg"
+        }
       ]
     },
     "technologiesUsed": [
@@ -448,9 +539,7 @@
       "text": "Discover TF-SOL’s mission and services. Visit us today!",
       "contactLink": "mailto:contact@tfsol.com"
     }
-  }
-
-  ,
+  },
   {
     "projectTitle": "ميراث النبوة",
     "tagline": "The Legacy of Prophecy: An E-learning platform",
@@ -470,19 +559,46 @@
     },
     "charteGraphique": {
       "colorPalette": [
-        { "name": "Primary", "hex": "#4A148C" },
-        { "name": "Accent", "hex": "#FFB300" },
-        { "name": "Background", "hex": "#F3E5F5" },
-        { "name": "Text", "hex": "#212121" }
+        {
+          "name": "Primary",
+          "hex": "#4A148C"
+        },
+        {
+          "name": "Accent",
+          "hex": "#FFB300"
+        },
+        {
+          "name": "Background",
+          "hex": "#F3E5F5"
+        },
+        {
+          "name": "Text",
+          "hex": "#212121"
+        }
       ],
       "typography": [
-        { "type": "Heading", "example": "Cairo Bold" },
-        { "type": "Body", "example": "Cairo Regular" }
+        {
+          "type": "Heading",
+          "example": "Cairo Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Cairo Regular"
+        }
       ],
       "icons": [
-        { "name": "Lessons", "file": "/assets/icons/lessons-icon.svg" },
-        { "name": "Assessments", "file": "/assets/icons/assessments-icon.svg" },
-        { "name": "Summaries", "file": "/assets/icons/summaries-icon.svg" }
+        {
+          "name": "Lessons",
+          "file": "/assets/icons/lessons-icon.svg"
+        },
+        {
+          "name": "Assessments",
+          "file": "/assets/icons/assessments-icon.svg"
+        },
+        {
+          "name": "Summaries",
+          "file": "/assets/icons/summaries-icon.svg"
+        }
       ]
     },
     "technologiesUsed": [
@@ -519,8 +635,7 @@
       "text": "Join ميراث النبوة today and explore the Legacy of Prophecy!",
       "contactLink": "mailto:contact@legacyofprophecy.com"
     }
-  }
-  ,
+  },
   {
     "projectTitle": "KRYPTO",
     "tagline": "Discover And Collect Rare NFTs",
@@ -540,19 +655,46 @@
     },
     "charteGraphique": {
       "colorPalette": [
-        { "name": "Primary", "hex": "#0D47A1" },
-        { "name": "Accent", "hex": "#FF6F00" },
-        { "name": "Background", "hex": "#F5F5F5" },
-        { "name": "Text", "hex": "#212121" }
+        {
+          "name": "Primary",
+          "hex": "#0D47A1"
+        },
+        {
+          "name": "Accent",
+          "hex": "#FF6F00"
+        },
+        {
+          "name": "Background",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Text",
+          "hex": "#212121"
+        }
       ],
       "typography": [
-        { "type": "Heading", "example": "Poppins Bold" },
-        { "type": "Body", "example": "Poppins Regular" }
+        {
+          "type": "Heading",
+          "example": "Poppins Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Poppins Regular"
+        }
       ],
       "icons": [
-        { "name": "NFTs", "file": "/assets/icons/nft-icon.svg" },
-        { "name": "Marketplace", "file": "/assets/icons/marketplace-icon.svg" },
-        { "name": "Wallet", "file": "/assets/icons/wallet-icon.svg" }
+        {
+          "name": "NFTs",
+          "file": "/assets/icons/nft-icon.svg"
+        },
+        {
+          "name": "Marketplace",
+          "file": "/assets/icons/marketplace-icon.svg"
+        },
+        {
+          "name": "Wallet",
+          "file": "/assets/icons/wallet-icon.svg"
+        }
       ]
     },
     "technologiesUsed": [
@@ -609,19 +751,46 @@
     },
     "charteGraphique": {
       "colorPalette": [
-        { "name": "Primary", "hex": "#1A237E" },
-        { "name": "Accent", "hex": "#FBC02D" },
-        { "name": "Background", "hex": "#FAFAFA" },
-        { "name": "Text", "hex": "#212121" }
+        {
+          "name": "Primary",
+          "hex": "#1A237E"
+        },
+        {
+          "name": "Accent",
+          "hex": "#FBC02D"
+        },
+        {
+          "name": "Background",
+          "hex": "#FAFAFA"
+        },
+        {
+          "name": "Text",
+          "hex": "#212121"
+        }
       ],
       "typography": [
-        { "type": "Heading", "example": "Lora Bold" },
-        { "type": "Body", "example": "Open Sans Regular" }
+        {
+          "type": "Heading",
+          "example": "Lora Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Open Sans Regular"
+        }
       ],
       "icons": [
-        { "name": "Mission", "file": "/assets/icons/mission-icon.svg" },
-        { "name": "Services", "file": "/assets/icons/services-icon.svg" },
-        { "name": "Contact", "file": "/assets/icons/contact-icon.svg" }
+        {
+          "name": "Mission",
+          "file": "/assets/icons/mission-icon.svg"
+        },
+        {
+          "name": "Services",
+          "file": "/assets/icons/services-icon.svg"
+        },
+        {
+          "name": "Contact",
+          "file": "/assets/icons/contact-icon.svg"
+        }
       ]
     },
     "technologiesUsed": [
@@ -658,8 +827,197 @@
       "text": "Discover how NexAudit redefines auditing for tomorrow. Contact us today!",
       "contactLink": "mailto:contact@nexaudit.com"
     }
+  },
+  {
+    "projectTitle": "ReviseMate",
+    "tagline": "Révisez plus efficacement, sans effort inutile.",
+    "heroImage": "/assets/projects/ReviseMate.png",
+    "links": {
+      "viewLiveProject": "https://example.com/centre-live",
+      "viewSourceCode": "https://github.com/example/centre-repo",
+      "Frontend": "https://github.com/info-academie/Gestion_Centre_Front",
+      "Backend": "https://github.com/info-academie/Gestion_Centre_Back"
+    },
+    "aboutProject": {
+      "purpose": "Accompagner les étudiants dans leurs révisions à distance grâce à une plateforme intelligente de génération de fiches, cartes mémoire et quiz à partir de leurs cours.",
+      "problemSolved": "Résout les difficultés rencontrées par les apprenants en distanciel pour organiser, synthétiser et mémoriser leurs cours de manière efficace et personnalisée.",
+      "keyBenefits": [
+        "Import de cours (PDF ou texte) et génération automatique de fiches de révision synthétiques.",
+        "Création de cartes mémoire interactives et de quiz personnalisés pour renforcer la mémorisation.",
+        "Possibilité de modifier et personnaliser tous les contenus générés (fiches, quiz, cartes).",
+        "Création manuelle de supports de révision pour s’adapter aux préférences de chaque étudiant.",
+        "Fonctionnalités collaboratives : partage de fiches et espace de travail sécurisé.",
+        "Outils pour les enseignants : suivi de progression, analyse des difficultés, adaptation pédagogique."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        {
+          "name": "Primary",
+          "hex": "#5271FF"
+        },
+        {
+          "name": "Background",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Text",
+          "hex": "#212121"
+        }
+      ],
+      "typography": [
+        {
+          "type": "Heading",
+          "example": "Open Sans Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
+      ],
+      "icons": [
+        {
+          "name": "Users",
+          "file": "/assets/icons/users-icon.svg"
+        },
+        {
+          "name": "Classes",
+          "file": "/assets/icons/classes-icon.svg"
+        },
+        {
+          "name": "Fees",
+          "file": "/assets/icons/fees-icon.svg"
+        },
+        {
+          "name": "Reports",
+          "file": "/assets/icons/reports-icon.svg"
+        }
+      ]
+    },
+    "technologiesUsed": [
+      "Angular",
+      "NestJs",
+      "MongoDb",
+      "TailwindCSS",
+      "Fuse"
+    ],
+    "features": [
+      {
+        "title": "Page d'accueil",
+        "items": [
+          {
+            "title": "Section Héro",
+            "description": "Une bannière dynamique avec une illustration pédagogique en arrière-plan, mettant en avant le slogan de ReviseMate. Elle invite les utilisateurs à explorer une nouvelle manière de réviser grâce à l’intelligence artificielle."
+          },
+          {
+            "title": "À propos",
+            "description": "Une brève présentation de ReviseMate expliquant sa mission : aider les étudiants à organiser et optimiser leurs révisions à distance à travers des outils générés automatiquement."
+          },
+          {
+            "title": "Fonctionnalités clés",
+            "description": "Un aperçu visuel et interactif des principales fonctionnalités : génération de fiches, cartes mémoire, quiz, personnalisation et partage."
+          },
+          {
+            "title": "Appel à l'action (CTA)",
+            "description": "Un bouton clair et attrayant incitant les utilisateurs à se connecter ou à créer un compte pour commencer à générer leurs propres supports de révision."
+          },
+          {
+            "title": "Témoignages",
+            "description": "Des retours d’étudiants et d’enseignants qui utilisent ReviseMate, mettant en avant son utilité et son impact dans leur apprentissage."
+          },
+          {
+            "title": "Pied de page",
+            "description": "Informations légales, politique de confidentialité, contact, et liens vers les réseaux sociaux ou partenaires éducatifs."
+          }
+        ]
+      },
+      {
+        "title": "Interfaces d'authentification",
+        "items": [
+          {
+            "title": "Connexion",
+            "description": "Une interface simple et sécurisée permettant aux utilisateurs d'accéder à leur espace personnel et à leurs ressources enregistrées."
+          },
+          {
+            "title": "Inscription",
+            "description": "Un formulaire clair et rapide à remplir pour permettre aux nouveaux utilisateurs de rejoindre la plateforme et commencer à découvrir les différents services du site."
+          },
+          {
+            "title": "Déconnexion",
+            "description": "Un bouton accessible permettant de se déconnecter en toute sécurité à tout moment."
+          }
+        ]
+      },
+      {
+        "title": "Tableau de bord utilisateur",
+        "items": [
+          {
+            "title": "Accueil",
+            "description": "- Accès aux outils de création automatique ou manuelle : fiches, cartes mémoire et quiz.\n- Navigation fluide entre les différentes ressources et fonctions."
+          },
+          {
+            "title": "Génération par IA",
+            "description": "- Génération des fiches de révision.\n- Génération des cartes mémoire.\n- Génération de quiz."
+          },
+          {
+            "title": "Gestion manuelle",
+            "description": "- Création et modification des fiches de révision, cartes mémoire et quiz."
+          },
+          {
+            "title": "Fonctionnalités pour l'étudiant",
+            "description": "- Passer des quiz.\n- Réviser à l'aide des cartes mémoire avec un minuteur et des fiches de révision.\n- Créer vos propres documents si vous préférez ne pas utiliser l'IA."
+          },
+          {
+            "title": "Profil",
+            "description": "- Mise à jour des informations personnelles.\n- Visualisation de l’historique d’utilisation, des fiches créées et des statistiques de révision."
+          },
+          {
+            "title": "Mes ressources",
+            "description": "Un espace dédié pour retrouver toutes les fiches, cartes et quiz créés, modifiés ou partagés. Possibilité de les classer, filtrer ou exporter."
+          }
+        ]
+      },
+      {
+        "title": "Tableau de bord administrateur",
+        "items": [
+          {
+            "title": "Profil",
+            "description": "- Gestion du compte administrateur.\n- Mise à jour des informations et mot de passe avec sécurisation."
+          },
+          {
+            "title": "Suivi pédagogique",
+            "description": "- Vue d’ensemble de l’utilisation de la plateforme par les étudiants ainsi que leurs activités, comme les scores aux quiz et les fiches générées pour les professeurs."
+          },
+          {
+            "title": "Administrateur",
+            "description": "- Gestion des utilisateurs selon leurs profils."
+          }
+        ]
+      },
+      {
+        "title": "Tableau de bord Prof",
+        "items": [
+          {
+            "title": "Suivi pédagogique",
+            "description": "- Vue d’ensemble de l’utilisation de la plateforme par les étudiants ainsi que leurs activités, comme les scores aux quiz et les fiches générées pour les professeurs."
+          }
+        ]
+      }
+    ],
+    "gallery": [
+      "/assets/sections/1.png",
+      "/assets/sections/2.png",
+      "/assets/sections/3.png",
+      "/assets/sections/4.png",
+      "/assets/sections/5.png",
+      "/assets/sections/6.png",
+      "/assets/sections/7.png",
+      "/assets/sections/8.png",
+      "/assets/sections/9.png"
+    ],
+    "callToAction": {
+      "text": "Transform your educational center today. Contact us!",
+      "contactLink": "mailto:contact@centreapp.com"
+    }
   }
-
-
-
 ]

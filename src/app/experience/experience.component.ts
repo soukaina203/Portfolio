@@ -14,5 +14,7 @@ export class ExperienceComponent {
   {time:"date1",title:"exp1",desc:"dec1"},
   {time:"date2",title:"exp2",desc:"dec2"},
   {time:"date3",title:"exp3",desc:"dec3"},
+  {time:"date4",title:"exp3",desc:"dec3"},
+  {time:"date3",title:"exp3",desc:"dec3"},
 ]
 }

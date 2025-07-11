@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink, RouterModule } from '@angular/router';
 import projectData from "../../assets/ProjectDetail.json"
 
 @Component({
   selector: 'app-details',
   standalone: true,
-  imports: [CommonModule , RouterLink],
+  imports: [CommonModule ,RouterModule, RouterLink],
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.css'] // Corrected from `styleUrl` to `styleUrls`
 })

@@ -13,6 +13,7 @@ import { RouterLink, RouterModule } from '@angular/router';
     TranslateModule,
     CommonModule,
     RouterModule,
+    RouterLink
 
   ],
   templateUrl: './projects.component.html',
@@ -29,7 +30,7 @@ export class ProjectsComponent {
         logo: this.sanitizer.bypassSecurityTrustHtml('<img src="assets/projects/dishLogo 1.png" class="w-15 h-15 ml-[-30px] " />'),
         details: ['dish1', 'dish2'],
         imageUrl: 'assets/projects/dish.png',
-        link:'Dish',
+        link: 'Dish',
         buttonColor: "relative overflow-hidden border-[#C0A543]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]  text-[#C0A543] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#C0A543] before:duration-300 hover:text-white hover:shadow-[#C0A543] hover:before:h-64 hover:before:-translate-y-32 "
       },
 
@@ -39,8 +40,19 @@ export class ProjectsComponent {
         logo: this.sanitizer.bypassSecurityTrustHtml('<span class="block mb-4 text-lg font-semibold w-fit text-primary"><h1 class="uppercase p-4 font-bold text-white bg-[#E60035]">BestCar</h1></span>'),
         details: ['bestCar1', 'bestCar2'],
         imageUrl: 'assets/projects/rental.png',
-        link:"Rental",
+        link: "Rental",
         buttonColor: "relative overflow-hidden border-[#E60035]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]  text-[#E60035] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#E60035] before:duration-300 hover:text-white hover:shadow-[#E60035] hover:before:h-64 hover:before:-translate-y-32"
+      },
+
+      {
+        title: 'ReviseMate',
+        description: 'eight',
+        logo: this.sanitizer.bypassSecurityTrustHtml('<img src="assets/icons/logo.png" class="w-15 h-15 ml-[-30px] p-5" />'),
+        details: ['reviseMate1', 'reviseMate2'],
+        imageUrl: 'assets/projects/ReviseMate.png',
+        link: 'ReviseMate',
+        backgroundClass: 'black',
+        buttonColor: 'relative overflow-hidden border-[#5271FF] hover:cursor-pointer px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#5271FF] transition-all border shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#5271FF] before:duration-300 hover:text-white hover:shadow-[#5271FF] hover:before:h-64 hover:before:-translate-y-32'
       },
       {
         title: 'Centre',
@@ -48,7 +60,7 @@ export class ProjectsComponent {
         logo: this.sanitizer.bypassSecurityTrustHtml('  <span class="block mb-4 text-lg font-semibold w-fit text-primary"><h1  class="flex items-center justify-center gap-2 text-2xl font-bold text-black cursor-pointer md:ml-0 flew-row"> <img src="assets/projects/logo.png" alt="" class="w-10 h-15 "> Info Academie</h1> </span>'),
         details: ['academie1', 'academie2'],
         imageUrl: 'assets/projects/centre.png',
-        link:'Centre',
+        link: 'Centre',
         buttonColor: 'relative overflow-hidden border-[#35859D]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#35859D] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#35859D] before:duration-300 hover:text-white hover:shadow-[#35859D] hover:before:h-64 hover:before:-translate-y-32'
       },
       {
