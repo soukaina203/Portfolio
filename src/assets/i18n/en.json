@@ -29,6 +29,8 @@
   "projects": "PROJECTS",
   "contact1": "CONTACTS",
   "pro": "Projects",
+  "info1": "InfoAcademie is a smart and scalable web platform designed to digitalize tutoring and language learning services. It centralizes educational tools, student monitoring, and the management of learning activities within a modern and intuitive interface.",
+  "info2": "Technologies used: Angular, TailwindCSS, .NET, PostgreSQL",
   "contact2": "Contact Me",
   "visitLinkdn": "Go To Linkdn Profile",
   "bestCar1": "A robust rental web application built with React, Tailwind CSS, and Laravel. The frontend, crafted using React and styled with Tailwind CSS, ensures a responsive and dynamic user experience. The backend, powered by Laravel, provides a secure and efficient server-side framework for handling data and authentication. This combination offers a seamless and modern solution for rental management.",
@@ -56,6 +58,7 @@
   "five": "NexAudit - Redéfinir l'audit pour demain",
   "six": "The Legacy of Prophecy:An E-learning platform",
   "seven": "Discover And Collect Rare NFTs",
+  "nine": "InfoAcademie –  Platform for Tutoring and Language Learning",
   "eight": "ReviseMate – Artificial intelligence at the service of your revision.",
   "reviseMate1": "Discover ReviseMate, a smart and interactive platform designed to support students in their studies. It automatically transforms course materials into summary sheets, flashcards, and personalized quizzes — all within a modern and intuitive interface.",
   "reviseMate2": "Technologies used: Angular, NestJS, Tailwind CSS, Fuse theme, MongoDB"

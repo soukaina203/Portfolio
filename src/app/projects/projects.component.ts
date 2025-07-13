@@ -99,7 +99,17 @@ export class ProjectsComponent {
         link: 'nfts',
         backgroundClass: 'black',
         buttonColor: 'relative overflow-hidden border-black  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-black transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-black before:duration-300 hover:text-white hover:shadow-black hover:before:h-64 hover:before:-translate-y-32'
-      }
+      },
+           {
+        title: 'Info academie',
+        description: 'nine',
+        logo: this.sanitizer.bypassSecurityTrustHtml('  <span class="block mb-4 text-lg font-semibold w-fit text-primary"><h1  class="flex items-center justify-center gap-2 text-2xl font-bold text-black cursor-pointer md:ml-0 flew-row"> <img src="assets/projects/logo.png" alt="" class="w-10 h-15 "> Info Academie</h1> </span>'),
+        details: ['info1', 'info2'],
+        imageUrl: 'assets/projects/i1.png',
+        link: 'infoacademie',
+        backgroundClass: 'black',
+        buttonColor: 'relative overflow-hidden border-[#35859D]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#35859D] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#35859D] before:duration-300 hover:text-white hover:shadow-[#35859D] hover:before:h-64 hover:before:-translate-y-32'
+      },
     ];
   }
 }
