@@ -72,7 +72,7 @@
       <div class="space-y-2">
         <h3 class="text-xl font-semibold text-gray-900">Icons</h3>
         <div *ngFor="let icon of project?.charteGraphique.icons" class="flex items-center space-x-2">
-          <img [src]="icon.file" alt="{{ icon.name }} Icon" class="w-12 h-8" />
+          <img [src]="icon.file" alt="{{ icon.name }} Icon" class="h-8 w-11" />
           <span class="text-lg text-gray-700">{{ icon.name }}</span>
         </div>
       </div>
@@ -93,7 +93,7 @@
   <!-- Features -->
   <section class="mb-12">
     <h2 class="mb-6 text-3xl font-bold text-gray-900">Features</h2>
-    <div *ngFor="let feature of project.features" class="mb-8">
+    <div *ngFor="let feature of project?.features" class="mb-8">
       <h2 class="text-2xl font-bold text-[#3C5A62] mb-2">{{ feature.title }}</h2>
 
       <div *ngFor="let item of feature.items" class="mb-3">

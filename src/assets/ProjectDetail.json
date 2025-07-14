@@ -1023,101 +1023,214 @@
 
 
   {
-  "projectTitle": "infoacademie",
-  "tagline": "Apprends mieux, plus vite, à ton rythme.",
-  "heroImage": "/assets/projects/i1.png",
-  "links": {
-    "viewLiveProject": "https://info-academie.com",
-    "viewSourceCode": "https://github.com/info-academie",
-    "Frontend": "https://github.com/info-academie/Gestion_Centre_Front",
-    "Backend": "https://github.com/info-academie/Gestion_Centre_Back"
-  },
-  "aboutProject": {
-    "purpose": "Offrir aux apprenants une plateforme intelligente pour créer facilement des outils de révision adaptés à leurs besoins à partir de leurs propres supports de cours.",
-    "problemSolved": "Lutte contre le manque d’organisation, de motivation et de méthodes efficaces pour réviser à distance ou en autonomie.",
-    "keyBenefits": [
-      "Génération automatique de fiches de révision à partir de documents PDF ou texte.",
-      "Création assistée de cartes mémoire et quiz interactifs basés sur les cours de l’élève.",
-      "Modification manuelle des contenus générés pour mieux s’adapter aux besoins spécifiques.",
-      "Interface intuitive et adaptée aux élèves comme aux enseignants.",
-      "Outils collaboratifs pour le partage entre élèves ou le retour pédagogique des professeurs.",
-      "Suivi des progrès et analyses pour aider les professeurs à mieux cibler l’accompagnement."
-    ]
-  },
-  "charteGraphique": {
-    "colorPalette": [
+    "projectTitle": "infoacademie",
+    "tagline": "Apprends mieux, plus vite, à ton rythme.",
+    "heroImage": "/assets/projects/i1.png",
+    "links": {
+      "viewLiveProject": "https://info-academie.com",
+      "viewSourceCode": "https://github.com/info-academie",
+      "Frontend": "https://github.com/info-academie/Gestion_Centre_Front",
+      "Backend": "https://github.com/info-academie/Gestion_Centre_Back"
+    },
+    "aboutProject": {
+      "purpose": "Digitaliser les services de soutien scolaire d'Info Académie via une plateforme web moderne et sécurisée.",
+      "problemSolved": "Centralisation et modernisation des services pédagogiques d’un centre de formation traditionnel, afin de mieux répondre aux attentes des apprenants et de rester compétitif localement et à l’international.",
+      "keyBenefits": [
+        "Inscription des enseignants (avec dépôt de CV) et des étudiants avec vérification par email.",
+        "Connexion sécurisée avec système JWT (access token + refresh token en cookie HttpOnly).",
+        "Réinitialisation du mot de passe par email.",
+        "Gestion des utilisateurs (admin, enseignants, étudiants) avec espaces personnels adaptés.",
+        "Planification de classes virtuelles par les enseignants.",
+        "Messagerie interne intégrée.",
+        "Multilinguisme (arabe/français) pris en charge.",
+        "Page d’accueil dynamique présentant l’organisme et ses services.",
+        "Documentation interactive de l’API générée avec Swagger.",
+        "Travail structuré avec validation itérative via des réunions régulières."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        {
+          "name": "Primary",
+          "hex": "#2E849D"
+        },
+        {
+          "name": "Background",
+          "hex": "#F9FAFB"
+        },
+        {
+          "name": "Text",
+          "hex": "#1F2937"
+        }
+      ],
+      "typography": [
+        {
+          "type": "Heading",
+          "example": "Poppins Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
+      ],
+      "icons": [
+        {
+          "name": "info academie",
+          "file": "/assets/projects/logo.png"
+        }
+      ]
+    },
+    "technologiesUsed": [
+      "Angular",
+      "Tailwind CSS",
+      "Fuse",
+      ".NET Web API",
+      "PostgreSQL",
+      "Swagger",
+      "Gmail SMTP",
+      "GitHub",
+      "SignalR"
+    ],
+    "features": [
       {
-        "name": "Primary",
-        "hex": "#2E849D"
+        "title": "Page d'accueil",
+        "items": [
+          {
+            "title": "Présentation de l’organisme",
+            "description": "Une section claire mettant en avant Info Académie, ses services de soutien scolaire, de formation professionnelle et de développement personnel."
+          },
+          {
+            "title": "Navigation simple",
+            "description": "Accès rapide aux pages de connexion, d’inscription, aux services offerts et à la documentation."
+          },
+          {
+            "title": "Design responsive",
+            "description": "Interface moderne, épurée et adaptée à tous les écrans grâce à l’utilisation de Tailwind CSS et du thème Fuse."
+          }
+        ]
       },
       {
-        "name": "Secondary",
-        "hex": "#5271FF"
+        "title": "Interfaces d'authentification",
+        "items": [
+          {
+            "title": "Connexion sécurisée",
+            "description": "Connexion via JWT avec access token stocké côté Angular et refresh token sécurisé en cookie HttpOnly."
+          },
+          {
+            "title": "Inscription des enseignants et étudiants",
+            "description": "Formulaire intuitif avec vérification email ; les enseignants peuvent également déposer leur CV."
+          },
+          {
+            "title": "Réinitialisation du mot de passe",
+            "description": "Envoi d’un lien sécurisé par email via le service SMTP de Gmail pour réinitialiser le mot de passe."
+          }
+        ]
       },
       {
-        "name": "Background",
-        "hex": "#F9FAFB"
+        "title": "Tableau de bord administrateur",
+        "items": [
+          {
+            "title": "Gestion des utilisateurs",
+            "description": "Création, lecture, modification et suppression des comptes ; filtres et recherche rapide intégrés."
+          },
+          {
+            "title": "Gestion des classes virtuelles",
+            "description": "Suivi et organisation des classes planifiées par les enseignants."
+          },
+          {
+            "title": "Profil",
+            "description": "Mise à jour des informations personnelles et mot de passe avec sécurisation par hashage."
+          }
+        ]
       },
       {
-        "name": "Text",
-        "hex": "#1F2937"
+        "title": "Espace professeur",
+        "items": [
+          {
+            "title": "Planification des classes virtuelles",
+            "description": "Création de sessions de classe, avec description, niveau ciblé et visualisation de l’ensemble des classes planifiées."
+          },
+          {
+            "title": "Consultation des autres classes",
+            "description": "Permet aux enseignants de consulter les classes créées par leurs collègues pour mieux coordonner l’offre."
+          },
+          {
+            "title": "Dashboard (à enrichir)",
+            "description": "Zone dédiée aux statistiques de progression des étudiants (fonctionnalité à venir)."
+          }
+        ]
+      },
+      {
+        "title": "Espace étudiant",
+        "items": [
+          {
+            "title": "Accès aux classes virtuelles",
+            "description": "Consultation des classes créées par tous les enseignants, avec détails et filtres selon les niveaux ou matières."
+          },
+          {
+            "title": "Profil personnel",
+            "description": "Mise à jour des données personnelles et accès à un futur tableau de bord de progression."
+          }
+        ]
+      },
+      {
+        "title": "Fonctionnalités transversales",
+        "items": [
+          {
+            "title": "Messagerie interne",
+            "description": "Permet aux utilisateurs d’échanger au sein de la plateforme selon leur rôle (admin, prof, étudiant)."
+          },
+          {
+            "title": "Multilinguisme",
+            "description": "Interface disponible en français et arabe, adaptée à un public local et international."
+          },
+          {
+            "title": "Documentation Swagger",
+            "description": "Documentation technique interactive de l’API permettant de tester toutes les routes facilement."
+          }
+        ]
+      },
+      {
+        "title": "Messagerie en temps réel",
+        "items": [
+          {
+            "title": "Système de chat entre utilisateurs",
+            "description": "Fonctionnalité de messagerie en temps réel permettant aux professeurs, étudiants et administrateurs de communiquer facilement entre eux, en one-to-one. Chaque utilisateur peut envoyer et recevoir des messages selon les règles de son rôle."
+          },
+          {
+            "title": "Interface de discussion intuitive",
+            "description": "Interface propre et fluide intégrée à l’espace personnel de chaque utilisateur, avec liste des conversations, historique des messages, indicateurs de lecture et timestamps."
+          },
+          {
+            "title": "Stockage sécurisé des messages",
+            "description": "Les messages sont stockés dans la base de données PostgreSQL, liés aux utilisateurs via des relations sécurisées."
+          },
+          {
+            "title": "Notifications",
+            "description": "Alerte visuelle ou sonore à la réception d’un nouveau message, sans rechargement de la page, grâce à une architecture temps réel via WebSocket ou SignalR."
+          }
+        ]
       }
     ],
-    "typography": [
-      {
-        "type": "Heading",
-        "example": "Poppins Bold"
-      },
-      {
-        "type": "Body",
-        "example": "Roboto Regular"
-      }
+    "gallery": [
+      "/assets/sections/i1.png",
+      "/assets/sections/i2.png",
+      "/assets/sections/i3.png",
+      "/assets/sections/i4.png",
+      "/assets/sections/i5.png",
+      "/assets/sections/i6.png",
+      "/assets/sections/i7.png",
+      "/assets/sections/i8.png",
+      "/assets/sections/i9.png",
+      "/assets/sections/i10.png",
+      "/assets/sections/i11.png",
+      "/assets/sections/i12.png"
     ],
-    "icons": [
-      {
-        "name": "Fiches",
-        "file": "/assets/icons/fiches-icon.svg"
-      },
-      {
-        "name": "Quiz",
-        "file": "/assets/icons/quiz-icon.svg"
-      },
-      {
-        "name": "Cartes mémoire",
-        "file": "/assets/icons/flashcards-icon.svg"
-      },
-      {
-        "name": "Suivi",
-        "file": "/assets/icons/tracking-icon.svg"
-      }
-    ]
-  },
-  "technologiesUsed": [
-    "Angular",
-    "NestJS",
-    "MongoDB",
-    "TailwindCSS",
-    "Fuse Theme"
-  ],
-  "features": [],
-  "gallery": [
-    "/assets/sections/i1.png",
-    "/assets/sections/i2.png",
-    "/assets/sections/i3.png",
-    "/assets/sections/i4.png",
-    "/assets/sections/i5.png",
-    "/assets/sections/i6.png",
-    "/assets/sections/i7.png",
-    "/assets/sections/i8.png",
-    "/assets/sections/i9.png",
-    "/assets/sections/i10.png",
-    "/assets/sections/i11.png",
-    "/assets/sections/i12.png"
-  ],
-  "callToAction": {
-    "text": "Rejoignez ReviseMate et révolutionnez votre manière d’apprendre.",
-    "contactLink": "mailto:contact@info-academie.com"
+    "callToAction": {
+      "text": "Rejoignez Info Académie et découvrez une nouvelle manière d’apprendre, moderne et adaptée à vos besoins.",
+      "contactLink": "mailto:contact@info-academie.com"
+    }
   }
-}
+
 
 ]
