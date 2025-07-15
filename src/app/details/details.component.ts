@@ -18,6 +18,7 @@ export class DetailsComponent implements OnInit {
   route = inject(ActivatedRoute);
   website = this.route.snapshot.paramMap.get('website');
   ngOnInit(): void {
+    window.scrollTo(0, 0)
     this.project = projectData.find((project) => project.projectTitle === this.website);
     console.log(projectData);
   }
