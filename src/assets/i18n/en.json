@@ -61,5 +61,9 @@
   "nine": "InfoAcademie –  Platform for Tutoring and Language Learning",
   "eight": "ReviseMate – Artificial intelligence at the service of your revision.",
   "reviseMate1": "Discover ReviseMate, a smart and interactive platform designed to support students in their studies. It automatically transforms course materials into summary sheets, flashcards, and personalized quizzes — all within a modern and intuitive interface.",
-  "reviseMate2": "Technologies used: Angular, NestJS, Tailwind CSS, Fuse theme, MongoDB"
+  "reviseMate2": "Technologies used: Angular, NestJS, Tailwind CSS, Fuse theme, MongoDB",
+  "ten":"Nexsite – A Modern, Responsive Web Experience",
+  "nexsite" :"Explore Nexsite, a fully responsive website crafted to present services and mission with clarity and style. Developed using ReactJS and styled with Tailwind CSS, this project delivers a sleek user experience while showcasing a complete web development workflow."
+
+
 }

@@ -33,13 +33,9 @@
   "visitLinkdn": "Aller au profil Linkedin",
   "academie1": "Optimisez la gestion de votre centre éducatif grâce à une application centralisée. Gardez un contrôle total sur vos ressources, gérez les paiements en toute simplicité, et pilotez efficacement vos clients, leurs activités, leurs présences, leurs classes et leurs enseignants.",
   "academie2": "Technologies utilisées : Angular , TailwindCss , .Net , Postgres",
-
   "info1": "InfoAcademie est une plateforme web intelligente et évolutive, conçue pour digitaliser les services de soutien scolaire et d’apprentissage des langues. Elle centralise les outils pédagogiques, le suivi des élèves et la gestion des activités éducatives au sein d’un espace moderne et intuitif.",
-"info2": "Technologies utilisées : Angular, TailwindCSS, .NET, PostgreSQL"
-,
+  "info2": "Technologies utilisées : Angular, TailwindCSS, .NET, PostgreSQL",
   "nine": "InfoAcademie – Plateforme pour le soutien scolaire et les langues",
-
-
   "bestCar1": "Une application Web de location robuste construite avec React, Tailwind CSS et Laravel. Le frontend, conçu avec React et stylisé avec Tailwind CSS, garantit une expérience utilisateur réactive et dynamique. Le backend, alimenté par Laravel, offre une expérience utilisateur sécurisée. et un cadre côté serveur efficace pour la gestion des données et l'authentification. Cette combinaison offre une solution transparente et moderne pour la gestion des locations.",
   "bestCar2": "Technologies utilisées : ReactJS , TailwindCss , Laravel , Postgres",
   "tfsol1": "Découvrez la beauté transparente du site Web entièrement réactif de TF-SOL, méticuleusement conçu pour présenter ses services et sa mission. Construit avec la puissance du framework ReactJS et stylisé avec finesse à l'aide de Tailwind CSS.",
@@ -65,5 +61,8 @@
   "seven": "Découvrez et collectionnez des NFT rares",
   "eight": "ReviseMate  L’intelligence artificielle au service de vos révisions.",
   "reviseMate1": "Découvrez ReviseMate, une plateforme intelligente et interactive conçue pour accompagner les étudiants dans leurs révisions. Elle permet de transformer automatiquement des cours en fiches synthétiques, cartes mémoire et quiz personnalisés, le tout dans une interface moderne et intuitive.",
-  "reviseMate2": "Technologies utilisées : Angular, NestJS, Tailwind CSS, Fuse theme, MongoDB"
+  "reviseMate2": "Technologies utilisées : Angular, NestJS, Tailwind CSS, Fuse theme, MongoDB",
+  "ten":"Nexsite – Une Expérience Web Moderne et Responsive",
+  "nexsite" :"Découvrez Nexsite, un site web entièrement responsive conçu pour présenter des services et une mission avec clarté et élégance. Développé avec ReactJS et stylisé avec Tailwind CSS, ce projet offre une expérience utilisateur fluide tout en illustrant un processus de développement web complet."
+
 }

@@ -22,7 +22,6 @@
 
                   </span>
 
-
                   <h2 class="mb-5 text-3xl font-bold text-dark sm:text-[31px]/[30px] uppercase font-Georgia">{{
                     project.description | translate}}</h2>
                   <p class="mb-5 text-base text-body-color dark:text-dark-6" *ngFor="let detail of project.details">
@@ -30,7 +29,7 @@
                   </p>
 
 
-                  <a *ngIf="project.static" [routerLink]="['/project', project.link]"
+                  <a *ngIf="project.static" [href]="project.link" target="_blank"
                   [class]="project.buttonColor"
                     class="inline-block">
                     <span class="relative z-10 font-bold">{{ 'visitButton' | translate }}</span>
