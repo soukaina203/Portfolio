@@ -3,6 +3,7 @@
     "projectTitle": "Dish",
     "tagline": "Your ultimate culinary companion!",
     "heroImage": "/assets/sections/recipe.png",
+    "isCodePublic":true,
     "links": {
       "viewLiveProject": "https://example.com/dish-live",
       "viewSourceCode": "https://github.com/example/dish-repo",
@@ -66,11 +67,11 @@
         "items": [
           {
             "title": "Section Héro",
-            "description": "Une bannière captivante avec une image appétissante en arrière-plan, mettant en avant le slogan de votre plateforme. Cette section invite les utilisateurs à explorer un univers culinaire riche et varié."
+            "description": "Une bannière captivante avec une image appétissante en arrière-plan, mettant en avant le slogan du plateforme. Cette section invite les utilisateurs à explorer un univers culinaire riche et varié."
           },
           {
             "title": "À propos",
-            "description": "Une présentation concise de votre site, expliquant votre mission : devenir le compagnon culinaire incontournable pour les amateurs de cuisine, qu'ils soient novices ou experts."
+            "description": "Une présentation concise du site, expliquant la mission : devenir le compagnon culinaire incontournable pour les amateurs de cuisine, qu'ils soient novices ou experts."
           },
           {
             "title": "Meilleures recettes",
@@ -121,12 +122,13 @@
           },
           {
             "title": "Gestion des recettes",
-            "description": "- CRUD des recettes avec des outils intuitifs.\n- Recherche et gestion des commentaires et mentions \"J'aime\" associés à chaque recette."
+            "description": "- Création, modification et suppression de recettes via une interface intuitive.\n- Fonctionnalités de recherche, gestion des commentaires et des mentions \"J'aime\" associées à chaque recette."
           },
           {
             "title": "Gestion des catégories",
-            "description": "- CRUD des catégories de recettes.\n- Recherche rapide pour organiser efficacement les catégories."
+            "description": "- Ajout, modification et suppression des catégories de recettes.\n- Recherche rapide pour organiser efficacement les catégories."
           }
+
         ],
         "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_dish-web-application-admin-dashboard-overview-activity-7216110143724236801-p_Wn?utm_source=share&utm_medium=member_desktop"
       },
@@ -161,6 +163,8 @@
   },
   {
     "projectTitle": "Rental",
+    "isCodePublic":true,
+
     "tagline": "Your ultimate rental companion!",
     "heroImage": "/assets/sections/rental.png",
     "links": {
@@ -325,6 +329,8 @@
   },
   {
     "projectTitle": "Centre",
+    "isCodePublic":false,
+
     "tagline": "Revolutionize educational management with cutting-edge functionality.",
     "heroImage": "/assets/sections/centreLanding.png",
     "links": {
@@ -446,6 +452,7 @@
   },
   {
     "projectTitle": "TF-SOL",
+
     "tagline": "Cohésion, Création, Conquête - C'est L'action de TF-SOL",
     "heroImage": "/assets/images/tfsol-hero.jpg",
     "links": {
@@ -832,6 +839,8 @@
     "projectTitle": "ReviseMate",
     "tagline": "Révisez plus efficacement, sans effort inutile.",
     "heroImage": "/assets/projects/ReviseMate.png",
+    "isCodePublic":false,
+
     "links": {
       "viewLiveProject": "https://example.com/centre-live",
       "viewSourceCode": "https://github.com/example/centre-repo",
@@ -1026,6 +1035,8 @@
     "projectTitle": "infoacademie",
     "tagline": "Apprends mieux, plus vite, à ton rythme.",
     "heroImage": "/assets/projects/i1.png",
+    "isCodePublic":false,
+
     "links": {
       "viewLiveProject": "https://info-academie.com",
       "viewSourceCode": "https://github.com/info-academie",
