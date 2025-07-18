@@ -1,6 +1,7 @@
 [
   {
     "projectTitle": "Dish",
+    "year" : 2024,
     "tagline": "Your ultimate culinary companion!",
     "heroImage": "/assets/sections/recipe.png",
     "isCodePublic":true,
@@ -163,10 +164,12 @@
   },
   {
     "projectTitle": "Rental",
+    "year" : 2023,
+
     "isCodePublic":true,
 
     "tagline": "Your ultimate rental companion!",
-    "heroImage": "/assets/sections/rental.png",
+    "heroImage": "/assets/sections/car1.png",
     "links": {
       "viewSourceCode": "https://github.com/example/rental-repo",
       "Frontend": "https://github.com/soukaina203/renting_frontEnd.git",
@@ -318,9 +321,15 @@
       }
     ],
     "gallery": [
-      "/assets/sections/rental.png",
-      "/assets/sections/adminDash.png",
-      "/assets/sections/CarUser.png"
+      "/assets/sections/car1.png",
+      "/assets/sections/car2.png",
+      "/assets/sections/car3.png",
+      "/assets/sections/car4.png",
+      "/assets/sections/car5.png",
+      "/assets/sections/car6.png",
+      "/assets/sections/car7.png",
+      "/assets/sections/CarUser.png",
+      "/assets/sections/adminDash.png"
     ],
     "callToAction": {
       "text": "Ready to work with me? Contact Me!",
@@ -329,6 +338,8 @@
   },
   {
     "projectTitle": "Centre",
+    "year" : 2024,
+
     "isCodePublic":false,
 
     "tagline": "Revolutionize educational management with cutting-edge functionality.",
@@ -452,7 +463,7 @@
   },
   {
     "projectTitle": "TF-SOL",
-
+    "year" : 2023,
     "tagline": "Cohésion, Création, Conquête - C'est L'action de TF-SOL",
     "heroImage": "/assets/images/tfsol-hero.jpg",
     "links": {
@@ -645,6 +656,8 @@
   },
   {
     "projectTitle": "KRYPTO",
+    "year" : 2024,
+
     "tagline": "Discover And Collect Rare NFTs",
     "heroImage": "/assets/images/krypto-hero.jpg",
     "links": {
@@ -741,6 +754,8 @@
   },
   {
     "projectTitle": "NexAudit",
+    "year" : 2024,
+
     "tagline": "NexAudit - Redéfinir l'audit pour demain",
     "heroImage": "/assets/images/nexaudit-hero.jpg",
     "links": {
@@ -837,8 +852,12 @@
   },
   {
     "projectTitle": "ReviseMate",
+    "year" : 2025,
+
     "tagline": "Révisez plus efficacement, sans effort inutile.",
-    "heroImage": "/assets/projects/ReviseMate.png",
+    "heroImage": "/assets/sections/re2.png"
+    ,
+
     "isCodePublic":false,
 
     "links": {
@@ -855,8 +874,7 @@
         "Création de cartes mémoire interactives et de quiz personnalisés pour renforcer la mémorisation.",
         "Possibilité de modifier et personnaliser tous les contenus générés (fiches, quiz, cartes).",
         "Création manuelle de supports de révision pour s’adapter aux préférences de chaque étudiant.",
-        "Fonctionnalités collaboratives : partage de fiches et espace de travail sécurisé.",
-        "Outils pour les enseignants : suivi de progression, analyse des difficultés, adaptation pédagogique."
+        "Outils pour les enseignants : suivi de progression, analyse des difficultés."
       ]
     },
     "charteGraphique": {
@@ -886,21 +904,10 @@
       ],
       "icons": [
         {
-          "name": "Users",
-          "file": "/assets/icons/users-icon.svg"
-        },
-        {
-          "name": "Classes",
-          "file": "/assets/icons/classes-icon.svg"
-        },
-        {
-          "name": "Fees",
-          "file": "/assets/icons/fees-icon.svg"
-        },
-        {
-          "name": "Reports",
-          "file": "/assets/icons/reports-icon.svg"
+          "name": "ReviseMate",
+          "file": "/assets/icons/logo.png"
         }
+
       ]
     },
     "technologiesUsed": [
@@ -908,7 +915,8 @@
       "NestJs",
       "MongoDb",
       "TailwindCSS",
-      "Fuse"
+      "Fuse",
+      "MistralAi"
     ],
     "features": [
       {
@@ -978,11 +986,11 @@
           },
           {
             "title": "Profil",
-            "description": "- Mise à jour des informations personnelles.\n- Visualisation de l’historique d’utilisation, des fiches créées et des statistiques de révision."
+            "description": "- Mise à jour des informations personnelles."
           },
           {
             "title": "Mes ressources",
-            "description": "Un espace dédié pour retrouver toutes les fiches, cartes et quiz créés, modifiés ou partagés. Possibilité de les classer, filtrer ou exporter."
+            "description": "- Un espace dédié pour retrouver toutes les fiches, cartes et quiz créés, modifiés ou partagés."
           }
         ]
       },
@@ -995,7 +1003,7 @@
           },
           {
             "title": "Suivi pédagogique",
-            "description": "- Vue d’ensemble de l’utilisation de la plateforme par les étudiants ainsi que leurs activités, comme les scores aux quiz et les fiches générées pour les professeurs."
+            "description": "- Vue d’ensemble de l’utilisation de la plateforme par les étudiants ainsi que leurs activités, comme les scores aux quiz et les fiches générées."
           },
           {
             "title": "Administrateur",
@@ -1014,15 +1022,18 @@
       }
     ],
     "gallery": [
-      "/assets/sections/1.png",
+      "/assets/sections/re2.png",
+      "/assets/sections/re1.png",
+      "/assets/sections/re4.png",
+      "/assets/sections/re5.png",
       "/assets/sections/2.png",
-      "/assets/sections/3.png",
       "/assets/sections/4.png",
       "/assets/sections/5.png",
       "/assets/sections/6.png",
       "/assets/sections/7.png",
       "/assets/sections/8.png",
       "/assets/sections/9.png"
+
     ],
     "callToAction": {
       "text": "Transform your educational center today. Contact us!",
@@ -1033,6 +1044,8 @@
 
   {
     "projectTitle": "infoacademie",
+    "year" : 2025,
+
     "tagline": "Apprends mieux, plus vite, à ton rythme.",
     "heroImage": "/assets/projects/i1.png",
     "isCodePublic":false,
@@ -1048,15 +1061,14 @@
       "problemSolved": "Centralisation et modernisation des services pédagogiques d’un centre de formation traditionnel, afin de mieux répondre aux attentes des apprenants et de rester compétitif localement et à l’international.",
       "keyBenefits": [
         "Inscription des enseignants (avec dépôt de CV) et des étudiants avec vérification par email.",
-        "Connexion sécurisée avec système JWT (access token + refresh token en cookie HttpOnly).",
+        "Connexion sécurisée avec système JWT (access token + refresh token).",
         "Réinitialisation du mot de passe par email.",
         "Gestion des utilisateurs (admin, enseignants, étudiants) avec espaces personnels adaptés.",
         "Planification de classes virtuelles par les enseignants.",
         "Messagerie interne intégrée.",
         "Multilinguisme (arabe/français) pris en charge.",
-        "Page d’accueil dynamique présentant l’organisme et ses services.",
-        "Documentation interactive de l’API générée avec Swagger.",
-        "Travail structuré avec validation itérative via des réunions régulières."
+        "Page d’accueil dynamique présentant l’organisme et ses services."
+
       ]
     },
     "charteGraphique": {
@@ -1194,10 +1206,6 @@
           {
             "title": "Multilinguisme",
             "description": "Interface disponible en français et arabe, adaptée à un public local et international."
-          },
-          {
-            "title": "Documentation Swagger",
-            "description": "Documentation technique interactive de l’API permettant de tester toutes les routes facilement."
           }
         ]
       },
@@ -1218,7 +1226,7 @@
           },
           {
             "title": "Notifications",
-            "description": "Alerte visuelle ou sonore à la réception d’un nouveau message, sans rechargement de la page, grâce à une architecture temps réel via WebSocket ou SignalR."
+            "description": "Alerte visuelle à la réception d’un nouveau message, sans rechargement de la page, grâce à une architecture temps réel via SignalR."
           }
         ]
       }

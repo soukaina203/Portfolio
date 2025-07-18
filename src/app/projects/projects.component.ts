@@ -20,7 +20,7 @@ import { RouterLink, RouterModule } from '@angular/router';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-  projects: { title: string; description: string; logo: SafeHtml; details: string[]; imageUrl: string; static: boolean, link: string; buttonColor: string; backgroundClass?: string }[];
+  projects: { title: string; description: string; logo: SafeHtml; color:string; details: string[]; imageUrl: string; static: boolean, link: string; buttonColor: string; backgroundClass?: string }[];
   ngOnInit() {
     window.scrollTo(0, 0)
   }
@@ -33,6 +33,7 @@ export class ProjectsComponent {
         details: ['dish1', 'dish2'],
         imageUrl: 'assets/projects/dish.png',
         static: false,
+        color:"#CDA903",
         link: 'Dish',
         buttonColor: "relative overflow-hidden border-[#C0A543]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]  text-[#C0A543] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#C0A543] before:duration-300 hover:text-white hover:shadow-[#C0A543] hover:before:h-64 hover:before:-translate-y-32 "
       },
@@ -43,6 +44,8 @@ export class ProjectsComponent {
         details: ['info1', 'info2'],
         imageUrl: 'assets/projects/i1.png',
         link: 'infoacademie',
+        color:"#2E849D",
+
         backgroundClass: 'black',
         static: false,
         buttonColor: 'relative overflow-hidden border-[#35859D]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#35859D] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#35859D] before:duration-300 hover:text-white hover:shadow-[#35859D] hover:before:h-64 hover:before:-translate-y-32'
@@ -55,6 +58,8 @@ export class ProjectsComponent {
         details: ['bestCar1', 'bestCar2'],
         imageUrl: 'assets/projects/rental.png',
         link: "Rental",
+        color:"#E4003B",
+
         static: false,
         buttonColor: "relative overflow-hidden border-[#E60035]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]  text-[#E60035] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#E60035] before:duration-300 hover:text-white hover:shadow-[#E60035] hover:before:h-64 hover:before:-translate-y-32"
       },
@@ -67,6 +72,9 @@ export class ProjectsComponent {
         imageUrl: 'assets/projects/ReviseMate.png',
         link: 'ReviseMate',
         static: false,
+        color:"#5271FF",
+
+
         backgroundClass: 'black',
         buttonColor: 'relative overflow-hidden border-[#5271FF] hover:cursor-pointer px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#5271FF] transition-all border shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#5271FF] before:duration-300 hover:text-white hover:shadow-[#5271FF] hover:before:h-64 hover:before:-translate-y-32'
       },
@@ -77,6 +85,8 @@ export class ProjectsComponent {
         details: ['academie1', 'academie2'],
         imageUrl: 'assets/projects/centre.png',
         link: 'Centre',
+        color:"#2E849D",
+
         static: false,
         buttonColor: 'relative overflow-hidden border-[#35859D]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#35859D] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#35859D] before:duration-300 hover:text-white hover:shadow-[#35859D] hover:before:h-64 hover:before:-translate-y-32'
       },
@@ -88,6 +98,8 @@ export class ProjectsComponent {
         imageUrl: 'assets/projects/team1.png',
         link: 'https://soukaina203.github.io/Team-Forge-Solutions/#/home',
         static: true,
+        color:"#A855F7",
+
         buttonColor: 'relative overflow-hidden border-purple-500  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-purple-500 transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-purple-500 before:duration-300 hover:text-white hover:shadow-purple-500 hover:before:h-64 hover:before:-translate-y-32'
       },
       {
@@ -98,6 +110,8 @@ export class ProjectsComponent {
         imageUrl: 'assets/projects/group1.png',
         link: 'https://soukaina203.github.io/GroupeNa/#/home',
         static: true,
+        color:"#3218BF",
+
         buttonColor: 'relative overflow-hidden border-[#3218BF]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#3218BF] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#3218BF] before:duration-300 hover:text-white hover:shadow-[#3218BF] hover:before:h-64 hover:before:-translate-y-32'
       },
       {
@@ -108,6 +122,8 @@ export class ProjectsComponent {
         imageUrl: 'assets/projects/binae.png',
         link: 'https://soukaina203.github.io/binae/',
         static: true,
+        color:"#7b6796",
+
         buttonColor: 'relative overflow-hidden border-[#7b6796]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#7b6796] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#7b6796] before:duration-300 hover:text-white hover:shadow-[#7b6796] hover:before:h-64 hover:before:-translate-y-32'
       },
       {
@@ -118,6 +134,8 @@ export class ProjectsComponent {
         imageUrl: 'assets/projects/nft1.png',
         link: 'https://soukaina203.github.io/NFTs/#/Home',
         static: true,
+        color:"#000000",
+
         backgroundClass: 'black',
         buttonColor: 'relative overflow-hidden border-black  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-black transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-black before:duration-300 hover:text-white hover:shadow-black hover:before:h-64 hover:before:-translate-y-32'
       },
@@ -129,6 +147,8 @@ export class ProjectsComponent {
         imageUrl: 'assets/projects/nexsite.png',
         link: 'https://soukaina203.github.io/NFTs/#/Home',
         static: true,
+        color:"#1F5461",
+
         backgroundClass: 'black',
         buttonColor: 'relative overflow-hidden border-[#1F5461] px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-black transition-all shadow-2xl hover:cursor-pointer hover:text-white hover:shadow-[#1F5461] before:absolute before:top-1/2 before:left-1/2 before:w-64 before:h-0 before:-translate-x-1/2 before:-translate-y-1/2 before:rotate-45 before:origin-center before:bg-[#1F5461] before:duration-300 before:ease hover:before:h-64 hover:before:-translate-y-32'
       },
