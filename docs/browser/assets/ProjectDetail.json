@@ -153,9 +153,9 @@
       }
     ],
     "gallery": [
-      "/assets/sections/recipe.png",
-      "/assets/sections/recipeAdmin.png",
-      "/assets/sections/recipeUser.png"
+      "assets/sections/recipe.png",
+      "assets/sections/recipeAdmin.png",
+      "assets/sections/recipeUser.png"
     ],
     "callToAction": {
       "text": "Ready to work with me? Contact Me!",
@@ -321,15 +321,15 @@
       }
     ],
     "gallery": [
-      "/assets/sections/car1.png",
-      "/assets/sections/car2.png",
-      "/assets/sections/car3.png",
-      "/assets/sections/car4.png",
-      "/assets/sections/car5.png",
-      "/assets/sections/car6.png",
-      "/assets/sections/car7.png",
-      "/assets/sections/CarUser.png",
-      "/assets/sections/adminDash.png"
+      "assets/sections/car1.png",
+      "assets/sections/car2.png",
+      "assets/sections/car3.png",
+      "assets/sections/car4.png",
+      "assets/sections/car5.png",
+      "assets/sections/car6.png",
+      "assets/sections/car7.png",
+      "assets/sections/CarUser.png",
+      "assets/sections/adminDash.png"
     ],
     "callToAction": {
       "text": "Ready to work with me? Contact Me!",
@@ -449,12 +449,12 @@
       }
     ],
     "gallery": [
-      "/assets/sections/centreLanding.png",
-      "/assets/sections/centrePresence.png",
-      "/assets/sections/profile.png",
-      "/assets/sections/centreClass2.png",
-      "/assets/sections/centreUsers.png",
-      "/assets/sections/centreClass.png"
+      "assets/sections/centreLanding.png",
+      "assets/sections/centrePresence.png",
+      "assets/sections/profile.png",
+      "assets/sections/centreClass2.png",
+      "assets/sections/centreUsers.png",
+      "assets/sections/centreClass.png"
     ],
     "callToAction": {
       "text": "Transform your educational center today. Contact us!",
@@ -548,10 +548,10 @@
       }
     ],
     "gallery": [
-      "/assets/gallery/tfsol1.jpg",
-      "/assets/gallery/tfsol2.jpg",
-      "/assets/gallery/tfsol3.jpg",
-      "/assets/gallery/tfsol4.jpg"
+      "assets/gallery/tfsol1.jpg",
+      "assets/gallery/tfsol2.jpg",
+      "assets/gallery/tfsol3.jpg",
+      "assets/gallery/tfsol4.jpg"
     ],
     "callToAction": {
       "text": "Discover TF-SOL’s mission and services. Visit us today!",
@@ -644,10 +644,10 @@
       }
     ],
     "gallery": [
-      "/assets/gallery/legacy1.jpg",
-      "/assets/gallery/legacy2.jpg",
-      "/assets/gallery/legacy3.jpg",
-      "/assets/gallery/legacy4.jpg"
+      "assets/gallery/legacy1.jpg",
+      "assets/gallery/legacy2.jpg",
+      "assets/gallery/legacy3.jpg",
+      "assets/gallery/legacy4.jpg"
     ],
     "callToAction": {
       "text": "Join ميراث النبوة today and explore the Legacy of Prophecy!",
@@ -742,10 +742,10 @@
       }
     ],
     "gallery": [
-      "/assets/gallery/krypto1.jpg",
-      "/assets/gallery/krypto2.jpg",
-      "/assets/gallery/krypto3.jpg",
-      "/assets/gallery/krypto4.jpg"
+      "assets/gallery/krypto1.jpg",
+      "assets/gallery/krypto2.jpg",
+      "assets/gallery/krypto3.jpg",
+      "assets/gallery/krypto4.jpg"
     ],
     "callToAction": {
       "text": "Start your NFT collection today with KRYPTO!",
@@ -1022,17 +1022,17 @@
       }
     ],
     "gallery": [
-      "/assets/sections/re2.png",
-      "/assets/sections/re1.png",
-      "/assets/sections/re4.png",
-      "/assets/sections/re5.png",
-      "/assets/sections/2.png",
-      "/assets/sections/4.png",
-      "/assets/sections/5.png",
-      "/assets/sections/6.png",
-      "/assets/sections/7.png",
-      "/assets/sections/8.png",
-      "/assets/sections/9.png"
+      "assets/sections/re2.png",
+      "assets/sections/re1.png",
+      "assets/sections/re4.png",
+      "assets/sections/re5.png",
+      "assets/sections/2.png",
+      "assets/sections/4.png",
+      "assets/sections/5.png",
+      "assets/sections/6.png",
+      "assets/sections/7.png",
+      "assets/sections/8.png",
+      "assets/sections/9.png"
 
     ],
     "callToAction": {
