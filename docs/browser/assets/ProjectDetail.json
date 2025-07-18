@@ -1,0 +1,1255 @@
+[
+  {
+    "projectTitle": "Dish",
+    "year" : 2024,
+    "tagline": "Your ultimate culinary companion!",
+    "heroImage": "/assets/sections/recipe.png",
+    "isCodePublic":true,
+    "links": {
+      "viewLiveProject": "https://example.com/dish-live",
+      "viewSourceCode": "https://github.com/example/dish-repo",
+      "Frontend": "https://github.com/soukaina203/recipe_Frontend.git",
+      "Backend": "https://github.com/soukaina203/recipe_Backend.git"
+    },
+    "aboutProject": {
+      "purpose": "Fournir une riche collection de recettes pour les passionnés de cuisine de tous niveaux.",
+      "problemSolved": "Simplifie la découverte et la gestion des recettes grâce à une plateforme conviviale.",
+      "keyBenefits": [
+        "Accès à une large gamme de recettes pour toutes les occasions.",
+        "Interface conviviale pour explorer et enregistrer ses plats préférés.",
+        "Inspire la créativité en cuisine grâce à des collections sélectionnées."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        {
+          "name": "Primary",
+          "hex": "#3A7908"
+        },
+        {
+          "name": "Accent",
+          "hex": "#CDA903"
+        },
+        {
+          "name": "Background",
+          "hex": "#FEFDFB"
+        },
+        {
+          "name": "Text",
+          "hex": "#000000"
+        }
+      ],
+      "typography": [
+        {
+          "type": "Heading",
+          "example": "Poppins Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
+      ],
+      "icons": [
+        {
+          "name": "Recipe",
+          "file": "/assets/projects/dishLogo 1.png"
+        }
+      ]
+    },
+    "technologiesUsed": [
+      "Angular",
+      ".Net",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "title": "Page d'accueil",
+        "items": [
+          {
+            "title": "Section Héro",
+            "description": "Une bannière captivante avec une image appétissante en arrière-plan, mettant en avant le slogan du plateforme. Cette section invite les utilisateurs à explorer un univers culinaire riche et varié."
+          },
+          {
+            "title": "À propos",
+            "description": "Une présentation concise du site, expliquant la mission : devenir le compagnon culinaire incontournable pour les amateurs de cuisine, qu'ils soient novices ou experts."
+          },
+          {
+            "title": "Meilleures recettes",
+            "description": "Une sélection des recettes les plus populaires, mettant en avant des plats variés pour inspirer vos visiteurs."
+          },
+          {
+            "title": "Appel à l'action (CTA)",
+            "description": "Un bouton attrayant incitant les utilisateurs à s'inscrire pour découvrir davantage de recettes, enregistrer leurs favoris et interagir avec la communauté."
+          },
+          {
+            "title": "Témoignages",
+            "description": "Une section dédiée aux avis des utilisateurs, illustrant leur satisfaction et mettant en avant les points forts de votre plateforme."
+          },
+          {
+            "title": "Pied de page",
+            "description": "Informations sur le site, liens rapides (FAQ, contact, mentions légales) et accès aux réseaux sociaux."
+          }
+        ],
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_welcome-to-dish-your-ultimate-culinary-companion-activity-7215059483079667714-Gn6O?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "title": "Interfaces d'authentification",
+        "items": [
+          {
+            "title": "Connexion",
+            "description": "Une interface simple pour que les utilisateurs puissent se connecter rapidement à leur compte."
+          },
+          {
+            "title": "Inscription",
+            "description": "Un formulaire intuitif permettant aux nouveaux utilisateurs de s'inscrire facilement."
+          },
+          {
+            "title": "Déconnexion",
+            "description": "Un bouton visible permettant de se déconnecter en un clic, garantissant une expérience sécurisée."
+          }
+        ]
+      },
+      {
+        "title": "Tableau de bord administrateur",
+        "items": [
+          {
+            "title": "Profil",
+            "description": "- Téléchargement de photos de profil.\n- Mise à jour et hashage des mots de passe pour une sécurité accrue."
+          },
+          {
+            "title": "Gestion des utilisateurs",
+            "description": "- Fonctionnalités de création, lecture, modification et suppression (CRUD) des comptes utilisateurs.\n- Recherche rapide pour retrouver des utilisateurs spécifiques."
+          },
+          {
+            "title": "Gestion des recettes",
+            "description": "- Création, modification et suppression de recettes via une interface intuitive.\n- Fonctionnalités de recherche, gestion des commentaires et des mentions \"J'aime\" associées à chaque recette."
+          },
+          {
+            "title": "Gestion des catégories",
+            "description": "- Ajout, modification et suppression des catégories de recettes.\n- Recherche rapide pour organiser efficacement les catégories."
+          }
+
+        ],
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_dish-web-application-admin-dashboard-overview-activity-7216110143724236801-p_Wn?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "title": "Tableau de bord utilisateur",
+        "items": [
+          {
+            "title": "Accueil",
+            "description": "- Affichage d'une liste organisée de catégories et de recettes.\n- Fonction de recherche pour trouver une recette par son nom.\n- Filtrage des recettes selon leur catégorie.\n- Possibilité d'aimer et de commenter des recettes favorites."
+          },
+          {
+            "title": "Profil",
+            "description": "- Téléchargement de photos pour personnaliser son compte.\n- Mise à jour et hashage des mots de passe pour une sécurité optimale."
+          },
+          {
+            "title": "Recettes aimées",
+            "description": "Une section dédiée aux recettes aimées, permettant de les retrouver et de les consulter facilement à tout moment."
+          }
+        ],
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_the-user-dashboard-offers-a-seamless-experience-activity-7216959482730336256-Ygij?utm_source=share&utm_medium=member_desktop"
+      }
+    ],
+    "gallery": [
+      "/assets/sections/recipe.png",
+      "/assets/sections/recipeAdmin.png",
+      "/assets/sections/recipeUser.png"
+    ],
+    "callToAction": {
+      "text": "Ready to work with me? Contact Me!",
+      "contactLink": "mailto:contact@dishapp.com"
+    }
+  },
+  {
+    "projectTitle": "Rental",
+    "year" : 2023,
+
+    "isCodePublic":true,
+
+    "tagline": "Your ultimate rental companion!",
+    "heroImage": "/assets/sections/car1.png",
+    "links": {
+      "viewSourceCode": "https://github.com/example/rental-repo",
+      "Frontend": "https://github.com/soukaina203/renting_frontEnd.git",
+      "Backend": "https://github.com/soukaina203/renting_back.git"
+    },
+    "aboutProject": {
+      "purpose": "Offrir une expérience de location de voiture fluide pour les utilisateurs.",
+      "problemSolved": "Simplifie la recherche et la gestion de la location de voitures grâce à une plateforme conviviale.",
+      "keyBenefits": [
+        "Accès à un large choix de voitures pour toutes les occasions.",
+        "Interface conviviale pour explorer et louer des voitures.",
+        "Inspire confiance grâce à des sélections et des avis soigneusement organisés."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        {
+          "name": "Primary",
+          "hex": "#E4003B"
+        },
+        {
+          "name": "Accent",
+          "hex": "#000000"
+        },
+        {
+          "name": "Background",
+          "hex": "#FEFDFB"
+        }
+      ],
+      "typography": [
+        {
+          "type": "Heading",
+          "example": "Poppins Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
+      ],
+      "icons": [
+        {
+          "name": "Car",
+          "file": "/assets/projects/rentalIcon.png"
+        }
+      ]
+    },
+    "technologiesUsed": [
+      "ReactJs",
+      ".Laravel",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "title": "Page d'accueil",
+        "items": [
+          {
+            "title": "Section Héro",
+            "description": "Une bannière captivante avec une image appétissante en arrière-plan, mettant en avant le slogan de votre plateforme. Cette section invite les utilisateurs à explorer un univers culinaire riche et varié."
+          },
+          {
+            "title": "À propos",
+            "description": "Une présentation concise de votre site, expliquant votre mission : devenir le compagnon culinaire incontournable pour les amateurs de cuisine, qu'ils soient novices ou experts."
+          },
+          {
+            "title": "Meilleures recettes",
+            "description": "Une sélection des recettes les plus populaires, mettant en avant des plats variés pour inspirer vos visiteurs."
+          },
+          {
+            "title": "Appel à l'action (CTA)",
+            "description": "Un bouton attrayant incitant les utilisateurs à s'inscrire pour découvrir davantage de recettes, enregistrer leurs favoris et interagir avec la communauté."
+          },
+          {
+            "title": "Témoignages",
+            "description": "Une section dédiée aux avis des utilisateurs, illustrant leur satisfaction et mettant en avant les points forts de votre plateforme."
+          },
+          {
+            "title": "Pied de page",
+            "description": "Informations sur le site, liens rapides (FAQ, contact, mentions légales) et accès aux réseaux sociaux."
+          }
+        ],
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_a-robust-rental-web-application-built-with-activity-7208797384133201920-Xocw?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "title": "Interfaces d'authentification",
+        "items": [
+          {
+            "title": "Connexion",
+            "description": "Une interface simple pour que les utilisateurs puissent se connecter rapidement à leur compte."
+          },
+          {
+            "title": "Inscription",
+            "description": "Un formulaire intuitif permettant aux nouveaux utilisateurs de s'inscrire facilement."
+          },
+          {
+            "title": "Déconnexion",
+            "description": "Un bouton visible permettant de se déconnecter en un clic, garantissant une expérience sécurisée."
+          }
+        ],
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_user-dashboard-our-rental-apps-user-dashboard-activity-7208874889661796352-Yhr3?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "title": "User Dashboard",
+        "items": [
+          {
+            "title": "Cars section",
+            "description": "- List des voitures\n- Recherche des voitures\n- Filtre des voitures par type, couleur, model, an\n- Possibilité de louer, voir les propriétés des voitures"
+          },
+          {
+            "title": "Rentals section",
+            "description": "- Historique des locations que l'utilisateur a fait"
+          },
+          {
+            "title": "Review",
+            "description": "- Donner votre feedback sur votre expérience avec BestCars"
+          },
+          {
+            "title": "Profile",
+            "description": "- Upload des images\n- Changer les données personnels"
+          }
+        ],
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_user-dashboard-make-a-review-interface-our-activity-7208877905689411584-q_kC?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "title": "Admin Dashboard",
+        "items": [
+          {
+            "title": "Users",
+            "description": "- CRUD des utilisateurs\n- Recherche par nom ou email\n- Filtre par les utilisateurs qui ont fait des locations, par ville, par pays"
+          },
+          {
+            "title": "Rentals",
+            "description": "- Il y a deux types des locations: déjà traité et non traité\n- CRUD des rentals"
+          },
+          {
+            "title": "Cars",
+            "description": "- Gestion de CRUD des voitures\n- Recherche\n- Filtre"
+          },
+          {
+            "title": "Reviews",
+            "description": "- CRUD ou gestion des différents reviews"
+          },
+          {
+            "title": "Profile",
+            "description": "- Gestion du profil administrateur"
+          }
+        ],
+        "video": "https://www.linkedin.com/posts/soukaina-mourabit-253a33240_the-admin-dashboard-of-our-rental-app-is-activity-7208888653702414337-vKqr?utm_source=share&utm_medium=member_desktop"
+      }
+    ],
+    "gallery": [
+      "/assets/sections/car1.png",
+      "/assets/sections/car2.png",
+      "/assets/sections/car3.png",
+      "/assets/sections/car4.png",
+      "/assets/sections/car5.png",
+      "/assets/sections/car6.png",
+      "/assets/sections/car7.png",
+      "/assets/sections/CarUser.png",
+      "/assets/sections/adminDash.png"
+    ],
+    "callToAction": {
+      "text": "Ready to work with me? Contact Me!",
+      "contactLink": "mailto:contact@rentalapp.com"
+    }
+  },
+  {
+    "projectTitle": "Centre",
+    "year" : 2024,
+
+    "isCodePublic":false,
+
+    "tagline": "Revolutionize educational management with cutting-edge functionality.",
+    "heroImage": "/assets/sections/centreLanding.png",
+    "links": {
+      "viewLiveProject": "https://example.com/centre-live",
+      "viewSourceCode": "https://github.com/example/centre-repo",
+      "Frontend": "https://github.com/info-academie/Gestion_Centre_Front",
+      "Backend": "https://github.com/info-academie/Gestion_Centre_Back"
+    },
+    "aboutProject": {
+      "purpose": "Rationaliser la gestion des centres éducatifs avec une plateforme moderne, sécurisée et efficace.",
+      "problemSolved": "Résout les inefficacités liées à la gestion des utilisateurs, professeurs, clients, classes, ressources, frais et aspects financiers.",
+      "keyBenefits": [
+        "Tableaux de bord dynamiques pour une navigation fluide.",
+        "Opérations CRUD robustes pour une gestion efficace des données.",
+        "Transparence et efficacité accrues dans la gestion éducative."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        {
+          "name": "Primary",
+          "hex": "#2E849D"
+        },
+        {
+          "name": "Background",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Text",
+          "hex": "#212121"
+        }
+      ],
+      "typography": [
+        {
+          "type": "Heading",
+          "example": "Open Sans Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
+      ],
+      "icons": [
+        {
+          "name": "Users",
+          "file": "/assets/icons/users-icon.svg"
+        },
+        {
+          "name": "Classes",
+          "file": "/assets/icons/classes-icon.svg"
+        },
+        {
+          "name": "Fees",
+          "file": "/assets/icons/fees-icon.svg"
+        },
+        {
+          "name": "Reports",
+          "file": "/assets/icons/reports-icon.svg"
+        }
+      ]
+    },
+    "technologiesUsed": [
+      "Angular",
+      "theme Fuse",
+      "NestJs",
+      "Mongodb",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "Landing Page",
+        "description": "Showcases app capabilities, offering seamless navigation, dynamic dashboards, and efficient CRUD operations.",
+        "icon": "/assets/icons/landing-page-icon.svg",
+        "videoLink": "https://example.com/videos/centre-landing-page"
+      },
+      {
+        "name": "Admin Console - Clients",
+        "description": "Manage client information with CRUD functionality for registration details, contact info, and personalized notes.",
+        "icon": "/assets/icons/clients-icon.svg",
+        "videoLink": "https://example.com/videos/centre-clients-section"
+      },
+      {
+        "name": "Admin Console - Classes",
+        "description": "Manage class types, educational levels, professor assignments, and timetables efficiently.",
+        "icon": "/assets/icons/classes-icon.svg",
+        "videoLink": "https://example.com/videos/centre-classes-section"
+      },
+      {
+        "name": "Admin Console - Fees Management",
+        "description": "Handle fee registration, including amount, date, client, and class, ensuring accurate records.",
+        "icon": "/assets/icons/fees-icon.svg",
+        "videoLink": "https://example.com/videos/centre-fees-management"
+      },
+      {
+        "name": "Admin Console - Attendance Tracking",
+        "description": "Create presence sheets with automated student lists for accurate and clear attendance records.",
+        "icon": "/assets/icons/attendance-icon.svg",
+        "videoLink": "https://example.com/videos/centre-attendance-tracking"
+      },
+      {
+        "name": "Admin Console - Charges and Payments",
+        "description": "Manage charges, payments, and automated resource population with real-time financial reporting.",
+        "icon": "/assets/icons/charges-icon.svg",
+        "videoLink": "https://example.com/videos/centre-charges-payments"
+      }
+    ],
+    "gallery": [
+      "/assets/sections/centreLanding.png",
+      "/assets/sections/centrePresence.png",
+      "/assets/sections/profile.png",
+      "/assets/sections/centreClass2.png",
+      "/assets/sections/centreUsers.png",
+      "/assets/sections/centreClass.png"
+    ],
+    "callToAction": {
+      "text": "Transform your educational center today. Contact us!",
+      "contactLink": "mailto:contact@centreapp.com"
+    }
+  },
+  {
+    "projectTitle": "TF-SOL",
+    "year" : 2023,
+    "tagline": "Cohésion, Création, Conquête - C'est L'action de TF-SOL",
+    "heroImage": "/assets/images/tfsol-hero.jpg",
+    "links": {
+      "viewLiveProject": "https://example.com/tfsol-live",
+      "viewSourceCode": "https://github.com/example/tfsol-repo"
+    },
+    "aboutProject": {
+      "purpose": "To showcase TF-SOL's services and mission with a seamless, visually appealing, and responsive website.",
+      "problemSolved": "Provides a cohesive and modern online presence to highlight their services and core values.",
+      "keyBenefits": [
+        "Fully responsive design for accessibility across all devices.",
+        "Elegant styling and user experience powered by Tailwind CSS.",
+        "Dynamic and efficient functionality using ReactJS."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        {
+          "name": "Primary",
+          "hex": "#0044CC"
+        },
+        {
+          "name": "Secondary",
+          "hex": "#FFC107"
+        },
+        {
+          "name": "Background",
+          "hex": "#F9FAFB"
+        },
+        {
+          "name": "Text",
+          "hex": "#333333"
+        }
+      ],
+      "typography": [
+        {
+          "type": "Heading",
+          "example": "Poppins Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
+      ],
+      "icons": [
+        {
+          "name": "Mission",
+          "file": "/assets/icons/mission-icon.svg"
+        },
+        {
+          "name": "Services",
+          "file": "/assets/icons/services-icon.svg"
+        },
+        {
+          "name": "Team",
+          "file": "/assets/icons/team-icon.svg"
+        }
+      ]
+    },
+    "technologiesUsed": [
+      "ReactJS",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "Landing Page",
+        "description": "A visually stunning introduction to TF-SOL’s mission and services, crafted with ReactJS and styled with TailwindCSS.",
+        "icon": "/assets/icons/landing-page-icon.svg",
+        "videoLink": "https://example.com/videos/tfsol-landing-page"
+      },
+      {
+        "name": "Responsive Design",
+        "description": "Optimized for seamless user experience on devices of all sizes.",
+        "icon": "/assets/icons/responsive-design-icon.svg",
+        "videoLink": "https://example.com/videos/tfsol-responsive-design"
+      },
+      {
+        "name": "Dynamic Content Display",
+        "description": "Interactive and engaging sections showcasing TF-SOL’s values and services.",
+        "icon": "/assets/icons/dynamic-content-icon.svg",
+        "videoLink": "https://example.com/videos/tfsol-dynamic-content"
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/tfsol1.jpg",
+      "/assets/gallery/tfsol2.jpg",
+      "/assets/gallery/tfsol3.jpg",
+      "/assets/gallery/tfsol4.jpg"
+    ],
+    "callToAction": {
+      "text": "Discover TF-SOL’s mission and services. Visit us today!",
+      "contactLink": "mailto:contact@tfsol.com"
+    }
+  },
+  {
+    "projectTitle": "ميراث النبوة",
+    "tagline": "The Legacy of Prophecy: An E-learning platform",
+    "heroImage": "/assets/images/legacy-hero.jpg",
+    "links": {
+      "viewLiveProject": "https://example.com/legacy-live",
+      "viewSourceCode": "https://github.com/example/legacy-repo"
+    },
+    "aboutProject": {
+      "purpose": "To provide a comprehensive and organized platform for accessing lessons, summaries, and assessments.",
+      "problemSolved": "Enables learners to engage with structured educational content in an intuitive and accessible way.",
+      "keyBenefits": [
+        "Sequentially organized lessons and assessments for optimal learning.",
+        "Responsive design for accessibility across all devices.",
+        "Elegant and user-friendly interface leveraging ReactJS and TailwindCSS."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        {
+          "name": "Primary",
+          "hex": "#4A148C"
+        },
+        {
+          "name": "Accent",
+          "hex": "#FFB300"
+        },
+        {
+          "name": "Background",
+          "hex": "#F3E5F5"
+        },
+        {
+          "name": "Text",
+          "hex": "#212121"
+        }
+      ],
+      "typography": [
+        {
+          "type": "Heading",
+          "example": "Cairo Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Cairo Regular"
+        }
+      ],
+      "icons": [
+        {
+          "name": "Lessons",
+          "file": "/assets/icons/lessons-icon.svg"
+        },
+        {
+          "name": "Assessments",
+          "file": "/assets/icons/assessments-icon.svg"
+        },
+        {
+          "name": "Summaries",
+          "file": "/assets/icons/summaries-icon.svg"
+        }
+      ]
+    },
+    "technologiesUsed": [
+      "ReactJS",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "Structured Lessons",
+        "description": "Sequentially organized lessons for a clear and comprehensive learning experience.",
+        "icon": "/assets/icons/lessons-icon.svg",
+        "videoLink": "https://example.com/videos/legacy-lessons"
+      },
+      {
+        "name": "Responsive Design",
+        "description": "Optimized for seamless user experience on devices of all sizes.",
+        "icon": "/assets/icons/responsive-design-icon.svg",
+        "videoLink": "https://example.com/videos/legacy-responsive-design"
+      },
+      {
+        "name": "Dynamic Assessments",
+        "description": "Interactive assessments for learners to test and reinforce their understanding.",
+        "icon": "/assets/icons/assessments-icon.svg",
+        "videoLink": "https://example.com/videos/legacy-assessments"
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/legacy1.jpg",
+      "/assets/gallery/legacy2.jpg",
+      "/assets/gallery/legacy3.jpg",
+      "/assets/gallery/legacy4.jpg"
+    ],
+    "callToAction": {
+      "text": "Join ميراث النبوة today and explore the Legacy of Prophecy!",
+      "contactLink": "mailto:contact@legacyofprophecy.com"
+    }
+  },
+  {
+    "projectTitle": "KRYPTO",
+    "year" : 2024,
+
+    "tagline": "Discover And Collect Rare NFTs",
+    "heroImage": "/assets/images/krypto-hero.jpg",
+    "links": {
+      "viewLiveProject": "https://example.com/krypto-live",
+      "viewSourceCode": "https://github.com/example/krypto-repo"
+    },
+    "aboutProject": {
+      "purpose": "To provide an engaging platform for discovering and collecting rare NFTs.",
+      "problemSolved": "Simplifies the process of showcasing and accessing NFTs with a visually appealing and responsive interface.",
+      "keyBenefits": [
+        "Intuitive and user-friendly platform for NFT exploration.",
+        "Responsive design ensuring accessibility across all devices.",
+        "Modern aesthetics powered by ReactJS and TailwindCSS."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        {
+          "name": "Primary",
+          "hex": "#0D47A1"
+        },
+        {
+          "name": "Accent",
+          "hex": "#FF6F00"
+        },
+        {
+          "name": "Background",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Text",
+          "hex": "#212121"
+        }
+      ],
+      "typography": [
+        {
+          "type": "Heading",
+          "example": "Poppins Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Poppins Regular"
+        }
+      ],
+      "icons": [
+        {
+          "name": "NFTs",
+          "file": "/assets/icons/nft-icon.svg"
+        },
+        {
+          "name": "Marketplace",
+          "file": "/assets/icons/marketplace-icon.svg"
+        },
+        {
+          "name": "Wallet",
+          "file": "/assets/icons/wallet-icon.svg"
+        }
+      ]
+    },
+    "technologiesUsed": [
+      "ReactJS",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "NFT Discovery",
+        "description": "Explore rare and unique NFTs with a dynamic interface.",
+        "icon": "/assets/icons/nft-icon.svg",
+        "videoLink": "https://example.com/videos/krypto-nft-discovery"
+      },
+      {
+        "name": "Responsive Design",
+        "description": "Ensures optimal viewing experience across all devices.",
+        "icon": "/assets/icons/responsive-design-icon.svg",
+        "videoLink": "https://example.com/videos/krypto-responsive-design"
+      },
+      {
+        "name": "Marketplace Integration",
+        "description": "Enables easy navigation and transactions within the NFT marketplace.",
+        "icon": "/assets/icons/marketplace-icon.svg",
+        "videoLink": "https://example.com/videos/krypto-marketplace"
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/krypto1.jpg",
+      "/assets/gallery/krypto2.jpg",
+      "/assets/gallery/krypto3.jpg",
+      "/assets/gallery/krypto4.jpg"
+    ],
+    "callToAction": {
+      "text": "Start your NFT collection today with KRYPTO!",
+      "contactLink": "mailto:contact@krypto.com"
+    }
+  },
+  {
+    "projectTitle": "NexAudit",
+    "year" : 2024,
+
+    "tagline": "NexAudit - Redéfinir l'audit pour demain",
+    "heroImage": "/assets/images/nexaudit-hero.jpg",
+    "links": {
+      "viewLiveProject": "https://example.com/nexaudit-live",
+      "viewSourceCode": "https://github.com/example/nexaudit-repo"
+    },
+    "aboutProject": {
+      "purpose": "To provide NexAudit with a seamless, fully responsive platform to showcase their services and mission.",
+      "problemSolved": "Delivers a modern and efficient online presence to engage clients and highlight auditing expertise.",
+      "keyBenefits": [
+        "Responsive design ensures accessibility across all devices.",
+        "Elegant user experience powered by ReactJS and TailwindCSS.",
+        "Dynamic sections effectively communicate NexAudit's mission and services."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        {
+          "name": "Primary",
+          "hex": "#1A237E"
+        },
+        {
+          "name": "Accent",
+          "hex": "#FBC02D"
+        },
+        {
+          "name": "Background",
+          "hex": "#FAFAFA"
+        },
+        {
+          "name": "Text",
+          "hex": "#212121"
+        }
+      ],
+      "typography": [
+        {
+          "type": "Heading",
+          "example": "Lora Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Open Sans Regular"
+        }
+      ],
+      "icons": [
+        {
+          "name": "Mission",
+          "file": "/assets/icons/mission-icon.svg"
+        },
+        {
+          "name": "Services",
+          "file": "/assets/icons/services-icon.svg"
+        },
+        {
+          "name": "Contact",
+          "file": "/assets/icons/contact-icon.svg"
+        }
+      ]
+    },
+    "technologiesUsed": [
+      "ReactJS",
+      "TailwindCSS"
+    ],
+    "features": [
+      {
+        "name": "Landing Page",
+        "description": "A visually stunning introduction to NexAudit’s mission and services, crafted with ReactJS and styled with TailwindCSS.",
+        "icon": "/assets/icons/landing-page-icon.svg",
+        "videoLink": "https://example.com/videos/nexaudit-landing-page"
+      },
+      {
+        "name": "Responsive Design",
+        "description": "Optimized for seamless user experience on devices of all sizes.",
+        "icon": "/assets/icons/responsive-design-icon.svg",
+        "videoLink": "https://example.com/videos/nexaudit-responsive-design"
+      },
+      {
+        "name": "Dynamic Service Showcase",
+        "description": "Interactive sections highlighting NexAudit’s expertise and offerings.",
+        "icon": "/assets/icons/dynamic-services-icon.svg",
+        "videoLink": "https://example.com/videos/nexaudit-services"
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/nexaudit1.jpg",
+      "/assets/gallery/nexaudit2.jpg",
+      "/assets/gallery/nexaudit3.jpg",
+      "/assets/gallery/nexaudit4.jpg"
+    ],
+    "callToAction": {
+      "text": "Discover how NexAudit redefines auditing for tomorrow. Contact us today!",
+      "contactLink": "mailto:contact@nexaudit.com"
+    }
+  },
+  {
+    "projectTitle": "ReviseMate",
+    "year" : 2025,
+
+    "tagline": "Révisez plus efficacement, sans effort inutile.",
+    "heroImage": "/assets/sections/re2.png"
+    ,
+
+    "isCodePublic":false,
+
+    "links": {
+      "viewLiveProject": "https://example.com/centre-live",
+      "viewSourceCode": "https://github.com/example/centre-repo",
+      "Frontend": "https://github.com/info-academie/Gestion_Centre_Front",
+      "Backend": "https://github.com/info-academie/Gestion_Centre_Back"
+    },
+    "aboutProject": {
+      "purpose": "Accompagner les étudiants dans leurs révisions à distance grâce à une plateforme intelligente de génération de fiches, cartes mémoire et quiz à partir de leurs cours.",
+      "problemSolved": "Résout les difficultés rencontrées par les apprenants en distanciel pour organiser, synthétiser et mémoriser leurs cours de manière efficace et personnalisée.",
+      "keyBenefits": [
+        "Import de cours (PDF ou texte) et génération automatique de fiches de révision synthétiques.",
+        "Création de cartes mémoire interactives et de quiz personnalisés pour renforcer la mémorisation.",
+        "Possibilité de modifier et personnaliser tous les contenus générés (fiches, quiz, cartes).",
+        "Création manuelle de supports de révision pour s’adapter aux préférences de chaque étudiant.",
+        "Outils pour les enseignants : suivi de progression, analyse des difficultés."
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        {
+          "name": "Primary",
+          "hex": "#5271FF"
+        },
+        {
+          "name": "Background",
+          "hex": "#F5F5F5"
+        },
+        {
+          "name": "Text",
+          "hex": "#212121"
+        }
+      ],
+      "typography": [
+        {
+          "type": "Heading",
+          "example": "Open Sans Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
+      ],
+      "icons": [
+        {
+          "name": "ReviseMate",
+          "file": "/assets/icons/logo.png"
+        }
+
+      ]
+    },
+    "technologiesUsed": [
+      "Angular",
+      "NestJs",
+      "MongoDb",
+      "TailwindCSS",
+      "Fuse",
+      "MistralAi"
+    ],
+    "features": [
+      {
+        "title": "Page d'accueil",
+        "items": [
+          {
+            "title": "Section Héro",
+            "description": "Une bannière dynamique avec une illustration pédagogique en arrière-plan, mettant en avant le slogan de ReviseMate. Elle invite les utilisateurs à explorer une nouvelle manière de réviser grâce à l’intelligence artificielle."
+          },
+          {
+            "title": "À propos",
+            "description": "Une brève présentation de ReviseMate expliquant sa mission : aider les étudiants à organiser et optimiser leurs révisions à distance à travers des outils générés automatiquement."
+          },
+          {
+            "title": "Fonctionnalités clés",
+            "description": "Un aperçu visuel et interactif des principales fonctionnalités : génération de fiches, cartes mémoire, quiz, personnalisation et partage."
+          },
+          {
+            "title": "Appel à l'action (CTA)",
+            "description": "Un bouton clair et attrayant incitant les utilisateurs à se connecter ou à créer un compte pour commencer à générer leurs propres supports de révision."
+          },
+          {
+            "title": "Témoignages",
+            "description": "Des retours d’étudiants et d’enseignants qui utilisent ReviseMate, mettant en avant son utilité et son impact dans leur apprentissage."
+          },
+          {
+            "title": "Pied de page",
+            "description": "Informations légales, politique de confidentialité, contact, et liens vers les réseaux sociaux ou partenaires éducatifs."
+          }
+        ]
+      },
+      {
+        "title": "Interfaces d'authentification",
+        "items": [
+          {
+            "title": "Connexion",
+            "description": "Une interface simple et sécurisée permettant aux utilisateurs d'accéder à leur espace personnel et à leurs ressources enregistrées."
+          },
+          {
+            "title": "Inscription",
+            "description": "Un formulaire clair et rapide à remplir pour permettre aux nouveaux utilisateurs de rejoindre la plateforme et commencer à découvrir les différents services du site."
+          },
+          {
+            "title": "Déconnexion",
+            "description": "Un bouton accessible permettant de se déconnecter en toute sécurité à tout moment."
+          }
+        ]
+      },
+      {
+        "title": "Tableau de bord utilisateur",
+        "items": [
+          {
+            "title": "Accueil",
+            "description": "- Accès aux outils de création automatique ou manuelle : fiches, cartes mémoire et quiz.\n- Navigation fluide entre les différentes ressources et fonctions."
+          },
+          {
+            "title": "Génération par IA",
+            "description": "- Génération des fiches de révision.\n- Génération des cartes mémoire.\n- Génération de quiz."
+          },
+          {
+            "title": "Gestion manuelle",
+            "description": "- Création et modification des fiches de révision, cartes mémoire et quiz."
+          },
+          {
+            "title": "Fonctionnalités pour l'étudiant",
+            "description": "- Passer des quiz.\n- Réviser à l'aide des cartes mémoire avec un minuteur et des fiches de révision.\n- Créer vos propres documents si vous préférez ne pas utiliser l'IA."
+          },
+          {
+            "title": "Profil",
+            "description": "- Mise à jour des informations personnelles."
+          },
+          {
+            "title": "Mes ressources",
+            "description": "- Un espace dédié pour retrouver toutes les fiches, cartes et quiz créés, modifiés ou partagés."
+          }
+        ]
+      },
+      {
+        "title": "Tableau de bord administrateur",
+        "items": [
+          {
+            "title": "Profil",
+            "description": "- Gestion du compte administrateur.\n- Mise à jour des informations et mot de passe avec sécurisation."
+          },
+          {
+            "title": "Suivi pédagogique",
+            "description": "- Vue d’ensemble de l’utilisation de la plateforme par les étudiants ainsi que leurs activités, comme les scores aux quiz et les fiches générées."
+          },
+          {
+            "title": "Administrateur",
+            "description": "- Gestion des utilisateurs selon leurs profils."
+          }
+        ]
+      },
+      {
+        "title": "Tableau de bord Prof",
+        "items": [
+          {
+            "title": "Suivi pédagogique",
+            "description": "- Vue d’ensemble de l’utilisation de la plateforme par les étudiants ainsi que leurs activités, comme les scores aux quiz et les fiches générées pour les professeurs."
+          }
+        ]
+      }
+    ],
+    "gallery": [
+      "/assets/sections/re2.png",
+      "/assets/sections/re1.png",
+      "/assets/sections/re4.png",
+      "/assets/sections/re5.png",
+      "/assets/sections/2.png",
+      "/assets/sections/4.png",
+      "/assets/sections/5.png",
+      "/assets/sections/6.png",
+      "/assets/sections/7.png",
+      "/assets/sections/8.png",
+      "/assets/sections/9.png"
+
+    ],
+    "callToAction": {
+      "text": "Transform your educational center today. Contact us!",
+      "contactLink": "mailto:contact@centreapp.com"
+    }
+  },
+
+
+  {
+    "projectTitle": "infoacademie",
+    "year" : 2025,
+
+    "tagline": "Apprends mieux, plus vite, à ton rythme.",
+    "heroImage": "/assets/projects/i1.png",
+    "isCodePublic":false,
+
+    "links": {
+      "viewLiveProject": "https://info-academie.com",
+      "viewSourceCode": "https://github.com/info-academie",
+      "Frontend": "https://github.com/info-academie/Gestion_Centre_Front",
+      "Backend": "https://github.com/info-academie/Gestion_Centre_Back"
+    },
+    "aboutProject": {
+      "purpose": "Digitaliser les services de soutien scolaire d'Info Académie via une plateforme web moderne et sécurisée.",
+      "problemSolved": "Centralisation et modernisation des services pédagogiques d’un centre de formation traditionnel, afin de mieux répondre aux attentes des apprenants et de rester compétitif localement et à l’international.",
+      "keyBenefits": [
+        "Inscription des enseignants (avec dépôt de CV) et des étudiants avec vérification par email.",
+        "Connexion sécurisée avec système JWT (access token + refresh token).",
+        "Réinitialisation du mot de passe par email.",
+        "Gestion des utilisateurs (admin, enseignants, étudiants) avec espaces personnels adaptés.",
+        "Planification de classes virtuelles par les enseignants.",
+        "Messagerie interne intégrée.",
+        "Multilinguisme (arabe/français) pris en charge.",
+        "Page d’accueil dynamique présentant l’organisme et ses services."
+
+      ]
+    },
+    "charteGraphique": {
+      "colorPalette": [
+        {
+          "name": "Primary",
+          "hex": "#2E849D"
+        },
+        {
+          "name": "Background",
+          "hex": "#F9FAFB"
+        },
+        {
+          "name": "Text",
+          "hex": "#1F2937"
+        }
+      ],
+      "typography": [
+        {
+          "type": "Heading",
+          "example": "Poppins Bold"
+        },
+        {
+          "type": "Body",
+          "example": "Roboto Regular"
+        }
+      ],
+      "icons": [
+        {
+          "name": "info academie",
+          "file": "/assets/projects/logo.png"
+        }
+      ]
+    },
+    "technologiesUsed": [
+      "Angular",
+      "Tailwind CSS",
+      "Fuse",
+      ".NET Web API",
+      "PostgreSQL",
+      "Swagger",
+      "Gmail SMTP",
+      "GitHub",
+      "SignalR"
+    ],
+    "features": [
+      {
+        "title": "Page d'accueil",
+        "items": [
+          {
+            "title": "Présentation de l’organisme",
+            "description": "Une section claire mettant en avant Info Académie, ses services de soutien scolaire, de formation professionnelle et de développement personnel."
+          },
+          {
+            "title": "Navigation simple",
+            "description": "Accès rapide aux pages de connexion, d’inscription, aux services offerts et à la documentation."
+          },
+          {
+            "title": "Design responsive",
+            "description": "Interface moderne, épurée et adaptée à tous les écrans grâce à l’utilisation de Tailwind CSS et du thème Fuse."
+          }
+        ]
+      },
+      {
+        "title": "Interfaces d'authentification",
+        "items": [
+          {
+            "title": "Connexion sécurisée",
+            "description": "Connexion via JWT avec access token stocké côté Angular et refresh token sécurisé en cookie HttpOnly."
+          },
+          {
+            "title": "Inscription des enseignants et étudiants",
+            "description": "Formulaire intuitif avec vérification email ; les enseignants peuvent également déposer leur CV."
+          },
+          {
+            "title": "Réinitialisation du mot de passe",
+            "description": "Envoi d’un lien sécurisé par email via le service SMTP de Gmail pour réinitialiser le mot de passe."
+          }
+        ]
+      },
+      {
+        "title": "Tableau de bord administrateur",
+        "items": [
+          {
+            "title": "Gestion des utilisateurs",
+            "description": "Création, lecture, modification et suppression des comptes ; filtres et recherche rapide intégrés."
+          },
+          {
+            "title": "Gestion des classes virtuelles",
+            "description": "Suivi et organisation des classes planifiées par les enseignants."
+          },
+          {
+            "title": "Profil",
+            "description": "Mise à jour des informations personnelles et mot de passe avec sécurisation par hashage."
+          }
+        ]
+      },
+      {
+        "title": "Espace professeur",
+        "items": [
+          {
+            "title": "Planification des classes virtuelles",
+            "description": "Création de sessions de classe, avec description, niveau ciblé et visualisation de l’ensemble des classes planifiées."
+          },
+          {
+            "title": "Consultation des autres classes",
+            "description": "Permet aux enseignants de consulter les classes créées par leurs collègues pour mieux coordonner l’offre."
+          },
+          {
+            "title": "Dashboard (à enrichir)",
+            "description": "Zone dédiée aux statistiques de progression des étudiants (fonctionnalité à venir)."
+          }
+        ]
+      },
+      {
+        "title": "Espace étudiant",
+        "items": [
+          {
+            "title": "Accès aux classes virtuelles",
+            "description": "Consultation des classes créées par tous les enseignants, avec détails et filtres selon les niveaux ou matières."
+          },
+          {
+            "title": "Profil personnel",
+            "description": "Mise à jour des données personnelles et accès à un futur tableau de bord de progression."
+          }
+        ]
+      },
+      {
+        "title": "Fonctionnalités transversales",
+        "items": [
+          {
+            "title": "Messagerie interne",
+            "description": "Permet aux utilisateurs d’échanger au sein de la plateforme selon leur rôle (admin, prof, étudiant)."
+          },
+          {
+            "title": "Multilinguisme",
+            "description": "Interface disponible en français et arabe, adaptée à un public local et international."
+          }
+        ]
+      },
+      {
+        "title": "Messagerie en temps réel",
+        "items": [
+          {
+            "title": "Système de chat entre utilisateurs",
+            "description": "Fonctionnalité de messagerie en temps réel permettant aux professeurs, étudiants et administrateurs de communiquer facilement entre eux, en one-to-one. Chaque utilisateur peut envoyer et recevoir des messages selon les règles de son rôle."
+          },
+          {
+            "title": "Interface de discussion intuitive",
+            "description": "Interface propre et fluide intégrée à l’espace personnel de chaque utilisateur, avec liste des conversations, historique des messages, indicateurs de lecture et timestamps."
+          },
+          {
+            "title": "Stockage sécurisé des messages",
+            "description": "Les messages sont stockés dans la base de données PostgreSQL, liés aux utilisateurs via des relations sécurisées."
+          },
+          {
+            "title": "Notifications",
+            "description": "Alerte visuelle à la réception d’un nouveau message, sans rechargement de la page, grâce à une architecture temps réel via SignalR."
+          }
+        ]
+      }
+    ],
+    "gallery": [
+      "/assets/sections/i1.png",
+      "/assets/sections/i2.png",
+      "/assets/sections/i3.png",
+      "/assets/sections/i4.png",
+      "/assets/sections/i5.png",
+      "/assets/sections/i6.png",
+      "/assets/sections/i7.png",
+      "/assets/sections/i8.png",
+      "/assets/sections/i9.png",
+      "/assets/sections/i10.png",
+      "/assets/sections/i11.png",
+      "/assets/sections/i12.png"
+    ],
+    "callToAction": {
+      "text": "Rejoignez Info Académie et découvrez une nouvelle manière d’apprendre, moderne et adaptée à vos besoins.",
+      "contactLink": "mailto:contact@info-academie.com"
+    }
+  }
+
+
+]
