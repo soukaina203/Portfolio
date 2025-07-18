@@ -1,12 +1,12 @@
 <div class="px-6 py-12 mx-auto max-w-7xl">
-  <a href="/#projects" class="font-semibold text-[1rem] pb-[3rem] text-[#3C5A62]" [style.color]="project.charteGraphique.colorPalette[0].hex" >&larr; Retourner à l'accueil</a>
+  <a href="#projects" class="font-semibold text-[1rem] pb-[3rem] text-[#3C5A62]" [style.color]="project.charteGraphique.colorPalette[0].hex" >&larr; Retourner à l'accueil</a>
 
   <!-- Section Héro -->
   <section class="mb-12 text-center">
     <img [src]="project?.heroImage" alt="Image Héro du Projet"
       class="object-cover w-full mt-5 mb-6 rounded-lg shadow-lg h-70" />
 
-    <h1 class="mb-4 text-4xl font-semibold text-gray-900" >{{ project?.projectTitle }}</h1>
+    <h1 class="mb-4 text-4xl font-semibold text-gray-900">{{ project?.projectTitle }}</h1>
     <p class="text-xl text-gray-600">{{ project?.tagline }}</p>
     <div class="mt-6">
       <div class="relative inline-block text-left">
