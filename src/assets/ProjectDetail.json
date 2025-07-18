@@ -3,7 +3,7 @@
     "projectTitle": "Dish",
     "year" : 2024,
     "tagline": "Your ultimate culinary companion!",
-    "heroImage": "/assets/sections/recipe.png",
+    "heroImage": "assets/sections/recipe.png",
     "isCodePublic":true,
     "links": {
       "viewLiveProject": "https://example.com/dish-live",
@@ -52,7 +52,7 @@
       "icons": [
         {
           "name": "Recipe",
-          "file": "/assets/projects/dishLogo 1.png"
+          "file": "assets/projects/dishLogo 1.png"
         }
       ]
     },
@@ -169,7 +169,7 @@
     "isCodePublic":true,
 
     "tagline": "Your ultimate rental companion!",
-    "heroImage": "/assets/sections/car1.png",
+    "heroImage": "assets/sections/car1.png",
     "links": {
       "viewSourceCode": "https://github.com/example/rental-repo",
       "Frontend": "https://github.com/soukaina203/renting_frontEnd.git",
@@ -212,7 +212,7 @@
       "icons": [
         {
           "name": "Car",
-          "file": "/assets/projects/rentalIcon.png"
+          "file": "assets/projects/rentalIcon.png"
         }
       ]
     },
@@ -343,7 +343,7 @@
     "isCodePublic":false,
 
     "tagline": "Revolutionize educational management with cutting-edge functionality.",
-    "heroImage": "/assets/sections/centreLanding.png",
+    "heroImage": "assets/sections/centreLanding.png",
     "links": {
       "viewLiveProject": "https://example.com/centre-live",
       "viewSourceCode": "https://github.com/example/centre-repo",
@@ -387,19 +387,19 @@
       "icons": [
         {
           "name": "Users",
-          "file": "/assets/icons/users-icon.svg"
+          "file": "assets/icons/users-icon.svg"
         },
         {
           "name": "Classes",
-          "file": "/assets/icons/classes-icon.svg"
+          "file": "assets/icons/classes-icon.svg"
         },
         {
           "name": "Fees",
-          "file": "/assets/icons/fees-icon.svg"
+          "file": "assets/icons/fees-icon.svg"
         },
         {
           "name": "Reports",
-          "file": "/assets/icons/reports-icon.svg"
+          "file": "assets/icons/reports-icon.svg"
         }
       ]
     },
@@ -414,37 +414,37 @@
       {
         "name": "Landing Page",
         "description": "Showcases app capabilities, offering seamless navigation, dynamic dashboards, and efficient CRUD operations.",
-        "icon": "/assets/icons/landing-page-icon.svg",
+        "icon": "assets/icons/landing-page-icon.svg",
         "videoLink": "https://example.com/videos/centre-landing-page"
       },
       {
         "name": "Admin Console - Clients",
         "description": "Manage client information with CRUD functionality for registration details, contact info, and personalized notes.",
-        "icon": "/assets/icons/clients-icon.svg",
+        "icon": "assets/icons/clients-icon.svg",
         "videoLink": "https://example.com/videos/centre-clients-section"
       },
       {
         "name": "Admin Console - Classes",
         "description": "Manage class types, educational levels, professor assignments, and timetables efficiently.",
-        "icon": "/assets/icons/classes-icon.svg",
+        "icon": "assets/icons/classes-icon.svg",
         "videoLink": "https://example.com/videos/centre-classes-section"
       },
       {
         "name": "Admin Console - Fees Management",
         "description": "Handle fee registration, including amount, date, client, and class, ensuring accurate records.",
-        "icon": "/assets/icons/fees-icon.svg",
+        "icon": "assets/icons/fees-icon.svg",
         "videoLink": "https://example.com/videos/centre-fees-management"
       },
       {
         "name": "Admin Console - Attendance Tracking",
         "description": "Create presence sheets with automated student lists for accurate and clear attendance records.",
-        "icon": "/assets/icons/attendance-icon.svg",
+        "icon": "assets/icons/attendance-icon.svg",
         "videoLink": "https://example.com/videos/centre-attendance-tracking"
       },
       {
         "name": "Admin Console - Charges and Payments",
         "description": "Manage charges, payments, and automated resource population with real-time financial reporting.",
-        "icon": "/assets/icons/charges-icon.svg",
+        "icon": "assets/icons/charges-icon.svg",
         "videoLink": "https://example.com/videos/centre-charges-payments"
       }
     ],
@@ -465,7 +465,7 @@
     "projectTitle": "TF-SOL",
     "year" : 2023,
     "tagline": "Cohésion, Création, Conquête - C'est L'action de TF-SOL",
-    "heroImage": "/assets/images/tfsol-hero.jpg",
+    "heroImage": "assets/images/tfsol-hero.jpg",
     "links": {
       "viewLiveProject": "https://example.com/tfsol-live",
       "viewSourceCode": "https://github.com/example/tfsol-repo"
@@ -511,15 +511,15 @@
       "icons": [
         {
           "name": "Mission",
-          "file": "/assets/icons/mission-icon.svg"
+          "file": "assets/icons/mission-icon.svg"
         },
         {
           "name": "Services",
-          "file": "/assets/icons/services-icon.svg"
+          "file": "assets/icons/services-icon.svg"
         },
         {
           "name": "Team",
-          "file": "/assets/icons/team-icon.svg"
+          "file": "assets/icons/team-icon.svg"
         }
       ]
     },
@@ -531,19 +531,19 @@
       {
         "name": "Landing Page",
         "description": "A visually stunning introduction to TF-SOL’s mission and services, crafted with ReactJS and styled with TailwindCSS.",
-        "icon": "/assets/icons/landing-page-icon.svg",
+        "icon": "assets/icons/landing-page-icon.svg",
         "videoLink": "https://example.com/videos/tfsol-landing-page"
       },
       {
         "name": "Responsive Design",
         "description": "Optimized for seamless user experience on devices of all sizes.",
-        "icon": "/assets/icons/responsive-design-icon.svg",
+        "icon": "assets/icons/responsive-design-icon.svg",
         "videoLink": "https://example.com/videos/tfsol-responsive-design"
       },
       {
         "name": "Dynamic Content Display",
         "description": "Interactive and engaging sections showcasing TF-SOL’s values and services.",
-        "icon": "/assets/icons/dynamic-content-icon.svg",
+        "icon": "assets/icons/dynamic-content-icon.svg",
         "videoLink": "https://example.com/videos/tfsol-dynamic-content"
       }
     ],
@@ -561,7 +561,7 @@
   {
     "projectTitle": "ميراث النبوة",
     "tagline": "The Legacy of Prophecy: An E-learning platform",
-    "heroImage": "/assets/images/legacy-hero.jpg",
+    "heroImage": "assets/images/legacy-hero.jpg",
     "links": {
       "viewLiveProject": "https://example.com/legacy-live",
       "viewSourceCode": "https://github.com/example/legacy-repo"
@@ -607,15 +607,15 @@
       "icons": [
         {
           "name": "Lessons",
-          "file": "/assets/icons/lessons-icon.svg"
+          "file": "assets/icons/lessons-icon.svg"
         },
         {
           "name": "Assessments",
-          "file": "/assets/icons/assessments-icon.svg"
+          "file": "assets/icons/assessments-icon.svg"
         },
         {
           "name": "Summaries",
-          "file": "/assets/icons/summaries-icon.svg"
+          "file": "assets/icons/summaries-icon.svg"
         }
       ]
     },
@@ -627,19 +627,19 @@
       {
         "name": "Structured Lessons",
         "description": "Sequentially organized lessons for a clear and comprehensive learning experience.",
-        "icon": "/assets/icons/lessons-icon.svg",
+        "icon": "assets/icons/lessons-icon.svg",
         "videoLink": "https://example.com/videos/legacy-lessons"
       },
       {
         "name": "Responsive Design",
         "description": "Optimized for seamless user experience on devices of all sizes.",
-        "icon": "/assets/icons/responsive-design-icon.svg",
+        "icon": "assets/icons/responsive-design-icon.svg",
         "videoLink": "https://example.com/videos/legacy-responsive-design"
       },
       {
         "name": "Dynamic Assessments",
         "description": "Interactive assessments for learners to test and reinforce their understanding.",
-        "icon": "/assets/icons/assessments-icon.svg",
+        "icon": "assets/icons/assessments-icon.svg",
         "videoLink": "https://example.com/videos/legacy-assessments"
       }
     ],
@@ -659,7 +659,7 @@
     "year" : 2024,
 
     "tagline": "Discover And Collect Rare NFTs",
-    "heroImage": "/assets/images/krypto-hero.jpg",
+    "heroImage": "assets/images/krypto-hero.jpg",
     "links": {
       "viewLiveProject": "https://example.com/krypto-live",
       "viewSourceCode": "https://github.com/example/krypto-repo"
@@ -705,15 +705,15 @@
       "icons": [
         {
           "name": "NFTs",
-          "file": "/assets/icons/nft-icon.svg"
+          "file": "assets/icons/nft-icon.svg"
         },
         {
           "name": "Marketplace",
-          "file": "/assets/icons/marketplace-icon.svg"
+          "file": "assets/icons/marketplace-icon.svg"
         },
         {
           "name": "Wallet",
-          "file": "/assets/icons/wallet-icon.svg"
+          "file": "assets/icons/wallet-icon.svg"
         }
       ]
     },
@@ -725,19 +725,19 @@
       {
         "name": "NFT Discovery",
         "description": "Explore rare and unique NFTs with a dynamic interface.",
-        "icon": "/assets/icons/nft-icon.svg",
+        "icon": "assets/icons/nft-icon.svg",
         "videoLink": "https://example.com/videos/krypto-nft-discovery"
       },
       {
         "name": "Responsive Design",
         "description": "Ensures optimal viewing experience across all devices.",
-        "icon": "/assets/icons/responsive-design-icon.svg",
+        "icon": "assets/icons/responsive-design-icon.svg",
         "videoLink": "https://example.com/videos/krypto-responsive-design"
       },
       {
         "name": "Marketplace Integration",
         "description": "Enables easy navigation and transactions within the NFT marketplace.",
-        "icon": "/assets/icons/marketplace-icon.svg",
+        "icon": "assets/icons/marketplace-icon.svg",
         "videoLink": "https://example.com/videos/krypto-marketplace"
       }
     ],
@@ -757,7 +757,7 @@
     "year" : 2024,
 
     "tagline": "NexAudit - Redéfinir l'audit pour demain",
-    "heroImage": "/assets/images/nexaudit-hero.jpg",
+    "heroImage": "assets/images/nexaudit-hero.jpg",
     "links": {
       "viewLiveProject": "https://example.com/nexaudit-live",
       "viewSourceCode": "https://github.com/example/nexaudit-repo"
@@ -803,15 +803,15 @@
       "icons": [
         {
           "name": "Mission",
-          "file": "/assets/icons/mission-icon.svg"
+          "file": "assets/icons/mission-icon.svg"
         },
         {
           "name": "Services",
-          "file": "/assets/icons/services-icon.svg"
+          "file": "assets/icons/services-icon.svg"
         },
         {
           "name": "Contact",
-          "file": "/assets/icons/contact-icon.svg"
+          "file": "assets/icons/contact-icon.svg"
         }
       ]
     },
@@ -823,27 +823,27 @@
       {
         "name": "Landing Page",
         "description": "A visually stunning introduction to NexAudit’s mission and services, crafted with ReactJS and styled with TailwindCSS.",
-        "icon": "/assets/icons/landing-page-icon.svg",
+        "icon": "assets/icons/landing-page-icon.svg",
         "videoLink": "https://example.com/videos/nexaudit-landing-page"
       },
       {
         "name": "Responsive Design",
         "description": "Optimized for seamless user experience on devices of all sizes.",
-        "icon": "/assets/icons/responsive-design-icon.svg",
+        "icon": "assets/icons/responsive-design-icon.svg",
         "videoLink": "https://example.com/videos/nexaudit-responsive-design"
       },
       {
         "name": "Dynamic Service Showcase",
         "description": "Interactive sections highlighting NexAudit’s expertise and offerings.",
-        "icon": "/assets/icons/dynamic-services-icon.svg",
+        "icon": "assets/icons/dynamic-services-icon.svg",
         "videoLink": "https://example.com/videos/nexaudit-services"
       }
     ],
     "gallery": [
-      "/assets/gallery/nexaudit1.jpg",
-      "/assets/gallery/nexaudit2.jpg",
-      "/assets/gallery/nexaudit3.jpg",
-      "/assets/gallery/nexaudit4.jpg"
+      "assets/gallery/nexaudit1.jpg",
+      "assets/gallery/nexaudit2.jpg",
+      "assets/gallery/nexaudit3.jpg",
+      "assets/gallery/nexaudit4.jpg"
     ],
     "callToAction": {
       "text": "Discover how NexAudit redefines auditing for tomorrow. Contact us today!",
@@ -855,7 +855,7 @@
     "year" : 2025,
 
     "tagline": "Révisez plus efficacement, sans effort inutile.",
-    "heroImage": "/assets/sections/re2.png"
+    "heroImage": "assets/sections/re2.png"
     ,
 
     "isCodePublic":false,
@@ -905,7 +905,7 @@
       "icons": [
         {
           "name": "ReviseMate",
-          "file": "/assets/icons/logo.png"
+          "file": "assets/icons/logo.png"
         }
 
       ]
@@ -1047,7 +1047,7 @@
     "year" : 2025,
 
     "tagline": "Apprends mieux, plus vite, à ton rythme.",
-    "heroImage": "/assets/projects/i1.png",
+    "heroImage": "assets/projects/i1.png",
     "isCodePublic":false,
 
     "links": {
@@ -1099,7 +1099,7 @@
       "icons": [
         {
           "name": "info academie",
-          "file": "/assets/projects/logo.png"
+          "file": "assets/projects/logo.png"
         }
       ]
     },
@@ -1232,18 +1232,18 @@
       }
     ],
     "gallery": [
-      "/assets/sections/i1.png",
-      "/assets/sections/i2.png",
-      "/assets/sections/i3.png",
-      "/assets/sections/i4.png",
-      "/assets/sections/i5.png",
-      "/assets/sections/i6.png",
-      "/assets/sections/i7.png",
-      "/assets/sections/i8.png",
-      "/assets/sections/i9.png",
-      "/assets/sections/i10.png",
-      "/assets/sections/i11.png",
-      "/assets/sections/i12.png"
+      "assets/sections/i1.png",
+      "assets/sections/i2.png",
+      "assets/sections/i3.png",
+      "assets/sections/i4.png",
+      "assets/sections/i5.png",
+      "assets/sections/i6.png",
+      "assets/sections/i7.png",
+      "assets/sections/i8.png",
+      "assets/sections/i9.png",
+      "assets/sections/i10.png",
+      "assets/sections/i11.png",
+      "assets/sections/i12.png"
     ],
     "callToAction": {
       "text": "Rejoignez Info Académie et découvrez une nouvelle manière d’apprendre, moderne et adaptée à vos besoins.",
