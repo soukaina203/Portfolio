@@ -1,7 +1,7 @@
 <div class="px-6 py-12 mx-auto max-w-7xl">
-<a href="/#projects"  class="font-semibold text-[#3C5A62]">&larr; Retourner à l'accueil</a>
+  <a href="/#projects" class="font-semibold text-[#3C5A62]">&larr; Retourner à l'accueil</a>
   <!-- Hero Section -->
-  <section class="mb-12 text-center"  >
+  <section class="mb-12 text-center">
     <img [src]="project?.heroImage" alt="Project Hero Image"
       class="object-cover w-full mb-6 rounded-lg shadow-lg h-70" />
 
@@ -12,6 +12,12 @@
 
       <div class="relative inline-block text-left">
         <div>
+          <a target="_blank" [href]="project.WebsiteLink">
+          <button type="button"
+            class="relative overflow-hidden border-[#3C5A62] hover:cursor-pointer px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#3C5A62] transition-all border shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#3C5A62] before:duration-300 hover:text-white hover:shadow-[#3C5A62] hover:before:h-64 hover:before:-translate-y-32">
+            <span class="relative z-10 font-bold"> Visit the site </span>
+          </button>
+          </a>
           <button type="button"
             class="relative overflow-hidden border-[#3C5A62] hover:cursor-pointer px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#3C5A62] transition-all border shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#3C5A62] before:duration-300 hover:text-white hover:shadow-[#3C5A62] hover:before:h-64 hover:before:-translate-y-32"
             (click)="toggleDropdown()">
@@ -100,7 +106,8 @@
         <h3 class="text-xl font-semibold text-[#3C5A62] ">{{ item.title }}</h3>
         <p class="text-gray-700 whitespace-pre-line">{{ item.description }}</p>
       </div>
-      <a *ngIf="feature?.video" class="font-semibold text-blue-500 hover:underline" [href]="feature.video" target="_blank">
+      <a *ngIf="feature?.video" class="font-semibold text-blue-500 hover:underline" [href]="feature.video"
+        target="_blank">
         Watch Video
       </a>
     </div>
