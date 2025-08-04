@@ -8,8 +8,6 @@
     <h1 class="mb-4 text-4xl font-semibold text-gray-900">{{ project?.projectTitle }}</h1>
     <p class="text-xl text-gray-600">{{ project?.tagline }}</p>
     <div class="mt-6">
-
-
       <div class="relative inline-block text-left">
         <div>
           <a target="_blank" [href]="project.WebsiteLink">
@@ -21,23 +19,21 @@
           <button type="button"
             class="relative overflow-hidden border-[#3C5A62] hover:cursor-pointer px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-[#3C5A62] transition-all border shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#3C5A62] before:duration-300 hover:text-white hover:shadow-[#3C5A62] hover:before:h-64 hover:before:-translate-y-32"
             (click)="toggleDropdown()">
-            <span class="relative z-10 font-bold">View Source Code</span>
+            <span class="relative z-10 font-bold">Voir le code source</span>
           </button>
         </div>
 
-        <div *ngIf="isOpen"
+        <div *ngIf="isOpen "
           class="absolute right-0 w-56 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
           role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
           <div class="py-1" role="none">
             <a [href]="project.links.Frontend" target="_blank"
               class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1">
-              Frontend Code ressource
-
+              Code Frontend
             </a>
             <a [href]="project.links.Backend" target="_blank"
               class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1">
-
-              Backend Code ressource
+              Code Backend
             </a>
           </div>
         </div>
@@ -45,13 +41,18 @@
     </div>
   </section>
 
-  <!-- About the Project -->
+  <!-- À propos du projet  charteGraphique.colorPalette[0].hex-->
   <section class="mb-12">
-    <h2 class="mb-4 text-3xl font-bold text-gray-900">About the Project</h2>
-    <p class="mb-4 text-lg text-gray-700"><strong>Purpose:</strong> {{ project?.aboutProject.purpose }}</p>
-    <p class="mb-4 text-lg text-gray-700"><strong>Problem Solved:</strong> {{ project?.aboutProject.problemSolved }}</p>
+
+    <h2 class="mb-4 text-3xl font-bold" [style.color]="project.charteGraphique.colorPalette[0].hex">
+      À propos du projet
+    </h2>
+
+    <p class="mb-4 text-lg text-gray-700"><strong>Objectif :</strong> {{ project?.aboutProject.purpose }}</p>
+    <p class="mb-4 text-lg text-gray-700"><strong>Problème résolu :</strong> {{ project?.aboutProject.problemSolved }}
+    </p>
     <div *ngIf="project?.aboutProject.keyBenefits && project?.aboutProject.keyBenefits.length">
-      <h3 class="mb-4 text-xl font-semibold text-gray-900">Key Benefits</h3>
+      <h3 class="mb-4 text-xl font-semibold text-gray-900">Bénéfices clés</h3>
       <ul class="pl-5 space-y-2 list-disc">
         <li *ngFor="let benefit of project?.aboutProject.keyBenefits" class="text-lg text-gray-700">{{ benefit }}</li>
       </ul>
@@ -60,23 +61,23 @@
 
   <!-- Charte Graphique -->
   <section class="mb-12">
-    <h2 class="mb-6 text-3xl font-bold text-gray-900">Charte Graphique</h2>
+    <h2 class="mb-6 text-3xl font-bold text-gray-900" [style.color]="project.charteGraphique.colorPalette[0].hex">Charte graphique</h2>
     <div class="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
       <div class="space-y-2">
-        <h3 class="text-xl font-semibold text-gray-900">Color Palette</h3>
+        <h3 class="text-xl font-semibold text-gray-900">Palette de couleurs</h3>
         <div *ngFor="let color of project?.charteGraphique.colorPalette" class="flex items-center space-x-2">
           <div class="w-8 h-8 border-[1px] border-black rounded-full" [style.background]="color.hex"></div>
           <span class="text-lg text-gray-700">{{ color.name }} - {{ color.hex }}</span>
         </div>
       </div>
       <div class="space-y-2">
-        <h3 class="text-xl font-semibold text-gray-900">Typography</h3>
+        <h3 class="text-xl font-semibold text-gray-900" >Typographie</h3>
         <div *ngFor="let typography of project?.charteGraphique.typography" class="flex items-center space-x-2">
-          <span class="text-lg text-gray-700">{{ typography.type }}: {{ typography.example }}</span>
+          <span class="text-lg text-gray-700">{{ typography.type }} : {{ typography.example }}</span>
         </div>
       </div>
       <div class="space-y-2">
-        <h3 class="text-xl font-semibold text-gray-900">Icons</h3>
+        <h3 class="text-xl font-semibold text-gray-900">Icônes</h3>
         <div *ngFor="let icon of project?.charteGraphique.icons" class="flex items-center space-x-2">
           <img [src]="icon.file" alt="{{ icon.name }} Icon" class="h-8 w-11" />
           <span class="text-lg text-gray-700">{{ icon.name }}</span>
@@ -85,9 +86,9 @@
     </div>
   </section>
 
-  <!-- Technologies Used -->
+  <!-- Technologies utilisées -->
   <section class="mb-12">
-    <h2 class="mb-6 text-3xl font-bold text-gray-900">Technologies Used</h2>
+    <h2 class="mb-6 text-3xl font-bold text-gray-900" [style.color]="project.charteGraphique.colorPalette[0].hex" >Technologies utilisées</h2>
     <ul class="flex flex-wrap gap-4">
       <li *ngFor="let tech of project?.technologiesUsed"
         class="px-4 py-2 text-lg text-gray-700 bg-gray-200 rounded-full">
@@ -96,33 +97,34 @@
     </ul>
   </section>
 
-  <!-- Features -->
+  <!-- Fonctionnalités -->
   <section class="mb-12">
-    <h2 class="mb-6 text-3xl font-bold text-gray-900">Features</h2>
+    <h2 class="mb-6 text-3xl font-bold text-gray-900" [style.color]="project.charteGraphique.colorPalette[0].hex">Fonctionnalités</h2>
     <div *ngFor="let feature of project?.features" class="mb-8">
       <h2 class="text-2xl font-bold text-[#3C5A62] mb-2">{{ feature.title }}</h2>
 
       <div *ngFor="let item of feature.items" class="mb-3">
-        <h3 class="text-xl font-semibold text-[#3C5A62] ">{{ item.title }}</h3>
+        <h3 class="text-xl font-semibold text-[#3C5A62]">{{ item.title }}</h3>
         <p class="text-gray-700 whitespace-pre-line">{{ item.description }}</p>
       </div>
-      <a *ngIf="feature?.video" class="font-semibold text-blue-500 hover:underline" [href]="feature.video"
-        target="_blank">
-        Watch Video
+      <a *ngIf="feature?.video" [href]="feature.video" target="_blank" class="inline-flex items-center gap-2 mt-4 px-5 py-2.5
+        bg-[#3C5A62] text-white text-sm font-semibold rounded-xl
+        shadow-md hover:bg-[#3b5e68] hover:scale-105 transition duration-300 ease-in-out">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+          <path
+            d="M4.5 3.5A1.5 1.5 0 016 2h8a1.5 1.5 0 011.5 1.5v13a1.5 1.5 0 01-2.25 1.32l-5.25-3.06a1.5 1.5 0 00-1.5 0L4.75 17.82A1.5 1.5 0 013 16.5v-13z" />
+        </svg>
+        Voir la vidéo
       </a>
     </div>
-
   </section>
 
-  <!-- Gallery -->
+  <!-- Galerie -->
   <section class="mb-12">
-    <h2 class="mb-6 text-3xl font-bold text-gray-900">Gallery</h2>
-
+    <h2 class="mb-6 text-3xl font-bold text-gray-900" [style.color]="project.charteGraphique.colorPalette[0].hex">Galerie</h2>
     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
-      <img *ngFor="let image of project?.gallery" [src]="image" alt="Gallery Image"
+      <img *ngFor="let image of project?.gallery" [src]="image" alt="Image Galerie"
         class="object-cover w-full rounded-lg shadow-md h-70" />
     </div>
   </section>
-
-
 </div>

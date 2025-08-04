@@ -4,31 +4,56 @@
       class="max-w-lg mb-3 font-sans text-center text-3xl font-bold leading-none tracking-tight text-[#3B5962] sm:text-4xl md:mx-auto">
       Discover My Projects
     </h2>
+
     <div class="container mx-auto">
       <div class="flex flex-wrap items-center justify-center p-8 -mx-4">
+
         <div *ngFor="let project of projects"
           class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] animate-flip-down dark:bg-dark">
+
           <div class="container mx-auto">
             <div class="flex flex-wrap items-center justify-center p-8 -mx-4">
+
+              <!-- Project Image -->
               <div class="w-full px-4 lg:w-4/12" [ngClass]="project.backgroundClass ? project.backgroundClass : ''">
                 <div class="flex items-center -mx-3 sm:-mx-4">
                   <img [src]="project.imageUrl" alt="" />
                 </div>
               </div>
-              <div class="w-full px-4 lg:w-1/2 xl:w-5/12 ">
+
+              <!-- Project Content -->
+              <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
                 <div class="mt-10 lg:mt-0 lg:ml-4">
 
-                  <span [innerHTML]="project.logo">
+                  <!-- Project Logo -->
+                  <span [innerHTML]="project.logo"></span>
 
-                  </span>
+                  <!-- Project Title -->
+                  <h2 class="mb-2 text-3xl font-bold text-dark sm:text-[31px]/[30px] font-Georgia"
+                    [style.color]="project.color">
+                    {{ project.description | translate }}
+                  </h2>
 
-                  <h2 class="mb-5 text-3xl font-bold text-dark sm:text-[31px]/[30px] uppercase font-Georgia">{{
-                    project.description | translate}}</h2>
+                  <!-- Project Year -->
+                  <!-- Project Year -->
+                  <div  [style.color]="project.color"
+                    class="inline-flex items-center mb-4 px-3 py-1 text-sm font-semibold text-[#5271FF] bg-[#5271FF]/10 border border-[#5271FF]/30 rounded-full w-fit">
+                    <svg class="w-4 h-4 mr-2 text-[#5271FF]"  [style.color]="project.color" fill="none" stroke="currentColor" stroke-width="2"
+                      viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    {{ project.year }}
+                  </div>
+
+
+                  <!-- Project Details -->
                   <p class="mb-5 text-base text-body-color dark:text-dark-6" *ngFor="let detail of project.details">
                     {{ detail | translate }}
                   </p>
 
 
+                  <!-- Buttons -->
                   <a *ngIf="project.static" [href]="project.link" target="_blank" [class]="project.buttonColor"
                     class="inline-block">
                     <span class="relative z-10 font-bold">{{ 'visitButton' | translate }}</span>
@@ -39,12 +64,15 @@
                     <span class="relative z-10 font-bold">{{ 'visitButton' | translate }}</span>
                   </a>
 
-
+                  <!-- Redundant Link (can be removed if not needed) -->
                   <a [href]="project.link" class="relative z-10 font-bold" target="_blank"></a>
+
                 </div>
               </div>
+
             </div>
           </div>
+
         </div>
       </div>
     </div>
