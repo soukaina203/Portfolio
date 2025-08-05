@@ -4,14 +4,12 @@ WORKDIR /app
 # copy and cahe
 COPY package*.json ./
 
-RUN npm i --force
+RUN npm install --force
 
 COPY src src
-COPY public public
 COPY .editorconfig .
 COPY angular.json .
 # COPY server.ts .
-COPY transloco.config.js .
 COPY tailwind.config.js .
 COPY tsconfig*.json ./
 
