@@ -3,8 +3,8 @@
     "projectTitle": "Dish",
     "year" : 2024,
     "tagline": "Your ultimate culinary companion!",
-    "heroImage": "assets/sections/recipe.png",
-    "isCodePublic":true,
+    "heroImage": "/assets/sections/recipe.png",
+    "WebsiteLink":"https://dish.cloud.dev-solus.com/",
     "links": {
       "viewLiveProject": "https://example.com/dish-live",
       "viewSourceCode": "https://github.com/example/dish-repo",
@@ -169,7 +169,8 @@
     "isCodePublic":true,
 
     "tagline": "Your ultimate rental companion!",
-    "heroImage": "assets/sections/car1.png",
+    "heroImage": "/assets/sections/rental.png",
+    "WebsiteLink":"https://bestcars.cloud.dev-solus.com/",
     "links": {
       "viewSourceCode": "https://github.com/example/rental-repo",
       "Frontend": "https://github.com/soukaina203/renting_frontEnd.git",
@@ -343,7 +344,8 @@
     "isCodePublic":false,
 
     "tagline": "Revolutionize educational management with cutting-edge functionality.",
-    "heroImage": "assets/sections/centreLanding.png",
+    "heroImage": "/assets/sections/centreLanding.png",
+    "WebsiteLink":"centre.infoacademie.com",
     "links": {
       "viewLiveProject": "https://example.com/centre-live",
       "viewSourceCode": "https://github.com/example/centre-repo",
@@ -855,10 +857,8 @@
     "year" : 2025,
 
     "tagline": "Révisez plus efficacement, sans effort inutile.",
-    "heroImage": "assets/sections/re2.png"
-    ,
-
-    "isCodePublic":false,
+    "heroImage": "/assets/projects/ReviseMate.png",
+    "WebsiteLink":"revisemate.cloud.dev-solus.com",
 
     "links": {
       "viewLiveProject": "https://example.com/centre-live",
@@ -1041,15 +1041,13 @@
     }
   },
 
-
   {
     "projectTitle": "infoacademie",
     "year" : 2025,
 
     "tagline": "Apprends mieux, plus vite, à ton rythme.",
-    "heroImage": "assets/projects/i1.png",
-    "isCodePublic":false,
-
+    "heroImage": "/assets/projects/i1.png",
+    "WebsiteLink":"appv3.infoacademie.com",
     "links": {
       "viewLiveProject": "https://info-academie.com",
       "viewSourceCode": "https://github.com/info-academie",
