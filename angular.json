@@ -86,7 +86,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+
+              "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+
+            ]
           }
         },
         "deploy": {

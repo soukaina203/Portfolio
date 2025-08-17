@@ -9,10 +9,33 @@
   <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
   <script>document.documentElement.classList.add('js')</script>
 
+
 </head>
 <body>
   <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
   <app-root></app-root>
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+      chatflowid: "82232a77-a2bf-4a5c-83a4-e817e94598c2",
+      apiHost: "https://flowise.cloud.dev-solus.com",
+      theme: {
+        button: {
+          backgroundColor: "#3B5962", // custom button color
+          iconColor: "#ffffff"
+        },
+        chatWindow: {
+          backgroundColor: "#f9fafb", // light gray
+          textColor: "#111827",       // dark text
+          bubbleColor: "#3B5962",     // user messages
+          bubbleTextColor: "#ffffff", // text inside user bubble
+          headerBackgroundColor: "#3B5962", // header bar
+          headerTextColor: "#ffffff"
+        }
+      }
+    })
+  </script>
+
 
 </body>
 </html>

@@ -9,7 +9,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
-
+declare var Chatbot: any;
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -24,6 +24,10 @@ export class AppComponent implements AfterViewInit {
   constructor(private translate: TranslateService) { }
 
   ngAfterViewInit() {
+    Chatbot.initBubble({
+      chatflowid: "82232a77-a2bf-4a5c-83a4-e817e94598c2",
+      apiHost: "https://flowise.cloud.dev-solus.com"
+    });
     const sections = document.querySelectorAll('.section');
 
     const observer = new IntersectionObserver((entries) => {
