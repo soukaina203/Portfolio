@@ -28,6 +28,8 @@
   "about": "ABOUT",
   "projects": "PROJECTS",
   "contact1": "CONTACTS",
+  "detail":"details",
+
   "pro": "Projects",
   "info1": "InfoAcademie is a smart and scalable web platform designed to digitalize tutoring and language learning services. It centralizes educational tools, student monitoring, and the management of learning activities within a modern and intuitive interface.",
   "info2": "Technologies used: Angular, TailwindCSS, .NET, PostgreSQL",

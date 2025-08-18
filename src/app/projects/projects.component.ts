@@ -20,7 +20,7 @@ import { RouterLink, RouterModule } from '@angular/router';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-  projects: { title: string; description: string; logo: SafeHtml; year: number; color: string; details: string[]; imageUrl: string; static: boolean, link: string; buttonColor: string; backgroundClass?: string }[];
+  projects: { title: string; description: string; WebsiteLink?: string; logo: SafeHtml; year: number; color: string; details: string[]; imageUrl: string; static: boolean, link: string; buttonColor: string; backgroundClass?: string }[];
   ngOnInit() {
     window.scrollTo(0, 0)
   }
@@ -35,6 +35,7 @@ export class ProjectsComponent {
         static: false,
         color: "#CDA903",
         year: 2024,
+        WebsiteLink: "https://dish.cloud.dev-solus.com/",
 
         link: 'Dish',
         buttonColor: "relative overflow-hidden border-[#C0A543]  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px]  text-[#C0A543] transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-[#C0A543] before:duration-300 hover:text-white hover:shadow-[#C0A543] hover:before:h-64 hover:before:-translate-y-32 "
@@ -42,6 +43,7 @@ export class ProjectsComponent {
       {
         title: 'Info academie',
         year: 2025,
+        WebsiteLink: "https://appv3.infoacademie.com",
 
         description: 'nine',
         logo: this.sanitizer.bypassSecurityTrustHtml('  <span class="block mb-4 text-lg font-semibold w-fit text-primary"><h1  class="flex items-center justify-center gap-2 text-2xl font-bold text-black cursor-pointer md:ml-0 flew-row"> <img src="assets/projects/logo.png" alt="" class="w-10 h-15 "> Info Academie</h1> </span>'),
@@ -58,6 +60,7 @@ export class ProjectsComponent {
       {
         title: 'Rental',
         year: 2023,
+        WebsiteLink: "https://bestcars.cloud.dev-solus.com/",
 
         description: 'two',
         logo: this.sanitizer.bypassSecurityTrustHtml('<span class="block mb-4 text-lg font-semibold w-fit text-primary"><h1 class="uppercase p-4 font-bold text-white bg-[#E60035]">BestCar</h1></span>'),
@@ -73,6 +76,8 @@ export class ProjectsComponent {
       {
         title: 'ReviseMate',
         year: 2025,
+        WebsiteLink: "revisemate.cloud.dev-solus.com",
+
 
         description: 'eight',
         logo: this.sanitizer.bypassSecurityTrustHtml('<img src="assets/icons/logo.png" class="w-15 h-15 ml-[-30px] p-5" />'),
@@ -90,6 +95,7 @@ export class ProjectsComponent {
         title: 'Centre',
         description: 'three',
         year: 2024,
+        WebsiteLink: "centre.infoacademie.com",
 
         logo: this.sanitizer.bypassSecurityTrustHtml('  <span class="block mb-4 text-lg font-semibold w-fit text-primary"><h1  class="flex items-center justify-center gap-2 text-2xl font-bold text-black cursor-pointer md:ml-0 flew-row"> <img src="assets/projects/logo.png" alt="" class="w-10 h-15 "> Info Academie</h1> </span>'),
         details: ['academie1', 'academie2'],
@@ -157,19 +163,7 @@ export class ProjectsComponent {
         backgroundClass: 'black',
         buttonColor: 'relative overflow-hidden border-black  hover:cursor-pointer  px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-black transition-all border  shadow-2xl before:ease before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-black before:duration-300 hover:text-white hover:shadow-black hover:before:h-64 hover:before:-translate-y-32'
       },
-      // {
-      //   title: 'Nexsite',
-      //   description: 'ten',// in translation files nexsite1
-      //   logo: this.sanitizer.bypassSecurityTrustHtml('<img src="assets/projects/nexsite1.png" class="w-[10rem] h-[4.2rem]  p-5 pl-0 " />'),
-      //   details: ['nexsite', 'mirat2'], // in project description
-      //   imageUrl: 'assets/project    "year" : 2024,
-      //   link: 'https://soukaina203.github.io/NFTs/#/Home',
-      //   static: true,
-      //   color:"#1F5461",
 
-      //   backgroundClass: 'black',
-      //   buttonColor: 'relative overflow-hidden border-[#1F5461] px-7 py-3 md:border-2 rounded-tl-[206.22px] rounded-br-[206px] text-black transition-all shadow-2xl hover:cursor-pointer hover:text-white hover:shadow-[#1F5461] before:absolute before:top-1/2 before:left-1/2 before:w-64 before:h-0 before:-translate-x-1/2 before:-translate-y-1/2 before:rotate-45 before:origin-center before:bg-[#1F5461] before:duration-300 before:ease hover:before:h-64 hover:before:-translate-y-32'
-      // },
 
     ];
   }

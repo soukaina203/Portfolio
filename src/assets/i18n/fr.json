@@ -30,6 +30,7 @@
   "contact1": "CONTACTS",
   "contact2": "Contacter Moi",
   "pro": "Projets",
+  "detail":"détails",
   "visitLinkdn": "Aller au profil Linkedin",
   "academie1": "Optimisez la gestion de votre centre éducatif grâce à une application centralisée. Gardez un contrôle total sur vos ressources, gérez les paiements en toute simplicité, et pilotez efficacement vos clients, leurs activités, leurs présences, leurs classes et leurs enseignants.",
   "academie2": "Technologies utilisées : Angular , TailwindCss , .Net , Postgres",

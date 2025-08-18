@@ -36,10 +36,10 @@
 
                   <!-- Project Year -->
                   <!-- Project Year -->
-                  <div  [style.color]="project.color"
+                  <div [style.color]="project.color"
                     class="inline-flex items-center mb-4 px-3 py-1 text-sm font-semibold text-[#5271FF] bg-[#5271FF]/10 border border-[#5271FF]/30 rounded-full w-fit">
-                    <svg class="w-4 h-4 mr-2 text-[#5271FF]"  [style.color]="project.color" fill="none" stroke="currentColor" stroke-width="2"
-                      viewBox="0 0 24 24">
+                    <svg class="w-4 h-4 mr-2 text-[#5271FF]" [style.color]="project.color" fill="none"
+                      stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round"
                         d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
@@ -59,10 +59,16 @@
                     <span class="relative z-10 font-bold">{{ 'visitButton' | translate }}</span>
                   </a>
 
+                  <a *ngIf="!project.static" target="_blank"  [href]="project.WebsiteLink"  [class]="project.buttonColor"
+                  class="inline-block">
+                  <span class="relative z-10 font-bold">{{ 'visitButton' | translate }}</span>
+                </a>
+
                   <a *ngIf="!project.static" [routerLink]="['/project', project.link]" [class]="project.buttonColor"
                     class="inline-block">
-                    <span class="relative z-10 font-bold">{{ 'visitButton' | translate }}</span>
+                    <span class="relative z-10 font-bold">{{  'detail' | translate }}</span>
                   </a>
+
 
                   <!-- Redundant Link (can be removed if not needed) -->
                   <a [href]="project.link" class="relative z-10 font-bold" target="_blank"></a>
