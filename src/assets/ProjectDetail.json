@@ -1047,7 +1047,7 @@
 
     "tagline": "Apprends mieux, plus vite, à ton rythme.",
     "heroImage": "/assets/projects/i1.png",
-    "WebsiteLink":"appv3.infoacademie.com",
+    "WebsiteLink":"https://appv3.infoacademie.com",
     "links": {
       "viewLiveProject": "https://info-academie.com",
       "viewSourceCode": "https://github.com/info-academie",

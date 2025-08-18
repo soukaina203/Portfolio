@@ -76,7 +76,7 @@ export class ProjectsComponent {
       {
         title: 'ReviseMate',
         year: 2025,
-        WebsiteLink: "revisemate.cloud.dev-solus.com",
+        WebsiteLink: "https://revisemate.cloud.dev-solus.com",
 
 
         description: 'eight',
@@ -95,7 +95,7 @@ export class ProjectsComponent {
         title: 'Centre',
         description: 'three',
         year: 2024,
-        WebsiteLink: "centre.infoacademie.com",
+        WebsiteLink: "https://centre.infoacademie.com",
 
         logo: this.sanitizer.bypassSecurityTrustHtml('  <span class="block mb-4 text-lg font-semibold w-fit text-primary"><h1  class="flex items-center justify-center gap-2 text-2xl font-bold text-black cursor-pointer md:ml-0 flew-row"> <img src="assets/projects/logo.png" alt="" class="w-10 h-15 "> Info Academie</h1> </span>'),
         details: ['academie1', 'academie2'],
@@ -108,7 +108,7 @@ export class ProjectsComponent {
       },
       {
         title: 'TF-SOL',
-        "year": 2025,
+        "year": 2024,
 
         description: 'four',
         logo: this.sanitizer.bypassSecurityTrustHtml('<span class="block mb-4 text-lg font-semibold w-fit text-primary"><h1 class="flex gap-2 text-2xl font-bold text-transparent cursor-pointer md:ml-0 flew-row bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">TF-SOL</h1></span>'),
