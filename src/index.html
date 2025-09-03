@@ -1,24 +1,26 @@
-  <!doctype html>
-  <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio</title>
-    <base href="/">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <script>document.documentElement.classList.add('js')</script>
-    <style>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>document.documentElement.classList.add('js')</script>
+  <style>
     .agent-popup {
       position: fixed;
-      bottom: 100px; /* above chat button */
+      bottom: 100px;
+      /* above chat button */
       right: 20px;
       background: white;
-      color:#3B5962;
+      color: #3B5962;
       padding: 10px 16px;
       border-radius: 20px;
       font-size: 14px;
       font-family: Arial, sans-serif;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
       animation: fadeInUp 0.6s ease-out;
       z-index: 9999;
       max-width: 220px;
@@ -29,56 +31,69 @@
     .agent-popup::after {
       content: '';
       position: absolute;
-      bottom: -8px;   /* just below bubble */
-      right: 18px;    /* keep it near the edge */
+      bottom: -8px;
+      /* just below bubble */
+      right: 18px;
+      /* keep it near the edge */
       width: 0;
       height: 0;
       border-left: 8px solid transparent;
       border-right: 8px solid transparent;
-      border-top: 8px solid white; /* same as bubble */
+      border-top: 8px solid white;
+      /* same as bubble */
     }
 
     @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
+  </style>
+</head>
 
-    </style>
-  </head>
-  <body>
-    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
-    <app-root></app-root>
+<body>
+  <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+  <app-root></app-root>
 
-    <!-- Agent Popup -->
-    <div class="agent-popup" id="agentPopup">
-      💡 I’m Soukaina’s virtual assistant. Need info quickly? I’ve got you covered.
-    </div>
+  <!-- Agent Popup -->
+  <div class="agent-popup" id="agentPopup">
+    👋 I’m Soukaina’s virtual assistant. Need info quickly? I’ve got you covered.
+  </div>
 
-    <script type="module">
-      import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-      Chatbot.init({
-        chatflowid: "82232a77-a2bf-4a5c-83a4-e817e94598c2",
-        apiHost: "https://flowise.cloud.dev-solus.com",
-        theme: {
-          button: {
-            backgroundColor: "#3B5962",
-            iconColor: "#ffffff"
-          },
-          chatWindow: {
-            backgroundColor: "#f9fafb",
-            textColor: "#111827",
-            bubbleColor: "#3B5962",
-            bubbleTextColor: "#ffffff",
-            headerBackgroundColor: "#3B5962",
-            headerTextColor: "#ffffff"
-          }
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+      chatflowid: "82232a77-a2bf-4a5c-83a4-e817e94598c2",
+      apiHost: "https://flowise.cloud.dev-solus.com",
+      theme: {
+        button: {
+          backgroundColor: "#3B5962",
+          iconColor: "#ffffff"
+        },
+        chatWindow: {
+          backgroundColor: "#f9fafb",
+          textColor: "#111827",
+          bubbleColor: "#3B5962",
+          bubbleTextColor: "#ffffff",
+          headerBackgroundColor: "#3B5962",
+          headerTextColor: "#ffffff",
+          fontWeight: "600" // or "bold"
         }
-      })
 
-      // Auto-hide popup after 8 seconds
-      setTimeout(() => {
-        document.getElementById("agentPopup").style.display = "none";
-      }, 15000);
-    </script>
-  </body>
-  </html>
+      }
+    })
+
+    // Auto-hide popup after 8 seconds
+    setTimeout(() => {
+      document.getElementById("agentPopup").style.display = "none";
+    }, 15000);
+  </script>
+</body>
+
+</html>

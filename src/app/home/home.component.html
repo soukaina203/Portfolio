@@ -28,16 +28,17 @@
       before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45
        bg-gray-700 hover:bg-transparent before:duration-300 hover:text-white hover:shadow-gray-700 hover:before:h-64 hover:before:-translate-y-32">
 
-      <a (click)="scrollTo('projects')"
-        class="relative z-10 inline-flex items-center justify-center px-5 py-3 text-base font-bold text-center text-white rounded-lg
-        hover:cursor-pointer focus:ring-4 focus:ring-gray-800">
-        <svg class="w-5 h-5 mr-2 -ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014
-             8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z">
-          </path>
-        </svg>
-        {{"pro" | translate}}
+      <a  download href="assets/cv.pdf"
+        class="relative z-10 inline-flex items-center justify-center px-5 py-3 text-base font-bold text-center text-white rounded-lg hover:cursor-pointer focus:ring-4 focus:ring-gray-800">
+        <svg xmlns="http://www.w3.org/2000/svg"
+        class="w-5 h-5 mr-2"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2">
+     <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"/>
+   </svg>
+        {{"aboutButton" | translate}}
       </a>
       </button>
     </div>
