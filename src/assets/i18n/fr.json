@@ -14,7 +14,7 @@
   "exp2": "DTS dans le développement numérique",
   "dec2": "OFPPT, Option Full Stack de Rabat",
   "date3": "Décembre 2023 - Juillet 2025",
-  "exp3": "Développeur .Net & Angular",
+  "exp3": "Développeuse .Net & Angular",
   "dec3": "À Info académie",
   "date4": "Avril 2024",
   "exp4": "Développeur .Net & Angular",
@@ -22,6 +22,11 @@
   "date5": "Septembre 2024",
   "exp5": "Licence Professionnelle en Développement d'Applications Web",
   "dec5": "À l'université de Limoges, en France",
+
+  "date6": "October 2025",
+  "exp6": "Développeuse Full stack",
+  "dec6": "À 2Peerfect Group",
+
   "visitButton": "Visitez le site",
   "contact": "N'hésitez pas à me contacter",
   "home": "ACCEUIL",
@@ -30,7 +35,7 @@
   "contact1": "CONTACTS",
   "contact2": "Contacter Moi",
   "pro": "Projets",
-  "detail":"détails",
+  "detail": "détails",
   "visitLinkdn": "Aller au profil Linkedin",
   "academie1": "Optimisez la gestion de votre centre éducatif grâce à une application centralisée. Gardez un contrôle total sur vos ressources, gérez les paiements en toute simplicité, et pilotez efficacement vos clients, leurs activités, leurs présences, leurs classes et leurs enseignants.",
   "academie2": "Technologies utilisées : Angular , TailwindCss , .Net , Postgres",
@@ -63,7 +68,6 @@
   "eight": "ReviseMate  L’intelligence artificielle au service de vos révisions.",
   "reviseMate1": "Découvrez ReviseMate, une plateforme intelligente et interactive conçue pour accompagner les étudiants dans leurs révisions. Elle permet de transformer automatiquement des cours en fiches synthétiques, cartes mémoire et quiz personnalisés, le tout dans une interface moderne et intuitive.",
   "reviseMate2": "Technologies utilisées : Angular, NestJS, Tailwind CSS, Fuse theme, MongoDB",
-  "ten":"Nexsite – Une Expérience Web Moderne et Responsive",
-  "nexsite" :"Découvrez Nexsite, un site web entièrement responsive conçu pour présenter des services et une mission avec clarté et élégance. Développé avec ReactJS et stylisé avec Tailwind CSS, ce projet offre une expérience utilisateur fluide tout en illustrant un processus de développement web complet."
-
+  "ten": "Nexsite – Une Expérience Web Moderne et Responsive",
+  "nexsite": "Découvrez Nexsite, un site web entièrement responsive conçu pour présenter des services et une mission avec clarté et élégance. Développé avec ReactJS et stylisé avec Tailwind CSS, ce projet offre une expérience utilisateur fluide tout en illustrant un processus de développement web complet."
 }
