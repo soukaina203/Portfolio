@@ -1,6 +1,6 @@
 import { Component, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
@@ -21,7 +21,7 @@ export class AppComponent implements AfterViewInit {
   title = 'portfolio2';
   lang: string = 'en';
 
-  constructor(private translate: TranslateService) { }
+  constructor(private translate: TranslateService,private router : Router) { }
 
   ngAfterViewInit() {
     Chatbot.initBubble({
@@ -46,7 +46,34 @@ export class AppComponent implements AfterViewInit {
       observer.observe(section);
     });
   }
+isModalOpen = false;
 
+
+  ngOnInit() {
+    // Check local storage so returning visitors aren't constantly interrupted
+    const hasSeenPopup = localStorage.getItem('seenPortfolioPopup');
+
+    if (!hasSeenPopup) {
+      // Small timeout to give the user a second to appreciate your starry background first
+      setTimeout(() => {
+        this.isModalOpen = true;
+      }, 800);
+    }
+  }
+
+  navigateToNewPortfolio() {
+    this.closeModal();
+    // Mark as seen so it doesn't pop up again
+    localStorage.setItem('seenPortfolioPopup', 'true');
+    // Replace with your actual route path to the new site/page
+    this.router.navigate(['/new-portfolio']);
+  }
+
+  closeModal() {
+    this.isModalOpen = false;
+    // Optional: Save to local storage even if they close it, depending on your preference
+    localStorage.setItem('seenPortfolioPopup', 'true');
+  }
   switch() {
     if (this.lang === 'en') {
       this.translate.use('fr')

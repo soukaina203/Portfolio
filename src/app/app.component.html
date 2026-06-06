@@ -1,1 +1,40 @@
+<div *ngIf="isModalOpen" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 backdrop-blur-md animate-fade-in">
+
+  <div class="relative w-full max-w-lg p-10 mx-4 bg-[#233539] border border-slate-500/30 rounded-3xl shadow-[0_0_50px_rgba(0,0,0,0.5)] text-center tracking-wide">
+
+    <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100/10 text-emerald-400 mb-6 border border-emerald-500/20 shadow-[0_0_15px_rgba(52,211,153,0.1)]">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+      </svg>
+    </div>
+
+    <h2 class="mb-4 text-2xl font-extrabold tracking-wider text-white uppercase sm:text-3xl">
+      Portfolio Relocated
+    </h2>
+
+    <p class="max-w-sm mx-auto mb-8 text-base font-light leading-relaxed text-slate-300">
+      Thank you for visiting! I have migrated my professional space to a brand-new platform with updated projects and an optimized user experience.
+    </p>
+
+    <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
+
+      <a
+        href="https://myportfolio.cloud.dev-solus.com/"
+        class="group inline-flex items-center justify-center px-8 py-3 font-semibold text-white border border-white/60 rounded-full bg-transparent hover:bg-white hover:text-[#233539] transition-all duration-300 shadow-md w-full sm:w-auto text-center decoration-none">
+        <span>Explore New Site</span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 ml-2 transition-transform transform group-hover:translate-x-1">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+
+      <button
+        (click)="closeModal()"
+        class="w-full px-8 py-3 text-sm font-medium transition-colors duration-200 cursor-pointer text-slate-400 hover:text-white sm:w-auto">
+        Stay on Legacy Page
+      </button>
+    </div>
+
+  </div>
+</div>
+
 <router-outlet></router-outlet>
